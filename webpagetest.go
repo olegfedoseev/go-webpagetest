@@ -154,6 +154,73 @@ func (w *WebPageTest) GetLocations() (*Locations, error) {
 	return &result, nil
 }
 
+type TesterPC struct {
+	ID             string `json:"id"`
+	Name           string `json:"pc"`
+	EC2            string `json:"ec2"` // EC2 Instance
+	IP             string `json:"ip"`
+	DNS            string `json:"dns"` // DNS Server(s)
+	AgentVersion   string `json:"version"`
+	FreeDisk       string `json:"freedisk"` // Free Disk (GB)
+	IEVersion      string `json:"ie"`       // IE Version
+	WindowsVersion string `json:"winver"`   // Windows Version
+	IsWinServer    string `json:"isWinServer"`
+	IsWin64        string `json:"isWin64"`
+	Offline        string `json:"offline"`
+	ScreenWidth    string `json:"screenwidth"`  // Screen Size
+	ScreenHeight   string `json:"screenheight"` // Screen Size
+	Rebooted       bool   `json:"rebooted"`
+	GPU            string `json:"GPU"`
+	CPU            int    `json:"cpu"`    // CPU Utilization
+	Errors         int    `json:"errors"` // Error Rate
+	Elapsed        int    `json:"elapsed"`
+	Last           int    `json:"last"` // Last Work (minutes)
+	Busy           int    `json:"busy"` // Busy?
+}
+
+type Tester struct {
+	Elapsed int        `json:"elapsed"`
+	Status  string     `json:"status"`
+	Testers []TesterPC `json:"testers"`
+}
+
+type Testers struct {
+	StatusCode int               `json:"statusCode"`
+	StatusText string            `json:"statusText"`
+	Data       map[string]Tester `json:"data`
+}
+
+// GetTesters will retrieve all available agents and their status
+func (w *WebPageTest) GetTesters() (*Testers, error) {
+	resultsUrl := w.Host + "/getTesters.php?f=json"
+	resp, err := http.Get(resultsUrl)
+	if err != nil {
+		return nil, fmt.Errorf("failed to GET \"%s\": %v", resultsUrl, err)
+	}
+	defer resp.Body.Close()
+
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("Status is no OK: %v [%v]", resp.StatusCode, string(body))
+	}
+
+	fmt.Printf("body: %v\n", string(body))
+
+	var result Testers
+	if err = json.Unmarshal(body, &result); err != nil {
+		return nil, err
+	}
+
+	if result.StatusCode != 200 {
+		return nil, fmt.Errorf("Status != 200: %v", result.StatusText)
+	}
+
+	return &result, nil
+}
+
 type TestResult struct {
 }
 
@@ -192,7 +259,6 @@ func (w *WebPageTest) GetTestResults(testID string) (*TestResult, error) {
 }
 
 // getTestResults(id, options, callback)
-// getTesters(options, callback)
 // runTest(url_or_script, options, callback)
 // cancelTest(id, options, callback)
 
