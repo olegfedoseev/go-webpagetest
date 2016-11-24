@@ -76,6 +76,9 @@ type TestStatus struct {
 	} `json:"data"`
 }
 
+// GetTestStatus will return status of test run by given testID
+// StatusCode 200 indicates test is completed. 1XX means the test is still
+// in progress. And 4XX indicates some error.
 func (w *WebPageTest) GetTestStatus(testID string) (*TestStatus, error) {
 	statusUrl := w.Host + "/testStatus.php?test=" + testID
 	resp, err := http.Get(statusUrl)
@@ -94,6 +97,52 @@ func (w *WebPageTest) GetTestStatus(testID string) (*TestStatus, error) {
 	fmt.Printf("body: %v\n", string(body))
 
 	var result TestStatus
+	if err = json.Unmarshal(body, &result); err != nil {
+		return nil, err
+	}
+
+	if result.StatusCode != 200 {
+		return nil, fmt.Errorf("Status != 200: %v", result.StatusText)
+	}
+
+	return &result, nil
+}
+
+type Location struct {
+	Label         string         `json:"Label"`
+	LabelShort    string         `json:"labelShort"`
+	Location      string         `json:"location"`
+	Browser       string         `json:"Browser"`
+	RelayServer   string         `json:"relayServer"`
+	RelayLocation string         `json:"relayLocation"`
+	Default       bool           `json:"default"`
+	PendingTests  map[string]int `json:"PendingTests"`
+}
+
+type Locations struct {
+	StatusCode int                 `json:"statusCode"`
+	StatusText string              `json:"statusText"`
+	Data       map[string]Location `json:"data`
+}
+
+// GetLocations will retrieve all available locations from server
+func (w *WebPageTest) GetLocations() (*Locations, error) {
+	resultsUrl := w.Host + "/getLocations.php?f=json"
+	resp, err := http.Get(resultsUrl)
+	if err != nil {
+		return nil, fmt.Errorf("failed to GET \"%s\": %v", resultsUrl, err)
+	}
+	defer resp.Body.Close()
+
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("Status is no OK: %v [%v]", resp.StatusCode, string(body))
+	}
+
+	var result Locations
 	if err = json.Unmarshal(body, &result); err != nil {
 		return nil, err
 	}
@@ -142,12 +191,11 @@ func (w *WebPageTest) GetTestResults(testID string) (*TestResult, error) {
 	return &TestResult{}, nil
 }
 
-// getTestStatus(id, options, callback)
 // getTestResults(id, options, callback)
-// getLocations(options, callback)
 // getTesters(options, callback)
 // runTest(url_or_script, options, callback)
 // cancelTest(id, options, callback)
+
 // getHARData(id, options, callback)
 // getPageSpeedData(id, options, callback)
 // getUtilizationData(id, options, callback)

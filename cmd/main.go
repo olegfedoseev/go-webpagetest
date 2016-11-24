@@ -18,12 +18,20 @@ func main() {
 
 	wpt, _ := webpagetest.NewClient("http://webpagetest.app.s")
 
-	result, err := wpt.GetTestStatus("161122_K9_A")
+	result, err := wpt.GetLocations()
 	if err != nil {
 		fmt.Printf("Error: %v", err)
 		os.Exit(2)
 	}
 	fmt.Printf("Result: %#v", result)
+
+	// Test Status
+	// result, err := wpt.GetTestStatus("161122_K9_A")
+	// if err != nil {
+	// 	fmt.Printf("Error: %v", err)
+	// 	os.Exit(2)
+	// }
+	// fmt.Printf("Result: %#v", result)
 
 	// result, err := wpt.RunTestAndWait("http://ya.ru")
 	// if err != nil {
