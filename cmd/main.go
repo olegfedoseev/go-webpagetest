@@ -18,12 +18,19 @@ func main() {
 
 	wpt, _ := webpagetest.NewClient("http://webpagetest.app.s")
 
-	result, err := wpt.GetTesters()
+	err := wpt.CancelTest("161124_QZ_1")
 	if err != nil {
 		fmt.Printf("Error: %v", err)
 		os.Exit(2)
 	}
-	fmt.Printf("Result: %#v", result)
+
+	// Get Testers
+	// result, err := wpt.GetTesters()
+	// if err != nil {
+	// 	fmt.Printf("Error: %v", err)
+	// 	os.Exit(2)
+	// }
+	// fmt.Printf("Result: %#v", result)
 
 	// Get Locations
 	// result, err := wpt.GetLocations()

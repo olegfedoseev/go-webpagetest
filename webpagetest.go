@@ -1,6 +1,7 @@
 package webpagetest
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
@@ -126,6 +127,7 @@ type Locations struct {
 }
 
 // GetLocations will retrieve all available locations from server
+// You can request a list of locations as well as the number of pending tests for each
 func (w *WebPageTest) GetLocations() (*Locations, error) {
 	resultsUrl := w.Host + "/getLocations.php?f=json"
 	resp, err := http.Get(resultsUrl)
@@ -221,6 +223,38 @@ func (w *WebPageTest) GetTesters() (*Testers, error) {
 	return &result, nil
 }
 
+// CancelTest will try to cancel test by it's ID
+// With a test ID (and if required, API key) you can cancel a test if it has not started running.
+func (w *WebPageTest) CancelTest(testID string) error {
+	// http://www.webpagetest.org/cancelTest.php?test=<testId>&k=<API key>
+	resultsUrl := w.Host + "/cancelTest.php?test=" + testID
+	resp, err := http.Get(resultsUrl)
+	if err != nil {
+		return fmt.Errorf("failed to GET \"%s\": %v", resultsUrl, err)
+	}
+	defer resp.Body.Close()
+
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return err
+	}
+	if resp.StatusCode != http.StatusOK {
+		return fmt.Errorf("Status is no OK: %v [%v]", resp.StatusCode, string(body))
+	}
+
+	// <h3>Sorry, the test could not be cancelled.  It may have already started or been cancelled</h3><form>...
+	// <h3 align="center">Test cancelled!</h3><form><i
+	if bytes.Contains(body, []byte("Sorry, the test could not be cancelled.")) {
+		// Trim left <h3> and split by < to get begining of message
+		return fmt.Errorf("%s", string(bytes.SplitN(bytes.TrimLeft(body, "<h3>"), []byte("<"), 2)[0]))
+	}
+	if bytes.Contains(body, []byte("Test cancelled!")) {
+		return nil
+	}
+
+	return fmt.Errorf("Unknown error: %s", string(body))
+}
+
 type TestResult struct {
 }
 
@@ -260,7 +294,6 @@ func (w *WebPageTest) GetTestResults(testID string) (*TestResult, error) {
 
 // getTestResults(id, options, callback)
 // runTest(url_or_script, options, callback)
-// cancelTest(id, options, callback)
 
 // getHARData(id, options, callback)
 // getPageSpeedData(id, options, callback)
