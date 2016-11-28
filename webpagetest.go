@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
+	"time"
 )
 
 type WebPageTest struct {
@@ -24,222 +25,13 @@ func NewClient(host string) (*WebPageTest, error) {
 	}, nil
 }
 
-type TestStatus struct {
-	StatusCode int    `json:"statusCode"`
-	StatusText string `json:"statusText"`
-	Data       struct {
-		StatusCode              int    `json:"statusCode"`
-		StatusText              string `json:"statusText"`
-		BehindCount             int    `json:"behindCount"`
-		ID                      string `json:"id"`
-		TestID                  string `json:"testId"`
-		Runs                    int    `json:"runs"`
-		Remote                  bool   `json:"remote"` // Relay Test
-		Location                string `json:"location"`
-		FirstViewOnly           int    `json:"fvonly"`
-		StartTime               string `json:"startTime"`
-		CompleteTime            string `json:"completeTime"`
-		Elapsed                 int    `json:"elapsed"`
-		ElapsedUpdate           int    `json:"elapsedUpdate"`
-		TestsExpected           int    `json:"testsExpected"`
-		TestsCompleted          int    `json:"testsCompleted"`
-		FirstViewRunsCompleted  int    `json:"fvRunsCompleted"`
-		RepeatViewRunsCompleted int    `json:"rvRunsCompleted"`
-		TestInfo                struct {
-			URL            string `json:"url"`
-			Runs           int    `json:"runs"`
-			FirstViewOnly  int    `json:"fvonly"`
-			Web10          int    `json:"web10"`     // Stop Test at Document Complete
-			IgnoreSSL      int    `json:"ignoreSSL"` // Ignore SSL Certificate Errors
-			Video          string `json:"video"`
-			Label          string `json:"label"`
-			Priority       int    `json:"priority"`
-			Location       string `json:"location"`
-			Browser        string `json:"browser"`
-			Connectivity   string `json:"connectivity"`
-			BandwidthIn    int    `json:"bwIn"`
-			BandwidthOut   int    `json:"bwOut"`
-			Latency        int    `json:"latency"`
-			PacketLossRate string `json:"plr"`
-			Tcpdump        int    `json:"tcpdump"`  // Capture network packet trace (tcpdump)
-			Timeline       int    `json:"timeline"` // Capture Dev Tools Timeline
-			Trace          int    `json:"trace"`    // Capture Chrome Trace (about://tracing)
-			Bodies         int    `json:"bodies"`
-			NetLog         int    `json:"netlog"`    // Capture Network Log
-			Standards      int    `json:"standards"` // Disable Compatibility View (IE Only)
-			NoScript       int    `json:"noscript"`  // Disable Javascript
-			Pngss          int    `json:"pngss"`
-			Iq             int    `json:"iq"`
-			KeepUA         int    `json:"keepua"` // Preserve original User Agent string
-			Mobile         int    `json:"mobile"`
-			Scripted       int    `json:"scripted"`
-		} `json:"testInfo"`
-	} `json:"data"`
-}
-
-// GetTestStatus will return status of test run by given testID
-// StatusCode 200 indicates test is completed. 1XX means the test is still
-// in progress. And 4XX indicates some error.
-func (w *WebPageTest) GetTestStatus(testID string) (*TestStatus, error) {
-	statusUrl := w.Host + "/testStatus.php?test=" + testID
-	resp, err := http.Get(statusUrl)
-	if err != nil {
-		return nil, fmt.Errorf("failed to GET \"%s\": %v", statusUrl, err)
-	}
-	defer resp.Body.Close()
-
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, err
-	}
-	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("Status is not OK: %v [%v]", resp.StatusCode, string(body))
-	}
-	fmt.Printf("body: %v\n", string(body))
-
-	var result TestStatus
-	if err = json.Unmarshal(body, &result); err != nil {
-		return nil, err
-	}
-
-	if result.StatusCode != 200 {
-		return nil, fmt.Errorf("Status != 200: %v", result.StatusText)
-	}
-
-	return &result, nil
-}
-
-type Location struct {
-	Label         string         `json:"Label"`
-	LabelShort    string         `json:"labelShort"`
-	Location      string         `json:"location"`
-	Browser       string         `json:"Browser"`
-	RelayServer   string         `json:"relayServer"`
-	RelayLocation string         `json:"relayLocation"`
-	Default       bool           `json:"default"`
-	PendingTests  map[string]int `json:"PendingTests"`
-}
-
-type Locations struct {
-	StatusCode int                 `json:"statusCode"`
-	StatusText string              `json:"statusText"`
-	Data       map[string]Location `json:"data`
-}
-
-// GetLocations will retrieve all available locations from server
-// You can request a list of locations as well as the number of pending tests for each
-func (w *WebPageTest) GetLocations() (*Locations, error) {
-	resultsUrl := w.Host + "/getLocations.php?f=json"
-	resp, err := http.Get(resultsUrl)
-	if err != nil {
-		return nil, fmt.Errorf("failed to GET \"%s\": %v", resultsUrl, err)
-	}
-	defer resp.Body.Close()
-
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, err
-	}
-	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("Status is no OK: %v [%v]", resp.StatusCode, string(body))
-	}
-
-	var result Locations
-	if err = json.Unmarshal(body, &result); err != nil {
-		return nil, err
-	}
-
-	if result.StatusCode != 200 {
-		return nil, fmt.Errorf("Status != 200: %v", result.StatusText)
-	}
-
-	return &result, nil
-}
-
-type TesterPC struct {
-	ID             string `json:"id"`
-	Name           string `json:"pc"`
-	EC2            string `json:"ec2"` // EC2 Instance
-	IP             string `json:"ip"`
-	DNS            string `json:"dns"` // DNS Server(s)
-	AgentVersion   string `json:"version"`
-	FreeDisk       string `json:"freedisk"` // Free Disk (GB)
-	IEVersion      string `json:"ie"`       // IE Version
-	WindowsVersion string `json:"winver"`   // Windows Version
-	IsWinServer    string `json:"isWinServer"`
-	IsWin64        string `json:"isWin64"`
-	Offline        string `json:"offline"`
-	ScreenWidth    string `json:"screenwidth"`  // Screen Size
-	ScreenHeight   string `json:"screenheight"` // Screen Size
-	Rebooted       bool   `json:"rebooted"`
-	GPU            string `json:"GPU"`
-	CPU            int    `json:"cpu"`    // CPU Utilization
-	Errors         int    `json:"errors"` // Error Rate
-	Elapsed        int    `json:"elapsed"`
-	Last           int    `json:"last"` // Last Work (minutes)
-	Busy           int    `json:"busy"` // Busy?
-}
-
-type Tester struct {
-	Elapsed int        `json:"elapsed"`
-	Status  string     `json:"status"`
-	Testers []TesterPC `json:"testers"`
-}
-
-type Testers struct {
-	StatusCode int               `json:"statusCode"`
-	StatusText string            `json:"statusText"`
-	Data       map[string]Tester `json:"data`
-}
-
-// GetTesters will retrieve all available agents and their status
-func (w *WebPageTest) GetTesters() (*Testers, error) {
-	resultsUrl := w.Host + "/getTesters.php?f=json"
-	resp, err := http.Get(resultsUrl)
-	if err != nil {
-		return nil, fmt.Errorf("failed to GET \"%s\": %v", resultsUrl, err)
-	}
-	defer resp.Body.Close()
-
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, err
-	}
-	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("Status is no OK: %v [%v]", resp.StatusCode, string(body))
-	}
-
-	fmt.Printf("body: %v\n", string(body))
-
-	var result Testers
-	if err = json.Unmarshal(body, &result); err != nil {
-		return nil, err
-	}
-
-	if result.StatusCode != 200 {
-		return nil, fmt.Errorf("Status != 200: %v", result.StatusText)
-	}
-
-	return &result, nil
-}
-
 // CancelTest will try to cancel test by it's ID
 // With a test ID (and if required, API key) you can cancel a test if it has not started running.
 func (w *WebPageTest) CancelTest(testID string) error {
 	// http://www.webpagetest.org/cancelTest.php?test=<testId>&k=<API key>
-	resultsUrl := w.Host + "/cancelTest.php?test=" + testID
-	resp, err := http.Get(resultsUrl)
-	if err != nil {
-		return fmt.Errorf("failed to GET \"%s\": %v", resultsUrl, err)
-	}
-	defer resp.Body.Close()
-
-	body, err := ioutil.ReadAll(resp.Body)
+	body, err := w.query("/cancelTest.php", url.Values{"test": []string{testID}})
 	if err != nil {
 		return err
-	}
-	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("Status is no OK: %v [%v]", resp.StatusCode, string(body))
 	}
 
 	// <h3>Sorry, the test could not be cancelled.  It may have already started or been cancelled</h3><form>...
@@ -255,14 +47,12 @@ func (w *WebPageTest) CancelTest(testID string) error {
 	return fmt.Errorf("Unknown error: %s", string(body))
 }
 
-type TestResult struct {
-}
-
-func (w *WebPageTest) GetTestResults(testID string) (*TestResult, error) {
-	resultsUrl := w.Host + "/jsonResult.php?test=" + testID
-	resp, err := http.Get(resultsUrl)
+func (w *WebPageTest) query(api string, params url.Values) ([]byte, error) {
+	// http://www.webpagetest.org/cancelTest.php?test=<testId>&k=<API key>
+	queryUrl := w.Host + api + "?" + params.Encode()
+	resp, err := http.Get(queryUrl)
 	if err != nil {
-		return nil, fmt.Errorf("failed to GET \"%s\": %v", resultsUrl, err)
+		return nil, fmt.Errorf("failed to GET \"%s\": %v", queryUrl, err)
 	}
 	defer resp.Body.Close()
 
@@ -273,27 +63,91 @@ func (w *WebPageTest) GetTestResults(testID string) (*TestResult, error) {
 	if resp.StatusCode != http.StatusOK {
 		return nil, fmt.Errorf("Status is no OK: %v [%v]", resp.StatusCode, string(body))
 	}
-	fmt.Printf("body: %v\n", string(body))
 
-	// var result struct {
-	// 	StatusCode int         `json:"statusCode"`
-	// 	StatusText string      `json:"statusText"`
-	// 	Data       TestResults `json:"data"`
-	// }
-
-	// if err = json.Unmarshal(body, &result); err != nil {
-	// 	return nil, err
-	// }
-
-	// if result.StatusCode != 200 {
-	// 	return nil, fmt.Errorf("Status != 200: %v", result.StatusText)
-	// }
-
-	return &TestResult{}, nil
+	return body, nil
 }
 
-// getTestResults(id, options, callback)
-// runTest(url_or_script, options, callback)
+/*
+{
+  "statusCode": 200,
+  "statusText": "Ok",
+  "data": {
+    "testId": "161128_R3_2",
+    "ownerKey": "c9d1754ea6388229093c69adac3740e0339fa100",
+    "jsonUrl": "http://webpagetest.app.s/jsonResult.php?test=161128_R3_2",
+    "xmlUrl": "http://webpagetest.app.s/xmlResult.php?test=161128_R3_2",
+    "userUrl": "http://webpagetest.app.s/results.php?test=161128_R3_2",
+    "summaryCSV": "http://webpagetest.app.s/csv.php?test=161128_R3_2",
+    "detailCSV": "http://webpagetest.app.s/csv.php?test=161128_R3_2&amp;requests=1"
+  }
+}
+*/
+
+func (w *WebPageTest) RunTest(settings TestSettings) (string, error) {
+	resp, err := http.PostForm(w.Host+"/runtest.php", settings.GetFormParams())
+	if err != nil {
+		return "", err
+	}
+
+	if resp.StatusCode != http.StatusOK {
+		return "", err
+	}
+
+	defer resp.Body.Close()
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return "", err
+	}
+
+	// fmt.Printf("Body: %v", string(body))
+
+	var result struct {
+		StatusCode int    `json:"statusCode"`
+		StatusText string `json:"statusText"`
+		Data       struct {
+			TestID  string `json:"testId"`
+			UserURL string `json:"userUrl"`
+		} `json:"data"`
+	}
+	if err = json.Unmarshal(body, &result); err != nil {
+		return "", err
+	}
+
+	if result.StatusCode > 200 {
+		return "", fmt.Errorf("StatusCode > 200: %v: %v", result.StatusCode, result.StatusText)
+	}
+
+	fmt.Printf("Result URL: %v\n", result.Data.UserURL)
+	return result.Data.TestID, nil
+}
+
+func (w *WebPageTest) RunTestAndWait(settings TestSettings) (*ResultData, error) {
+	testID, err := w.RunTest(settings)
+	if err != nil {
+		return nil, err
+	}
+
+	for {
+		result, err := w.GetTestStatus(testID)
+		if err != nil {
+			return nil, err
+		}
+		if result.StatusCode < 200 {
+			fmt.Printf("\rWaiting: %v (%v sec)\n", result.StatusText, result.Elapsed)
+			time.Sleep(time.Second)
+		}
+		if result.StatusCode >= 200 {
+			fmt.Printf("Done: %v\n", result.StatusText)
+			break
+		}
+	}
+
+	testResult, err := w.GetTestResult(testID)
+	if err != nil {
+		return nil, err
+	}
+	return testResult, nil
+}
 
 // getHARData(id, options, callback)
 // getPageSpeedData(id, options, callback)
