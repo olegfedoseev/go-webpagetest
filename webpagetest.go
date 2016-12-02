@@ -121,7 +121,12 @@ func (w *WebPageTest) RunTest(settings TestSettings) (string, error) {
 	return result.Data.TestID, nil
 }
 
-func (w *WebPageTest) RunTestAndWait(settings TestSettings) (*ResultData, error) {
+// StatusCallback is helper type for function to be called while waiting for test to complete
+type StatusCallback func(testID, status string, duration int)
+
+// RunTestAndWait will start new WebPageTest test run with given TestSettings and will wait for it
+// to complete. While it wait, it will poll status updates from server and will call StatusCallback with it
+func (w *WebPageTest) RunTestAndWait(settings TestSettings, callback StatusCallback) (*ResultData, error) {
 	testID, err := w.RunTest(settings)
 	if err != nil {
 		return nil, err
@@ -132,12 +137,14 @@ func (w *WebPageTest) RunTestAndWait(settings TestSettings) (*ResultData, error)
 		if err != nil {
 			return nil, err
 		}
+		// Call callback
+		if callback != nil {
+			go callback(testID, result.StatusText, result.Elapsed)
+		}
 		if result.StatusCode < 200 {
-			fmt.Printf("\rWaiting: %v (%v sec)\n", result.StatusText, result.Elapsed)
-			time.Sleep(time.Second)
+			time.Sleep(10 * time.Second)
 		}
 		if result.StatusCode >= 200 {
-			fmt.Printf("Done: %v\n", result.StatusText)
 			break
 		}
 	}

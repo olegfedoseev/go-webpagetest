@@ -19,16 +19,12 @@ type TestSettings struct {
 	ScreenWidth int
 	// Viewport Height in css pixels
 	ScreenHeight int
-
 	// Default metric to use when calculating the median run (loadTime)
 	MedianMetric string
-
 	// Number of test runs (1-10 on the public instance) (1)
 	Runs int
-
 	// Scripted test to execute ("")
 	Script string
-
 	// Set to 1 to have Chrome capture the Dev Tools timeline (0)
 	Timeline bool
 	// Set to 1 to skip the Repeat View test (0)
