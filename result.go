@@ -7,7 +7,7 @@ import (
 )
 
 // https://sites.google.com/a/webpagetest.org/docs/advanced-features/raw-test-results
-
+// Pages is struct for links to various pages about test run
 type Pages struct {
 	Details    string `json:"details"`
 	Checklist  string `json:"checklist"`
@@ -16,12 +16,14 @@ type Pages struct {
 	ScreenShot string `json:"screenShot"`
 }
 
+// Thumbnails is struct for links to thumbnails of various images for test tun
 type Thumbnails struct {
 	Waterfall  string `json:"waterfall"`
 	Checklist  string `json:"checklist"`
 	ScreenShot string `json:"screenShot"`
 }
 
+// Images is struct for links to originals of various images for test tun
 type Images struct {
 	Waterfall      string `json:"waterfall"`
 	ConnectionView string `json:"connectionView"`
@@ -30,6 +32,7 @@ type Images struct {
 	ScreenShotPng  string `json:"screenShotPng"`
 }
 
+// RawData is struct for links to raw data about test tun
 type RawData struct {
 	Headers      string `json:"headers"`
 	PageData     string `json:"pageData"`
@@ -37,6 +40,7 @@ type RawData struct {
 	Utilization  string `json:"utilization"`
 }
 
+// VideoFrame is struct for one video frame
 type VideoFrame struct {
 	Time  int    `json:"time"`
 	Image string `json:"image"`
@@ -44,6 +48,7 @@ type VideoFrame struct {
 	VisuallyComplete int `json:"VisuallyComplete"`
 }
 
+// Domain is struct for stats about requests form particular domain
 type Domain struct {
 	Bytes       int    `json:"bytes"`
 	Requests    int    `json:"requests"`
@@ -51,6 +56,7 @@ type Domain struct {
 	Connections int    `json:"connections"`
 }
 
+// Breakdown is struct for data for pie charts of resource distribution
 type Breakdown struct {
 	Color []int `json:"color"`
 	Bytes int   `json:"bytes"`
@@ -58,6 +64,7 @@ type Breakdown struct {
 	Requests int `json:"requests"`
 }
 
+// Headers is struct for http headers of request and response
 type Headers struct {
 	Request  []string `json:"request"`
 	Response []string `json:"response"`
@@ -164,17 +171,71 @@ type jsonRequest struct {
 	Headers Headers `json:"headers"`
 }
 
+// TestView struct tries to combine to kinds of testViews than WebPagetest returns
+// With Steps in case of scripted run and without steps, when we test single url
+// Because Go is strictly typed, we have to "merge" them in one data type
 type TestView struct {
-	URL    string `json:"URL"`
-	Result int    `json:"result"` // 99999
-	Date   int    `json:"date"`   // 1479973600
-	Run    int    `json:"run"`    // 1,
+	Run           int        `json:"run"`
+	Tester        string     `json:"tester"`
+	NumberOfSteps int        `json:"numSteps"`
+	Steps         []TestStep `json:"steps"`
+}
 
-	Title          string `json:"title"`           // "Google"
-	Tester         string `json:"tester"`          // "74SYNCMASTER-172.28.116.4"
+// UnmarshalJSON implements custom unmarshaling logic than mitigates "dynamic"
+// nature of test result's json
+func (tv *TestView) UnmarshalJSON(b []byte) error {
+	var tmp struct {
+		Run           int    `json:"run"`
+		Tester        string `json:"tester"`
+		NumberOfSteps int    `json:"numSteps"`
+	}
+	if err := json.Unmarshal(b, &tmp); err != nil {
+		return err
+	}
+
+	tv.Run = tmp.Run
+	tv.Tester = tmp.Tester
+	tv.NumberOfSteps = tmp.NumberOfSteps
+
+	// If we have "steps" array, than Unmarshal as is
+	if tmp.NumberOfSteps > 1 {
+		var steps struct {
+			Steps []TestStep `json:"steps"`
+		}
+		if err := json.Unmarshal(b, &steps); err != nil {
+			return err
+		}
+		tv.Steps = steps.Steps
+		return nil
+	}
+
+	// If we have only one "step", then we emulate steps array
+	var step TestStep
+	if err := json.Unmarshal(b, &step); err != nil {
+		return err
+	}
+	tv.NumberOfSteps = 1
+	tv.Steps = []TestStep{step}
+
+	return nil
+}
+
+// TestStep is struct with information of one particular test "run"
+type TestStep struct {
+	URL    string `json:"URL"`
+	Run    int    `json:"run"`
+	Date   int    `json:"date"`   // 1479973600
+	Error  string `json:"error"`  // Timed out waiting for the browser to start.
+	Result int    `json:"result"` // 99999
+
+	Tester         string `json:"tester"`
 	BrowserName    string `json:"browser_name"`    // "Google Chrome"
 	BrowserVersion string `json:"browser_version"` // "54.0.2840.99",
+	NumSteps       int    `json:"numSteps"`
+	Step           int    `json:"step"`
+	EventName      string `json:"eventName"` // "Step 1"
 
+	PageTitle string `json:"title"`
 	// Estimated RTT to Server (ms)
 	ServerRTT int `json:"server_rtt"`
 	// Time to First Byte (ms)
@@ -183,24 +244,27 @@ type TestView struct {
 	TTFB int `json:"TTFB"`
 	// Time to DOM Loading - From Navigation Timing
 	DOMLoading int `json:"domLoading"`
-	// First Paint (ms)
+	// Browser-reported first paint time (IE-specific right now - window.performance.timing.msFirstPaint)
 	FirstPaint int `json:"firstPaint"`
-	// Time to Title (ms)
+	// Time from the start of the operation until the title first changed (in ms)
 	TitleTime int `json:"titleTime"`
 	// Time to DOM Interactive - From Navigation Timing
 	DOMInteractive int `json:"domInteractive"`
 	// DOM Content Loaded - From Navigation Timing
 	DOMContentLoadedEventStart int `json:"domContentLoadedEventStart"`
+	DOMContentLoadedEventEnd   int `json:"domContentLoadedEventEnd"` // 455,
 	// Browser-reported Load Time (Navigation Timing onload)
 	LoadEventStart int `json:"loadEventStart"`
+	LoadEventEnd   int `json:"loadEventEnd"`
 	// Load Time (onload, ms)
 	// The Load Time is measured as the time from the start of the initial navigation until the beginning of the window load event (onload).
-	DocTime  int `json:"docTime"`
 	LoadTime int `json:"loadTime"`
+	DocTime  int `json:"docTime"`
+	DOMTime  int `json:"domTime"`
 	// Time to Start Render (ms)
 	// The Start Render time is measured as the time from the start of the initial
 	// navigation until the first non-white content is painted to the browser display.
-	Render int `json:"render"`
+	StartRender int `json:"render"`
 	// Time to Visually Complete (ms)
 	VisualComplete int `json:"visualComplete"`
 	// Fully Loaded (ms)
@@ -208,19 +272,15 @@ type TestView struct {
 	// there was 2 seconds of no network activity after Document Complete.  This will usually
 	// include any activity that is triggered by javascript after the main page loads.
 	FullyLoaded int `json:"fullyLoaded"`
-	// Last Visual Change (ms)
+	// Time of the last visual change to the page (in ms, only available when video capture is enabled)
 	LastVisualChange int `json:"lastVisualChange"`
-
-	SpeedIndex int `json:"SpeedIndex"`
+	// Time until the above-the-fold stabilized (if explicitly requested)
+	AboveTheFoldTime int `json:"aft"`
+	SpeedIndex       int `json:"SpeedIndex"`
 
 	// Number of DOM Elements
 	// The DOM Elements metric is the count of the DOM elements on the tested page as measured at the end of the test.
 	DOMElements int `json:"domElements"`
-
-	LoadEventEnd             int `json:"loadEventEnd"`
-	DOMTime                  int `json:"domTime"`
-	AboveTheFoldTime         int `json:"aft"`
-	DOMContentLoadedEventEnd int `json:"domContentLoadedEventEnd"` // 455,
 
 	// CPU Busy Time (ms)
 	DocCPUms         float32 `json:"docCPUms"`         // 951.606
@@ -229,20 +289,23 @@ type TestView struct {
 	DocCPUpct         int `json:"docCPUpct"`         // 39
 	FullyLoadedCPUpct int `json:"fullyLoadedCPUpct"` // 19,
 
-	BytesIn          int `json:"bytesIn"`
-	BytesOut         int `json:"bytesOut"`
-	BytesInDoc       int `json:"bytesInDoc"`
-	BytesOutDoc      int `json:"bytesOutDoc"`
-	EffectiveBps     int `json:"effectiveBps"`      // 433693
-	EffectiveBpsDoc  int `json:"effectiveBpsDoc"`   // 466135
+	// The number of bytes downloaded before the Document Complete time
+	BytesIn         int `json:"bytesIn"`
+	BytesOut        int `json:"bytesOut"`
+	BytesInDoc      int `json:"bytesInDoc"`
+	BytesOutDoc     int `json:"bytesOutDoc"`
+	EffectiveBps    int `json:"effectiveBps"`    // 433693
+	EffectiveBpsDoc int `json:"effectiveBpsDoc"` // 466135
+	// Total bytes in server-supplied TLS certificates
 	CertificateBytes int `json:"certificate_bytes"` // 17499,
 
 	Connections int `json:"connections"`
 
-	Requests []jsonRequest `json:"requests"`
+	// Requests []jsonRequest `json:"requests"`
 
 	RequestsFull int `json:"requestsFull"`
-	RequestsDoc  int `json:"requestsDoc"`
+	// The number of http(s) requests before the Document Complete time
+	RequestsDoc int `json:"requestsDoc"`
 
 	Responses200   int `json:"responses_200"`
 	Responses404   int `json:"responses_404"`
@@ -276,10 +339,6 @@ type TestView struct {
 	Cached        int `json:"cached"`         // 0,
 	AdultSite     int `json:"adult_site"`     // 0,
 	FixedViewport int `json:"fixed_viewport"` // 0
-
-	EventName string `json:"eventName"` // "Step 1"
-	NumSteps  int    `json:"numSteps"`  // 1
-	Step      int    `json:"step"`      // 1,
 
 	BasePageCDN       string `json:"base_page_cdn"`       // "Google"
 	BasePageRedirects int    `json:"base_page_redirects"` // 2
@@ -325,10 +384,7 @@ type ResultData struct {
 	SuccessfulFVRuns int    `json:"successfulFVRuns"`
 	SuccessfulRVRuns int    `json:"successfulRVRuns"`
 
-	Runs   map[string]TestRun `json:"runs"`
-	Median TestRun            `json:"median"`
-	// Average AverageTestRun     `json:"average"`
-	// StdDev  StdDevTestRun      `json:"standardDeviation"`
+	Runs map[string]TestRun `json:"runs"`
 }
 
 func (w *WebPageTest) GetTestResult(testID string) (*ResultData, error) {
@@ -342,8 +398,6 @@ func (w *WebPageTest) GetTestResult(testID string) (*ResultData, error) {
 	if err != nil {
 		return nil, err
 	}
-
-	// fmt.Printf("body: %v\n", string(body))
 
 	var responose struct {
 		StatusCode int             `json:"statusCode"`
