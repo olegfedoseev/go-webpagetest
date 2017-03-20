@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"sort"
+	"strconv"
 	"time"
 
 	"github.com/docopt/docopt-go"
@@ -23,14 +24,15 @@ Usage:
   webpagetest testers [--server=<url>]
   webpagetest status <testID> [--server=<url>]
   webpagetest cancel <testID> [--server=<url>]
-  webpagetest results <testID> [--server=<url>]
+  webpagetest results <testID> [--server=<url>] [--step=<stepIdx>]
   webpagetest -h | --help
   webpagetest --version
 
 Options:
-  -h --help       Show this screen.
-  --version       Show version.
-  --server=<url>  URL of private instance of WebPagetest Server`
+  -h --help         Show this screen.
+  --version         Show version.
+  --server=<url>    URL of private instance of WebPagetest Server
+  --step=<stepIdx>  Index of test step to use as source of metrics (1-based)`
 
 	arguments, _ := docopt.Parse(usage, nil, true, "WebPagetest CLI 1.0", false)
 
@@ -59,7 +61,13 @@ Options:
 	}
 
 	if arguments["results"].(bool) {
-		getResults(arguments["<testID>"].(string))
+		var step int64
+		if arguments["--step"] != nil && arguments["--step"].(string) != "" {
+			step, _ = strconv.ParseInt(arguments["--step"].(string), 10, 32)
+			fmt.Printf("Will use step #%d\n", step)
+		}
+
+		getResults(arguments["<testID>"].(string), step)
 	}
 
 	// TODO: figure out how to specify all test params
@@ -143,7 +151,7 @@ func cancelTest(testID string) {
 	}
 }
 
-func getResults(testID string) {
+func getResults(testID string, testStep int64) {
 	// Test Result
 	// 161124_CC_3 - google.com
 	// 161122_K9_A - novosibirsk.n1.ru
@@ -172,22 +180,13 @@ func getResults(testID string) {
 	for _, run := range runs {
 		views := result.Runs[run]
 		fmt.Printf("Run %s\n", run)
-		fmt.Printf("[%19s| %9s | %10s | %12s | %11s | %17s | %12s]\n",
-			" ", "Load Time", "First Byte", "Start Render", "Speed Index", "Document Complete", "Fully Loaded")
+
 		for idx, step := range views.FirstView.Steps {
 			if step.Error != "" {
 				fmt.Printf("[%d] FirstView Result [%v] %v \n", idx+1, step.Result, step.Error)
 				continue
 			}
-			stepName := fmt.Sprintf("FirstView  step %d ", idx+1)
-			fmt.Printf("[%19s| %9v | %10v | %12v | %11v | %17v | %12v]\n",
-				stepName,
-				time.Duration(step.LoadTime)*time.Millisecond,
-				time.Duration(step.TTFB)*time.Millisecond,
-				time.Duration(step.StartRender)*time.Millisecond,
-				step.SpeedIndex,
-				time.Duration(step.DocTime)*time.Millisecond,
-				time.Duration(step.FullyLoaded)*time.Millisecond)
+			fmt.Println(stepAsTableRow(&step, idx == 0, "First View "))
 		}
 		if !result.FirstViewOnly {
 			for idx, step := range views.RepeatView.Steps {
@@ -195,16 +194,36 @@ func getResults(testID string) {
 					fmt.Printf("[%d] RepeatView Result [%v] %v \n", idx+1, step.Result, step.Error)
 					continue
 				}
-				stepName := fmt.Sprintf("RepeatView step %d ", idx+1)
-				fmt.Printf("[%19s| %9v | %10v | %12v | %11v | %17v | %12v]\n",
-					stepName,
-					time.Duration(step.LoadTime)*time.Millisecond,
-					time.Duration(step.TTFB)*time.Millisecond,
-					time.Duration(step.StartRender)*time.Millisecond,
-					step.SpeedIndex,
-					time.Duration(step.DocTime)*time.Millisecond,
-					time.Duration(step.FullyLoaded)*time.Millisecond)
+				fmt.Println(stepAsTableRow(&step, idx == 0, "Repeat View "))
 			}
 		}
 	}
+
+	medianRun, err := result.GetMedianRun(int(testStep-1), "loadtime")
+	if err != nil {
+		fmt.Printf("GetMedianRun failed: %v\n", err)
+	}
+	fmt.Printf("\nMedian run\n")
+	fmt.Println(stepAsTableRow(&medianRun.FirstView.Steps[testStep-1], true,
+		fmt.Sprintf("Run: #%d/%d ", medianRun.FirstView.Run, medianRun.RepeatView.Run)))
+	fmt.Println(stepAsTableRow(&medianRun.RepeatView.Steps[testStep-1], false, ""))
+}
+
+func stepAsTableRow(ts *webpagetest.TestStep, header bool, headerTitle string) string {
+	var result string
+	if header {
+		result += fmt.Sprintf("[%15s| %9s | %10s | %12s | %11s | %17s | %12s]\n",
+			headerTitle, "Load Time", "First Byte", "Start Render", "Speed Index", "Document Complete", "Fully Loaded")
+	}
+
+	result += fmt.Sprintf("[%15s| %9v | %10v | %12v | %11v | %17v | %12v]",
+		fmt.Sprintf("Step %d ", ts.Step),
+		time.Duration(ts.LoadTime)*time.Millisecond,
+		time.Duration(ts.TTFB)*time.Millisecond,
+		time.Duration(ts.StartRender)*time.Millisecond,
+		ts.SpeedIndex,
+		time.Duration(ts.DocTime)*time.Millisecond,
+		time.Duration(ts.FullyLoaded)*time.Millisecond)
+
+	return result
 }

@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/url"
+	"sort"
 )
 
 // https://sites.google.com/a/webpagetest.org/docs/advanced-features/raw-test-results
@@ -385,6 +386,68 @@ type ResultData struct {
 	SuccessfulRVRuns int    `json:"successfulRVRuns"`
 
 	Runs map[string]TestRun `json:"runs"`
+}
+
+// GetMedianRun will calculate and return median run by given metric and step
+// Step is 0-based
+func (rd *ResultData) GetMedianRun(step int, metric string) (*TestRun, error) {
+	var testRun TestRun
+	var firstViewValues []float64
+	var repeatViewValues []float64
+	firstViewValueMap := make(map[float64]string, 0)
+	repeatViewValueMap := make(map[float64]string, 0)
+
+	for idx, run := range rd.Runs {
+		if step >= len(run.FirstView.Steps) || step >= len(run.RepeatView.Steps) {
+			continue
+		}
+		var firstViewValue float64
+		var repeatViewValue float64
+		switch metric {
+		case "speedindex":
+			firstViewValue = float64(run.FirstView.Steps[step].SpeedIndex)
+			repeatViewValue = float64(run.RepeatView.Steps[step].SpeedIndex)
+		case "loadtime":
+			firstViewValue = float64(run.FirstView.Steps[step].LoadTime)
+			repeatViewValue = float64(run.RepeatView.Steps[step].LoadTime)
+		case "fullyloaded":
+			firstViewValue = float64(run.FirstView.Steps[step].FullyLoaded)
+			repeatViewValue = float64(run.RepeatView.Steps[step].FullyLoaded)
+		default:
+			return nil, fmt.Errorf("unsupported metric: %s", metric)
+		}
+		firstViewValueMap[firstViewValue] = idx
+		repeatViewValueMap[repeatViewValue] = idx
+		firstViewValues = append(firstViewValues, firstViewValue)
+		repeatViewValues = append(repeatViewValues, repeatViewValue)
+	}
+	sort.Float64s(firstViewValues)
+	sort.Float64s(repeatViewValues)
+
+	var firstRunIdx, repeatRunIdx string
+	if len(firstViewValues) == 1 {
+		firstRunIdx = firstViewValueMap[firstViewValues[0]]
+	} else {
+		idx := len(firstViewValues) / 2
+		if len(firstViewValues)%2 == 0 {
+			idx++
+		}
+		firstRunIdx = firstViewValueMap[firstViewValues[idx]]
+	}
+	testRun.FirstView = rd.Runs[firstRunIdx].FirstView
+
+	if len(repeatViewValues) == 1 {
+		repeatRunIdx = repeatViewValueMap[repeatViewValues[0]]
+	} else {
+		idx := len(repeatViewValues) / 2
+		if len(repeatViewValues)%2 == 0 {
+			idx++
+		}
+		repeatRunIdx = repeatViewValueMap[repeatViewValues[idx]]
+	}
+	testRun.RepeatView = rd.Runs[repeatRunIdx].RepeatView
+
+	return &testRun, nil
 }
 
 func (w *WebPageTest) GetTestResult(testID string) (*ResultData, error) {
