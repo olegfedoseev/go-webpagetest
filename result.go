@@ -8,6 +8,35 @@ import (
 
 // https://sites.google.com/a/webpagetest.org/docs/advanced-features/raw-test-results
 
+type Pages struct {
+	Details    string `json:"details"`
+	Checklist  string `json:"checklist"`
+	Breakdown  string `json:"breakdown"`
+	Domains    string `json:"domains"`
+	ScreenShot string `json:"screenShot"`
+}
+
+type Thumbnails struct {
+	Waterfall  string `json:"waterfall"`
+	Checklist  string `json:"checklist"`
+	ScreenShot string `json:"screenShot"`
+}
+
+type Images struct {
+	Waterfall      string `json:"waterfall"`
+	ConnectionView string `json:"connectionView"`
+	Checklist      string `json:"checklist"`
+	ScreenShot     string `json:"screenShot"`
+	ScreenShotPng  string `json:"screenShotPng"`
+}
+
+type RawData struct {
+	Headers      string `json:"headers"`
+	PageData     string `json:"pageData"`
+	RequestsData string `json:"requestsData"`
+	Utilization  string `json:"utilization"`
+}
+
 type VideoFrame struct {
 	Time  int    `json:"time"`
 	Image string `json:"image"`
@@ -200,8 +229,6 @@ type TestView struct {
 	DocCPUpct         int `json:"docCPUpct"`         // 39
 	FullyLoadedCPUpct int `json:"fullyLoadedCPUpct"` // 19,
 
-	Cached int `json:"cached"` // 0,
-
 	BytesIn          int `json:"bytesIn"`
 	BytesOut         int `json:"bytesOut"`
 	BytesInDoc       int `json:"bytesInDoc"`
@@ -246,10 +273,9 @@ type TestView struct {
 
 	ServerCount int `json:"server_count"` // 16,
 
-	AdultSite int `json:"adult_site"` // 0,
-
+	Cached        int `json:"cached"`         // 0,
+	AdultSite     int `json:"adult_site"`     // 0,
 	FixedViewport int `json:"fixed_viewport"` // 0
-	IsResponsive  int `json:"isResponsive"`   // -1,
 
 	EventName string `json:"eventName"` // "Step 1"
 	NumSteps  int    `json:"numSteps"`  // 1
@@ -264,34 +290,15 @@ type TestView struct {
 	BrowserWorkingSetKB         int `json:"browser_working_set_kb"`          // 136568
 	BrowserOtherPrivateMemoryKB int `json:"browser_other_private_memory_kb"` // 66816,
 
-	// "details": "http://webpagetest.app.s/details.php?test=161124_CC_3&run=1&cached=0"
-	// "checklist": "http://webpagetest.app.s/performance_optimization.php?test=161124_CC_3&run=1&cached=0"
-	// "breakdown": "http://webpagetest.app.s/breakdown.php?test=161124_CC_3&run=1&cached=0"
-	// "domains": "http://webpagetest.app.s/domains.php?test=161124_CC_3&run=1&cached=0"
-	// "screenShot": "http://webpagetest.app.s/screen_shot.php?test=161124_CC_3&run=1&cached=0"
-	Pages map[string]string `json:"pages"`
-
-	// "waterfall": "http://webpagetest.app.s/result/161124_CC_3/1_waterfall_thumb.png"
-	// "checklist": "http://webpagetest.app.s/result/161124_CC_3/1_optimization_thumb.png"
-	// "screenShot": "http://webpagetest.app.s/result/161124_CC_3/1_screen_thumb.png"
-	Thumbnails map[string]string `json:"thumbnails"`
-
-	// "waterfall": "http://webpagetest.app.s/results/16/11/24/CC/3/1_waterfall.png"
-	// "connectionView": "http://webpagetest.app.s/results/16/11/24/CC/3/1_connection.png"
-	// "checklist": "http://webpagetest.app.s/results/16/11/24/CC/3/1_optimization.png"
-	// "screenShot": "http://webpagetest.app.s/getfile.php?test=161124_CC_3&file=1_screen.jpg"
-	// "screenShotPng": "http://webpagetest.app.s/getfile.php?test=161124_CC_3&file=1_screen.png"
-	Images map[string]string `json:"images"`
-
-	// "headers": "http://webpagetest.app.s/results/16/11/24/CC/3/1_report.txt"
-	// "pageData": "http://webpagetest.app.s/results/16/11/24/CC/3/1_IEWPG.txt"
-	// "requestsData": "http://webpagetest.app.s/results/16/11/24/CC/3/1_IEWTR.txt"
-	// "utilization": "http://webpagetest.app.s/results/16/11/24/CC/3/1_progress.csv"
-	RawData map[string]string `json:"rawData"`
-
+	Pages       Pages                `json:"pages"`
+	Thumbnails  Thumbnails           `json:"thumbnails"`
+	Images      Images               `json:"images"`
+	RawData     RawData              `json:"rawData"`
 	VideoFrames []VideoFrame         `json:"videoFrames"`
-	Domains     map[string]Domain    `json:"domains"`
 	Breakdown   map[string]Breakdown `json:"breakdown"`
+
+	jsonDomains json.RawMessage   `json:"domains"`
+	Domains     map[string]Domain `json:"-"` // may be empty array
 }
 
 type TestRun struct {
@@ -324,28 +331,36 @@ type ResultData struct {
 	// StdDev  StdDevTestRun      `json:"standardDeviation"`
 }
 
-type jsonTestResult struct {
-	StatusCode int        `json:"statusCode"`
-	StatusText string     `json:"statusText"`
-	Data       ResultData `json:"data"`
-}
-
 func (w *WebPageTest) GetTestResult(testID string) (*ResultData, error) {
-	body, err := w.query("/jsonResult.php", url.Values{"test": []string{testID}})
+	query := url.Values{}
+	query.Add("test", testID)
+	query.Add("requests", "0")
+	query.Add("average", "0")
+	query.Add("standard", "0")
+
+	body, err := w.query("/jsonResult.php", query)
 	if err != nil {
 		return nil, err
 	}
 
 	// fmt.Printf("body: %v\n", string(body))
 
-	var result jsonTestResult
-	if err = json.Unmarshal(body, &result); err != nil {
+	var responose struct {
+		StatusCode int             `json:"statusCode"`
+		StatusText string          `json:"statusText"`
+		Data       json.RawMessage `json:"data"`
+	}
+	if err = json.Unmarshal(body, &responose); err != nil {
 		return nil, err
 	}
-
-	if result.StatusCode != 200 {
-		return nil, fmt.Errorf("Status != 200: %v", result.StatusText)
+	if responose.StatusCode != 200 {
+		return nil, fmt.Errorf("Unexpected status %d: %v",
+			responose.StatusCode, responose.StatusText)
 	}
 
-	return &result.Data, nil
+	var resultData ResultData
+	if err = json.Unmarshal(responose.Data, &resultData); err != nil {
+		return nil, err
+	}
+	return &resultData, nil
 }

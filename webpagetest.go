@@ -37,7 +37,7 @@ func (w *WebPageTest) CancelTest(testID string) error {
 	// <h3>Sorry, the test could not be cancelled.  It may have already started or been cancelled</h3><form>...
 	// <h3 align="center">Test cancelled!</h3><form><i
 	if bytes.Contains(body, []byte("Sorry, the test could not be cancelled.")) {
-		// Trim left <h3> and split by < to get begining of message
+		// Trim left <h3> and split by < to get beginning of message
 		return fmt.Errorf("%s", string(bytes.SplitN(bytes.TrimLeft(body, "<h3>"), []byte("<"), 2)[0]))
 	}
 	if bytes.Contains(body, []byte("Test cancelled!")) {
@@ -99,8 +99,6 @@ func (w *WebPageTest) RunTest(settings TestSettings) (string, error) {
 		return "", err
 	}
 
-	// fmt.Printf("Body: %v", string(body))
-
 	var result struct {
 		StatusCode int    `json:"statusCode"`
 		StatusText string `json:"statusText"`
@@ -117,7 +115,7 @@ func (w *WebPageTest) RunTest(settings TestSettings) (string, error) {
 		return "", fmt.Errorf("StatusCode > 200: %v: %v", result.StatusCode, result.StatusText)
 	}
 
-	fmt.Printf("Result URL: %v\n", result.Data.UserURL)
+	fmt.Printf("Result URL for %v: %v\n", settings.URL, result.Data.UserURL)
 	return result.Data.TestID, nil
 }
 

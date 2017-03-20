@@ -53,7 +53,7 @@ type jsonLocations struct {
 	StatusCode int    `json:"statusCode"` // 200
 	StatusText string `json:"statusText"` // "Ok"
 
-	Data map[string]jsonLocation `json:"data`
+	Data map[string]jsonLocation `json:"data"`
 }
 
 type Location struct {

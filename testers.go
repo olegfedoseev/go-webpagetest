@@ -156,7 +156,7 @@ type jsonTesters struct {
 	StatusCode int    `json:"statusCode"`
 	StatusText string `json:"statusText"`
 
-	Data map[string]jsonTester `json:"data`
+	Data map[string]jsonTester `json:"data"`
 }
 
 type Tester struct {
