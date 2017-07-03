@@ -350,6 +350,9 @@ type TestStep struct {
 	BrowserWorkingSetKB         int `json:"browser_working_set_kb"`          // 136568
 	BrowserOtherPrivateMemoryKB int `json:"browser_other_private_memory_kb"` // 66816,
 
+	TimeToInteractive int `json:"TTIMeasurementEnd"` // 11846
+	LastInteractive   int `json:"LastInteractive"`   // 9571
+
 	Pages       Pages                `json:"pages"`
 	Thumbnails  Thumbnails           `json:"thumbnails"`
 	Images      Images               `json:"images"`

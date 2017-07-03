@@ -5,6 +5,7 @@ import (
 	"net/url"
 )
 
+// TestSettings is structure for describing what should be done in test run
 type TestSettings struct {
 	// URL to be tested
 	URL string
@@ -25,6 +26,8 @@ type TestSettings struct {
 	Runs int
 	// Scripted test to execute ("")
 	Script string
+	// Custom Headers
+	CustomHeaders string
 	// Set to 1 to have Chrome capture the Dev Tools timeline (0)
 	Timeline bool
 	// Set to 1 to skip the Repeat View test (0)
@@ -66,7 +69,7 @@ type TestSettings struct {
 	// (optional) Packet loss rate - percent of packets to drop (used when specifying a custom connectivity profile)
 	PacketLossRate int
 	// (optional) (required for public instance)	API Key (if assigned) - applies only to runtest.php calls. Contact the site owner for a key if required (http://www.webpagetest.org/getkey.php for the public instance)
-	ApiKey string
+	APIKey string
 	// (optional) Set to 1 to enable tcpdump capture	 0
 	TCPDump bool
 	// (optional) Set to 1 to disable optimization checks (for faster testing)	0
@@ -92,7 +95,7 @@ type TestSettings struct {
 	// (optional)  Custom command-line options (Chrome only)
 	CmdLine string
 	// (optional) Set to 1 to save the content of the first response (base page) instead of all of the text responses (bodies=1)
-	HtmlBody bool
+	HTMLBody bool
 	// (optional)  Custom metrics to collect at the end of a test
 	CustomMetrics string
 	// (optional) Specify a specific tester that the test should run on (must match the PC name in /getTesters.php).  If the tester is not available the job will never run.
@@ -111,6 +114,7 @@ type TestSettings struct {
 	AppendUA string
 }
 
+// GetFormParams returns settings that was set ready to be passed to POST
 func (s TestSettings) GetFormParams() url.Values {
 	values := url.Values{
 		"f":            {"json"},
@@ -131,7 +135,7 @@ func (s TestSettings) GetFormParams() url.Values {
 		"password":     {s.Password},
 		"authType":     {s.AuthType},
 		"notify":       {s.Notify},
-		"k":            {s.ApiKey},
+		"k":            {s.APIKey},
 		"uastring":     {s.UAString},
 		"cmdline":      {s.CmdLine},
 		"custom":       {s.CustomMetrics},
@@ -141,6 +145,9 @@ func (s TestSettings) GetFormParams() url.Values {
 		"appendua":     {s.AppendUA},
 	}
 
+	if s.CustomHeaders != "" {
+		values.Add("customHeaders", s.CustomHeaders)
+	}
 	if s.BWDown > 0 {
 		values.Add("bwDown", fmt.Sprintf("%d", s.BWDown))
 	}
@@ -200,7 +207,7 @@ func (s TestSettings) GetFormParams() url.Values {
 	if s.MedianRunVideo {
 		values.Add("mv", "1")
 	}
-	if s.HtmlBody {
+	if s.HTMLBody {
 		values.Add("htmlbody", "1")
 	}
 	if s.IgnoreSSL {
