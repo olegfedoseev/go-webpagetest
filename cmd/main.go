@@ -172,7 +172,7 @@ func getResults(testID string, testStep int64) {
 	fmt.Printf("Runs: %v\n", len(result.Runs))
 
 	runs := make([]string, 0)
-	for run, _ := range result.Runs {
+	for run := range result.Runs {
 		runs = append(runs, run)
 	}
 	sort.Strings(runs)
@@ -197,6 +197,9 @@ func getResults(testID string, testStep int64) {
 				fmt.Println(stepAsTableRow(&step, idx == 0, "Repeat View "))
 			}
 		}
+	}
+	if testStep == 0 {
+		testStep = 1
 	}
 
 	medianRun, err := result.GetMedianRun(int(testStep-1), "loadtime")

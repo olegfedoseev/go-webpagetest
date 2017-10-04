@@ -246,7 +246,8 @@ type TestStep struct {
 	// Time to DOM Loading - From Navigation Timing
 	DOMLoading int `json:"domLoading"`
 	// Browser-reported first paint time (IE-specific right now - window.performance.timing.msFirstPaint)
-	FirstPaint int `json:"firstPaint"`
+	FirstPaint           int `json:"firstPaint"`
+	FirstMeaningfulPaint int `json:"chromeUserTiming.firstMeaningfulPaint"`
 	// Time from the start of the operation until the title first changed (in ms)
 	TitleTime int `json:"titleTime"`
 	// Time to DOM Interactive - From Navigation Timing
@@ -286,6 +287,9 @@ type TestStep struct {
 	// CPU Busy Time (ms)
 	DocCPUms         float32 `json:"docCPUms"`         // 951.606
 	FullyLoadedCPUms float32 `json:"fullyLoadedCPUms"` // 1294.808,
+
+	CPUTimes    map[string]int `json:"cpuTimes"`
+	CPUTimesDoc map[string]int `json:"cpuTimesDoc"`
 
 	DocCPUpct         int `json:"docCPUpct"`         // 39
 	FullyLoadedCPUpct int `json:"fullyLoadedCPUpct"` // 19,
@@ -362,6 +366,8 @@ type TestStep struct {
 
 	jsonDomains json.RawMessage   `json:"domains"`
 	Domains     map[string]Domain `json:"-"` // may be empty array
+
+	TestTiming map[string]int `json:"testTiming"`
 }
 
 type TestRun struct {
