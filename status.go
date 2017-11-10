@@ -131,7 +131,7 @@ type TestInfo struct {
 	BandwidthIn    int    `json:"bwIn"`
 	BandwidthOut   int    `json:"bwOut"`
 	Latency        int    `json:"latency"`
-	PacketLossRate string `json:"plr"`
+	PacketLossRate int    `json:"plr,string"`
 
 	Tcpdump      int `json:"tcpdump"`  // Capture network packet trace (tcpdump)
 	Timeline     int `json:"timeline"` // Capture Dev Tools Timeline
