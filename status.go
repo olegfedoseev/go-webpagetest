@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/url"
+	"strconv"
 )
 
 // testStatus.php
@@ -127,11 +128,14 @@ type TestInfo struct {
 	Location      string `json:"location"`
 	Browser       string `json:"browser"`
 
-	Connectivity   string `json:"connectivity"`
-	BandwidthIn    int    `json:"bwIn"`
-	BandwidthOut   int    `json:"bwOut"`
-	Latency        int    `json:"latency"`
-	PacketLossRate int    `json:"plr,string"`
+	Connectivity string `json:"connectivity"`
+	BandwidthIn  int    `json:"bwIn"`
+	BandwidthOut int    `json:"bwOut"`
+	Latency      int    `json:"latency"`
+
+	// It can be string or int
+	RawPacketLossRate *json.RawMessage `json:"plr"`
+	PacketLossRate    int
 
 	Tcpdump      int `json:"tcpdump"`  // Capture network packet trace (tcpdump)
 	Timeline     int `json:"timeline"` // Capture Dev Tools Timeline
@@ -192,6 +196,13 @@ func (w *WebPageTest) GetTestStatus(testID string) (*TestStatus, error) {
 	var result jsonTestStatus
 	if err = json.Unmarshal(body, &result); err != nil {
 		return nil, err
+	}
+
+	// Unset value is "0"
+	if string(*result.Data.TestInfo.RawPacketLossRate) == "\"0\"" {
+		result.Data.TestInfo.PacketLossRate = 0
+	} else {
+		result.Data.TestInfo.PacketLossRate, _ = strconv.Atoi(string(*result.Data.TestInfo.RawPacketLossRate))
 	}
 
 	if result.StatusCode > 200 {
