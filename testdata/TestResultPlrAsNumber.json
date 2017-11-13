@@ -1,0 +1,5361 @@
+{
+	"data": {
+		"id": "171113_2M_S",
+		"url": "https://arhangelsk.n1.ru",
+		"summary": "http://wpt.n1.s/results.php?test=171113_2M_S",
+		"testUrl": "https://arhangelsk.n1.ru",
+		"location": "Arhangelsk:Chrome",
+		"from": "Архангельск - <b>Chrome</b> - <b>custom</b>",
+		"connectivity": "custom",
+		"bwDown": 780,
+		"bwUp": 330,
+		"latency": 200,
+		"plr": 0,
+		"mobile": 0,
+		"label": "n1ru_main__arh_desktop_slow3g",
+		"completed": 1510541377,
+		"tester": "N1-ARH01-192.168.27.20",
+		"testerDNS": "192.168.80.3,192.168.80.1",
+		"runs": {
+			"1": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 1,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 43226,
+					"TTFB": 2226,
+					"bytesOut": 63225,
+					"bytesOutDoc": 61986,
+					"bytesIn": 3673684,
+					"bytesInDoc": 3668018,
+					"connections": 29,
+					"requests": 160,
+					"requestsFull": 160,
+					"requestsDoc": 154,
+					"responses_200": 151,
+					"responses_404": 0,
+					"responses_other": 2,
+					"result": 0,
+					"render": 2708,
+					"fullyLoaded": 44845,
+					"cached": 0,
+					"docTime": 43226,
+					"domTime": 0,
+					"score_cache": 86,
+					"score_cdn": 8,
+					"score_gzip": 96,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 88,
+					"score_etags": -1,
+					"gzip_total": 1027957,
+					"gzip_savings": 32027,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 2278961,
+					"image_savings": 264227,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1238,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2490,
+					"loadEventStart": 41274,
+					"loadEventEnd": 41330,
+					"domContentLoadedEventStart": 28997,
+					"domContentLoadedEventEnd": 28997,
+					"lastVisualChange": 40500,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 283,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 72,
+					"firstPaint": 2513,
+					"docCPUms": 18859.375,
+					"fullyLoadedCPUms": 19687.5,
+					"docCPUpct": 23,
+					"fullyLoadedCPUpct": 22,
+					"isResponsive": -1,
+					"browser_process_count": 5,
+					"browser_main_memory_kb": 80924,
+					"browser_other_private_memory_kb": 72044,
+					"browser_working_set_kb": 152968,
+					"domInteractive": 2539,
+					"domLoading": 2142,
+					"base_page_ttfb": 2226,
+					"visualComplete": 31000,
+					"SpeedIndex": 7548,
+					"certificate_bytes": 85499,
+					"date": 1510540927,
+					"userTime.main searchbar is ready": 29613,
+					"userTimes": {
+						"main searchbar is ready": 29613,
+						"page content ready": 29614,
+						"content component MainPage is ready": 29614
+					},
+					"userTime.page content ready": 29614,
+					"userTime.content component MainPage is ready": 29614,
+					"userTime": 29614,
+					"testTiming": {
+						"ExtensionStart": 962,
+						"ExtensionBlank": 183,
+						"WaitForIdle": 1676,
+						"LaunchBrowser": 2876,
+						"MeasureStep": 46937,
+						"ProcessRequests": 223,
+						"RunOptimizationChecks": 812,
+						"ProcessVideo": 1768,
+						"SaveResult": 2834,
+						"RunTest": 53703,
+						"UploadImages": 1292,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 12200,
+					"visualComplete90": 12200,
+					"visualComplete95": 16600,
+					"visualComplete99": 17900,
+					"step": 1,
+					"effectiveBps": 86198,
+					"effectiveBpsDoc": 89463,
+					"smallImageCount": 25,
+					"bigImageCount": 5,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/1_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/1_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/1_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/1_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/1_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/1_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=1_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=1_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/1_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/1_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/1_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/1_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 2700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0027.jpg",
+							"VisuallyComplete": 19
+						},
+						{
+							"time": 2900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0029.jpg",
+							"VisuallyComplete": 57
+						},
+						{
+							"time": 7500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0075.jpg",
+							"VisuallyComplete": 57
+						},
+						{
+							"time": 8800,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0088.jpg",
+							"VisuallyComplete": 56
+						},
+						{
+							"time": 11000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0110.jpg",
+							"VisuallyComplete": 82
+						},
+						{
+							"time": 12200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0122.jpg",
+							"VisuallyComplete": 92
+						},
+						{
+							"time": 13200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0132.jpg",
+							"VisuallyComplete": 92
+						},
+						{
+							"time": 14300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0143.jpg",
+							"VisuallyComplete": 92
+						},
+						{
+							"time": 15300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0153.jpg",
+							"VisuallyComplete": 92
+						},
+						{
+							"time": 15600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0156.jpg",
+							"VisuallyComplete": 92
+						},
+						{
+							"time": 16000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0160.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 16600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0166.jpg",
+							"VisuallyComplete": 95
+						},
+						{
+							"time": 17200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0172.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 17900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0179.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 31000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0310.jpg",
+							"VisuallyComplete": 100
+						},
+						{
+							"time": 34700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0347.jpg",
+							"VisuallyComplete": 92
+						},
+						{
+							"time": 40000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0400.jpg",
+							"VisuallyComplete": 96
+						},
+						{
+							"time": 40500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1&file=frame_0405.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 447,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25984,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 399,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 450,
+							"requests": 1,
+							"connections": 1
+						},
+						"onesignal.com": {
+							"bytes": 777,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"cdn.onesignal.com": {
+							"bytes": 63657,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1841,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37990,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5384,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67627,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 296,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 22618,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 365576,
+							"requests": 16,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 2788155,
+							"requests": 96,
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"media.reformal.ru": {
+							"bytes": 5161,
+							"requests": 1,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 3296,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 999,
+							"requests": 2,
+							"connections": 1
+						},
+						"reklama.ngs.ru": {
+							"bytes": 3859,
+							"requests": 1,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7896,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1010,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 606,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 35907,
+							"requests": 6,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 53522,
+							"bytesUncompressed": 255930,
+							"requests": 9
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 848151,
+							"bytesUncompressed": 3586133,
+							"requests": 25
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 99613,
+							"bytesUncompressed": 799504,
+							"requests": 4
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 2336393,
+							"bytesUncompressed": 2336987,
+							"requests": 105
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120564,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 9703,
+							"bytesUncompressed": 15252,
+							"requests": 11
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 1,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 12089,
+					"TTFB": 1910,
+					"bytesOut": 46576,
+					"bytesOutDoc": 37536,
+					"bytesIn": 712140,
+					"bytesInDoc": 710436,
+					"connections": 19,
+					"requests": 61,
+					"requestsFull": 61,
+					"requestsDoc": 57,
+					"responses_200": 40,
+					"responses_404": 0,
+					"responses_other": 2,
+					"result": 0,
+					"render": 2408,
+					"fullyLoaded": 13388,
+					"cached": 1,
+					"docTime": 12089,
+					"domTime": 0,
+					"score_cache": 78,
+					"score_cdn": 0,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 88,
+					"score_etags": -1,
+					"gzip_total": 217752,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 332810,
+					"image_savings": 37412,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1238,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2201,
+					"loadEventStart": 11592,
+					"loadEventEnd": 11644,
+					"domContentLoadedEventStart": 9437,
+					"domContentLoadedEventEnd": 9438,
+					"lastVisualChange": 11214,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 280,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 60,
+					"firstPaint": 2131,
+					"docCPUms": 9218.75,
+					"fullyLoadedCPUms": 9859.375,
+					"docCPUpct": 39,
+					"fullyLoadedCPUpct": 33,
+					"isResponsive": -1,
+					"browser_process_count": 6,
+					"browser_main_memory_kb": 78280,
+					"browser_other_private_memory_kb": 78108,
+					"browser_working_set_kb": 156388,
+					"domInteractive": 2457,
+					"domLoading": 1815,
+					"base_page_ttfb": 1910,
+					"visualComplete": 11200,
+					"SpeedIndex": 2865,
+					"certificate_bytes": 61235,
+					"date": 1510540984,
+					"userTime.page content ready": 10672,
+					"userTimes": {
+						"page content ready": 10672,
+						"content component MainPage is ready": 10672,
+						"main searchbar is ready": 10672
+					},
+					"userTime.content component MainPage is ready": 10672,
+					"userTime.main searchbar is ready": 10672,
+					"userTime": 10672,
+					"testTiming": {
+						"ExtensionStart": 496,
+						"ExtensionBlank": 203,
+						"WaitForIdle": 3669,
+						"LaunchBrowser": 4395,
+						"MeasureStep": 15531,
+						"ProcessRequests": 76,
+						"RunOptimizationChecks": 72,
+						"ProcessVideo": 1231,
+						"SaveResult": 1350,
+						"RunTest": 22059,
+						"UploadImages": 1827,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 2800,
+					"visualComplete90": 2800,
+					"visualComplete95": 2900,
+					"visualComplete99": 5500,
+					"step": 1,
+					"effectiveBps": 62043,
+					"effectiveBpsDoc": 69794,
+					"smallImageCount": 3,
+					"bigImageCount": 1,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=1&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=1&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=1&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=1&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=1&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/1_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/1_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/1_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/1_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/1_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/1_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=1_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=1_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/1_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/1_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/1_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/1_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 2400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0024.jpg",
+							"VisuallyComplete": 20
+						},
+						{
+							"time": 2800,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0028.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 2900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0029.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 5500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0055.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 5900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0059.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 10500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0105.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 10800,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0108.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 10900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0109.jpg",
+							"VisuallyComplete": 94
+						},
+						{
+							"time": 11000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0110.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 11200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_1_cached&file=frame_0112.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 403,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 362,
+							"requests": 1,
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 81552,
+							"requests": 10,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 474422,
+							"requests": 25,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2956,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 434,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1012,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 326,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3441,
+							"requests": 4,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 49218,
+							"bytesUncompressed": 252175,
+							"requests": 4
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 171635,
+							"bytesUncompressed": 659303,
+							"requests": 5
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 338691,
+							"bytesUncompressed": 332859,
+							"requests": 25
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 3431,
+							"bytesUncompressed": 917,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				}
+			},
+			"2": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 2,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 42602,
+					"TTFB": 2077,
+					"bytesOut": 63246,
+					"bytesOutDoc": 62008,
+					"bytesIn": 3638607,
+					"bytesInDoc": 3632941,
+					"connections": 28,
+					"requests": 161,
+					"requestsFull": 161,
+					"requestsDoc": 155,
+					"responses_200": 152,
+					"responses_404": 0,
+					"responses_other": 2,
+					"result": 0,
+					"render": 2699,
+					"fullyLoaded": 44196,
+					"cached": 0,
+					"docTime": 42602,
+					"domTime": 0,
+					"score_cache": 86,
+					"score_cdn": 8,
+					"score_gzip": 96,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 89,
+					"score_etags": -1,
+					"gzip_total": 1027329,
+					"gzip_savings": 32027,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 2249953,
+					"image_savings": 231475,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1238,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2494,
+					"loadEventStart": 40690,
+					"loadEventEnd": 40715,
+					"domContentLoadedEventStart": 29601,
+					"domContentLoadedEventEnd": 29601,
+					"lastVisualChange": 40977,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 279,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 74,
+					"firstPaint": 2488,
+					"docCPUms": 19734.375,
+					"fullyLoadedCPUms": 20515.625,
+					"docCPUpct": 24,
+					"fullyLoadedCPUpct": 23,
+					"isResponsive": -1,
+					"browser_process_count": 5,
+					"browser_main_memory_kb": 85076,
+					"browser_other_private_memory_kb": 70456,
+					"browser_working_set_kb": 155532,
+					"domInteractive": 2513,
+					"domLoading": 1991,
+					"base_page_ttfb": 2077,
+					"visualComplete": 32000,
+					"SpeedIndex": 8055,
+					"certificate_bytes": 80134,
+					"date": 1510541009,
+					"userTime.main searchbar is ready": 30328,
+					"userTimes": {
+						"main searchbar is ready": 30328,
+						"page content ready": 30329,
+						"content component MainPage is ready": 30329
+					},
+					"userTime.page content ready": 30329,
+					"userTime.content component MainPage is ready": 30329,
+					"userTime": 30329,
+					"testTiming": {
+						"ExtensionStart": 1139,
+						"ExtensionBlank": 158,
+						"LaunchBrowser": 4532,
+						"WaitForIdle": 3166,
+						"MeasureStep": 46292,
+						"ProcessRequests": 227,
+						"RunOptimizationChecks": 814,
+						"ProcessVideo": 1756,
+						"SaveResult": 2811,
+						"RunTest": 54750,
+						"UploadImages": 1444,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 14300,
+					"visualComplete90": 14300,
+					"visualComplete95": 14300,
+					"visualComplete99": 16600,
+					"step": 1,
+					"effectiveBps": 86388,
+					"effectiveBpsDoc": 89646,
+					"smallImageCount": 26,
+					"bigImageCount": 5,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=2",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=2",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=2",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=2",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=2"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/2_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/2_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/2_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/2_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/2_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/2_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=2_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=2_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/2_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/2_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/2_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/2_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 2700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0027.jpg",
+							"VisuallyComplete": 57
+						},
+						{
+							"time": 3000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0030.jpg",
+							"VisuallyComplete": 58
+						},
+						{
+							"time": 4500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0045.jpg",
+							"VisuallyComplete": 58
+						},
+						{
+							"time": 5200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0052.jpg",
+							"VisuallyComplete": 59
+						},
+						{
+							"time": 5600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0056.jpg",
+							"VisuallyComplete": 60
+						},
+						{
+							"time": 6000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0060.jpg",
+							"VisuallyComplete": 62
+						},
+						{
+							"time": 7400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0074.jpg",
+							"VisuallyComplete": 61
+						},
+						{
+							"time": 8500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0085.jpg",
+							"VisuallyComplete": 61
+						},
+						{
+							"time": 14300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0143.jpg",
+							"VisuallyComplete": 96
+						},
+						{
+							"time": 15500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0155.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 16500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0165.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 16600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0166.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 17000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0170.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 32000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0320.jpg",
+							"VisuallyComplete": 100
+						},
+						{
+							"time": 32500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0325.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 38900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0389.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 39400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0394.jpg",
+							"VisuallyComplete": 97
+						},
+						{
+							"time": 41000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2&file=frame_0410.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 448,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25984,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 398,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 450,
+							"requests": 1,
+							"connections": 1
+						},
+						"onesignal.com": {
+							"bytes": 777,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"cdn.onesignal.com": {
+							"bytes": 63658,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1840,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37291,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5384,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67627,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 296,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 22623,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 343647,
+							"requests": 15,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 2780800,
+							"requests": 98,
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"media.reformal.ru": {
+							"bytes": 5161,
+							"requests": 1,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 3296,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 999,
+							"requests": 2,
+							"connections": 1
+						},
+						"reklama.ngs.ru": {
+							"bytes": 3859,
+							"requests": 1,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7896,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1013,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 605,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 35903,
+							"requests": 6,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 52760,
+							"bytesUncompressed": 255469,
+							"requests": 9
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 847875,
+							"bytesUncompressed": 3585346,
+							"requests": 25
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 99613,
+							"bytesUncompressed": 799504,
+							"requests": 4
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 2307444,
+							"bytesUncompressed": 2307979,
+							"requests": 106
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120566,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 9712,
+							"bytesUncompressed": 15252,
+							"requests": 11
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 2,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 10047,
+					"TTFB": 2081,
+					"bytesOut": 46915,
+					"bytesOutDoc": 37514,
+					"bytesIn": 520930,
+					"bytesInDoc": 514214,
+					"connections": 18,
+					"requests": 69,
+					"requestsFull": 69,
+					"requestsDoc": 64,
+					"responses_200": 40,
+					"responses_404": 0,
+					"responses_other": 2,
+					"result": 0,
+					"render": 2474,
+					"fullyLoaded": 11501,
+					"cached": 1,
+					"docTime": 10047,
+					"domTime": 0,
+					"score_cache": 85,
+					"score_cdn": 0,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 77,
+					"score_etags": -1,
+					"gzip_total": 47133,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 317413,
+					"image_savings": 70164,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1236,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2471,
+					"loadEventStart": 9667,
+					"loadEventEnd": 9723,
+					"domContentLoadedEventStart": 7557,
+					"domContentLoadedEventEnd": 7558,
+					"lastVisualChange": 9408,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 279,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 66,
+					"firstPaint": 2227,
+					"docCPUms": 9187.5,
+					"fullyLoadedCPUms": 10109.375,
+					"docCPUpct": 47,
+					"fullyLoadedCPUpct": 39,
+					"isResponsive": -1,
+					"browser_process_count": 5,
+					"browser_main_memory_kb": 79988,
+					"browser_other_private_memory_kb": 78352,
+					"browser_working_set_kb": 158340,
+					"domInteractive": 2440,
+					"domLoading": 2009,
+					"base_page_ttfb": 2081,
+					"visualComplete": 9400,
+					"SpeedIndex": 2865,
+					"certificate_bytes": 57377,
+					"date": 1510541074,
+					"userTime.page content ready": 8810,
+					"userTimes": {
+						"page content ready": 8810,
+						"content component MainPage is ready": 8810,
+						"main searchbar is ready": 8810
+					},
+					"userTime.content component MainPage is ready": 8810,
+					"userTime.main searchbar is ready": 8810,
+					"userTime": 8810,
+					"testTiming": {
+						"ExtensionStart": 609,
+						"ExtensionBlank": 209,
+						"WaitForIdle": 13179,
+						"LaunchBrowser": 14054,
+						"MeasureStep": 13617,
+						"ProcessRequests": 83,
+						"RunOptimizationChecks": 132,
+						"ProcessVideo": 1199,
+						"SaveResult": 1391,
+						"RunTest": 30030,
+						"UploadImages": 1634,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 2800,
+					"visualComplete90": 2800,
+					"visualComplete95": 3100,
+					"visualComplete99": 4600,
+					"step": 1,
+					"effectiveBps": 55300,
+					"effectiveBpsDoc": 64551,
+					"smallImageCount": 1,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=2&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=2&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=2&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=2&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=2&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/2_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/2_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/2_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/2_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/2_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/2_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=2_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=2_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/2_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/2_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/2_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/2_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 2500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0025.jpg",
+							"VisuallyComplete": 19
+						},
+						{
+							"time": 2800,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0028.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 3100,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0031.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 4600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0046.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 8600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0086.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 8700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0087.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 8900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0089.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 9000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0090.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 9200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0092.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 9400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_2_cached&file=frame_0094.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 362,
+							"requests": 1,
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 304,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 102431,
+							"requests": 10,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 268717,
+							"requests": 34,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2955,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 434,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1012,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 326,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3441,
+							"requests": 4,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 48992,
+							"bytesUncompressed": 251911,
+							"requests": 4
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 466,
+							"bytesUncompressed": 108,
+							"requests": 1
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 324013,
+							"bytesUncompressed": 317462,
+							"requests": 29
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 3432,
+							"bytesUncompressed": 917,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				}
+			},
+			"3": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 3,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 42743,
+					"TTFB": 2181,
+					"bytesOut": 64111,
+					"bytesOutDoc": 62872,
+					"bytesIn": 3649854,
+					"bytesInDoc": 3644188,
+					"connections": 29,
+					"requests": 161,
+					"requestsFull": 161,
+					"requestsDoc": 155,
+					"responses_200": 152,
+					"responses_404": 0,
+					"responses_other": 2,
+					"result": 0,
+					"render": 2711,
+					"fullyLoaded": 44324,
+					"cached": 0,
+					"docTime": 42743,
+					"domTime": 0,
+					"score_cache": 86,
+					"score_cdn": 8,
+					"score_gzip": 96,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 89,
+					"score_etags": -1,
+					"gzip_total": 1027463,
+					"gzip_savings": 32027,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 2248722,
+					"image_savings": 246521,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1239,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2502,
+					"loadEventStart": 40727,
+					"loadEventEnd": 40754,
+					"domContentLoadedEventStart": 29638,
+					"domContentLoadedEventEnd": 29639,
+					"lastVisualChange": 40880,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 284,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 73,
+					"firstPaint": 2509,
+					"docCPUms": 19406.25,
+					"fullyLoadedCPUms": 19906.25,
+					"docCPUpct": 24,
+					"fullyLoadedCPUpct": 22,
+					"isResponsive": -1,
+					"browser_process_count": 6,
+					"browser_main_memory_kb": 86128,
+					"browser_other_private_memory_kb": 71860,
+					"browser_working_set_kb": 157988,
+					"domInteractive": 2480,
+					"domLoading": 2080,
+					"base_page_ttfb": 2181,
+					"visualComplete": 31900,
+					"SpeedIndex": 8221,
+					"certificate_bytes": 85499,
+					"date": 1510541102,
+					"userTime.main searchbar is ready": 30371,
+					"userTimes": {
+						"main searchbar is ready": 30371,
+						"page content ready": 30372,
+						"content component MainPage is ready": 30372
+					},
+					"userTime.page content ready": 30372,
+					"userTime.content component MainPage is ready": 30372,
+					"userTime": 30372,
+					"testTiming": {
+						"ExtensionStart": 595,
+						"ExtensionBlank": 379,
+						"LaunchBrowser": 9722,
+						"WaitForIdle": 8694,
+						"MeasureStep": 46494,
+						"ProcessRequests": 262,
+						"RunOptimizationChecks": 813,
+						"ProcessVideo": 2032,
+						"SaveResult": 3088,
+						"RunTest": 60566,
+						"UploadImages": 2071,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 14900,
+					"visualComplete90": 14900,
+					"visualComplete95": 14900,
+					"visualComplete99": 17300,
+					"step": 1,
+					"effectiveBps": 86606,
+					"effectiveBpsDoc": 89842,
+					"smallImageCount": 26,
+					"bigImageCount": 5,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=3",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=3",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=3",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=3",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=3"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/3_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/3_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/3_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/3_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/3_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/3_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=3_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=3_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/3_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/3_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/3_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/3_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 2700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0027.jpg",
+							"VisuallyComplete": 57
+						},
+						{
+							"time": 3100,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0031.jpg",
+							"VisuallyComplete": 58
+						},
+						{
+							"time": 4300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0043.jpg",
+							"VisuallyComplete": 58
+						},
+						{
+							"time": 4900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0049.jpg",
+							"VisuallyComplete": 60
+						},
+						{
+							"time": 5600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0056.jpg",
+							"VisuallyComplete": 60
+						},
+						{
+							"time": 7000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0070.jpg",
+							"VisuallyComplete": 61
+						},
+						{
+							"time": 7200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0072.jpg",
+							"VisuallyComplete": 60
+						},
+						{
+							"time": 8600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0086.jpg",
+							"VisuallyComplete": 60
+						},
+						{
+							"time": 13600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0136.jpg",
+							"VisuallyComplete": 72
+						},
+						{
+							"time": 14900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0149.jpg",
+							"VisuallyComplete": 97
+						},
+						{
+							"time": 15900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0159.jpg",
+							"VisuallyComplete": 97
+						},
+						{
+							"time": 16700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0167.jpg",
+							"VisuallyComplete": 97
+						},
+						{
+							"time": 16900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0169.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 17300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0173.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 31900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0319.jpg",
+							"VisuallyComplete": 100
+						},
+						{
+							"time": 32500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0325.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 39300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0393.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 39800,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0398.jpg",
+							"VisuallyComplete": 96
+						},
+						{
+							"time": 40300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0403.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 40900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3&file=frame_0409.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 448,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25984,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 398,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 291,
+							"requests": 1,
+							"connections": 1
+						},
+						"onesignal.com": {
+							"bytes": 777,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"cdn.onesignal.com": {
+							"bytes": 63657,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1841,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37289,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5384,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67627,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 661,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 22745,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 352200,
+							"requests": 15,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 2771149,
+							"requests": 98,
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"media.reformal.ru": {
+							"bytes": 5161,
+							"requests": 1,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 3292,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 999,
+							"requests": 2,
+							"connections": 1
+						},
+						"reklama.ngs.ru": {
+							"bytes": 3860,
+							"requests": 1,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7897,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1012,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 606,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 35906,
+							"requests": 6,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 53266,
+							"bytesUncompressed": 255819,
+							"requests": 9
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 847997,
+							"bytesUncompressed": 3585346,
+							"requests": 25
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 99613,
+							"bytesUncompressed": 799504,
+							"requests": 4
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 2306051,
+							"bytesUncompressed": 2306748,
+							"requests": 106
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120564,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 9705,
+							"bytesUncompressed": 15252,
+							"requests": 11
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 3,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 9527,
+					"TTFB": 2079,
+					"bytesOut": 46770,
+					"bytesOutDoc": 37728,
+					"bytesIn": 467750,
+					"bytesInDoc": 466046,
+					"connections": 18,
+					"requests": 65,
+					"requestsFull": 65,
+					"requestsDoc": 61,
+					"responses_200": 36,
+					"responses_404": 0,
+					"responses_other": 2,
+					"result": 0,
+					"render": 2482,
+					"fullyLoaded": 10750,
+					"cached": 1,
+					"docTime": 9527,
+					"domTime": 0,
+					"score_cache": 83,
+					"score_cdn": 0,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 78,
+					"score_etags": -1,
+					"gzip_total": 47150,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 259698,
+					"image_savings": 55118,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1238,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2479,
+					"loadEventStart": 9153,
+					"loadEventEnd": 9198,
+					"domContentLoadedEventStart": 6961,
+					"domContentLoadedEventEnd": 6961,
+					"lastVisualChange": 8688,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 284,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 65,
+					"firstPaint": 2351,
+					"docCPUms": 9250,
+					"fullyLoadedCPUms": 10046.875,
+					"docCPUpct": 50,
+					"fullyLoadedCPUpct": 40,
+					"isResponsive": -1,
+					"browser_process_count": 6,
+					"browser_main_memory_kb": 82108,
+					"browser_other_private_memory_kb": 77724,
+					"browser_working_set_kb": 159832,
+					"domInteractive": 2595,
+					"domLoading": 2009,
+					"base_page_ttfb": 2079,
+					"visualComplete": 8700,
+					"SpeedIndex": 3041,
+					"certificate_bytes": 57377,
+					"date": 1510541156,
+					"userTime.main searchbar is ready": 8194,
+					"userTimes": {
+						"main searchbar is ready": 8194,
+						"page content ready": 8194,
+						"content component MainPage is ready": 8194
+					},
+					"userTime.page content ready": 8194,
+					"userTime.content component MainPage is ready": 8194,
+					"userTime": 8194,
+					"testTiming": {
+						"ExtensionStart": 489,
+						"ExtensionBlank": 189,
+						"WaitForIdle": 966,
+						"LaunchBrowser": 1671,
+						"MeasureStep": 12914,
+						"ProcessRequests": 77,
+						"RunOptimizationChecks": 102,
+						"ProcessVideo": 1130,
+						"SaveResult": 1286,
+						"RunTest": 16710,
+						"UploadImages": 1603,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 3000,
+					"visualComplete90": 3000,
+					"visualComplete95": 3300,
+					"visualComplete99": 4500,
+					"step": 1,
+					"effectiveBps": 53944,
+					"effectiveBpsDoc": 62573,
+					"smallImageCount": 1,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=3&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=3&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=3&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=3&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=3&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/3_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/3_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/3_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/3_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/3_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/3_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=3_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=3_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/3_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/3_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/3_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/3_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 2500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0025.jpg",
+							"VisuallyComplete": 20
+						},
+						{
+							"time": 3000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0030.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 3300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0033.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 4300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0043.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 4500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0045.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 7800,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0078.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 8000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0080.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 8400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0084.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 8700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_3_cached&file=frame_0087.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 225,
+							"requests": 1,
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 94026,
+							"requests": 10,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 218720,
+							"requests": 30,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2950,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 434,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1013,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 325,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3441,
+							"requests": 4,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 49008,
+							"bytesUncompressed": 252102,
+							"requests": 4
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 466,
+							"bytesUncompressed": 108,
+							"requests": 1
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 265447,
+							"bytesUncompressed": 259747,
+							"requests": 25
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 3432,
+							"bytesUncompressed": 917,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				}
+			},
+			"4": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 4,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 42755,
+					"TTFB": 2087,
+					"bytesOut": 63100,
+					"bytesOutDoc": 61862,
+					"bytesIn": 3618858,
+					"bytesInDoc": 3613192,
+					"connections": 28,
+					"requests": 160,
+					"requestsFull": 160,
+					"requestsDoc": 154,
+					"responses_200": 151,
+					"responses_404": 0,
+					"responses_other": 2,
+					"result": 0,
+					"render": 2491,
+					"fullyLoaded": 44336,
+					"cached": 0,
+					"docTime": 42755,
+					"domTime": 0,
+					"score_cache": 86,
+					"score_cdn": 8,
+					"score_gzip": 96,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 89,
+					"score_etags": -1,
+					"gzip_total": 1022323,
+					"gzip_savings": 32027,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 2235749,
+					"image_savings": 231475,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1238,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2488,
+					"loadEventStart": 40763,
+					"loadEventEnd": 40792,
+					"domContentLoadedEventStart": 29541,
+					"domContentLoadedEventEnd": 29541,
+					"lastVisualChange": 40563,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 279,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 74,
+					"firstPaint": 2232,
+					"docCPUms": 17859.375,
+					"fullyLoadedCPUms": 18640.625,
+					"docCPUpct": 22,
+					"fullyLoadedCPUpct": 21,
+					"isResponsive": -1,
+					"browser_process_count": 5,
+					"browser_main_memory_kb": 81520,
+					"browser_other_private_memory_kb": 69856,
+					"browser_working_set_kb": 151376,
+					"domInteractive": 2384,
+					"domLoading": 2007,
+					"base_page_ttfb": 2087,
+					"visualComplete": 32100,
+					"SpeedIndex": 7984,
+					"certificate_bytes": 80101,
+					"date": 1510541177,
+					"userTime.main searchbar is ready": 30286,
+					"userTimes": {
+						"main searchbar is ready": 30286,
+						"page content ready": 30287,
+						"content component MainPage is ready": 30287
+					},
+					"userTime.page content ready": 30287,
+					"userTime.content component MainPage is ready": 30287,
+					"userTime": 30287,
+					"testTiming": {
+						"ExtensionStart": 1016,
+						"ExtensionBlank": 234,
+						"WaitForIdle": 1373,
+						"LaunchBrowser": 2679,
+						"MeasureStep": 46454,
+						"ProcessRequests": 227,
+						"RunOptimizationChecks": 805,
+						"ProcessVideo": 1779,
+						"SaveResult": 2825,
+						"RunTest": 53030,
+						"UploadImages": 2316,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 14300,
+					"visualComplete90": 14300,
+					"visualComplete95": 14300,
+					"visualComplete99": 16600,
+					"step": 1,
+					"effectiveBps": 85655,
+					"effectiveBpsDoc": 88846,
+					"smallImageCount": 25,
+					"bigImageCount": 5,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=4",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=4",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=4",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=4",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=4"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/4_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/4_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/4_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/4_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/4_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/4_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=4_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=4_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/4_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/4_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/4_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/4_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 2500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0025.jpg",
+							"VisuallyComplete": 19
+						},
+						{
+							"time": 2600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0026.jpg",
+							"VisuallyComplete": 57
+						},
+						{
+							"time": 2900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0029.jpg",
+							"VisuallyComplete": 58
+						},
+						{
+							"time": 4400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0044.jpg",
+							"VisuallyComplete": 58
+						},
+						{
+							"time": 5100,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0051.jpg",
+							"VisuallyComplete": 59
+						},
+						{
+							"time": 5600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0056.jpg",
+							"VisuallyComplete": 60
+						},
+						{
+							"time": 6000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0060.jpg",
+							"VisuallyComplete": 62
+						},
+						{
+							"time": 7200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0072.jpg",
+							"VisuallyComplete": 61
+						},
+						{
+							"time": 8400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0084.jpg",
+							"VisuallyComplete": 61
+						},
+						{
+							"time": 14300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0143.jpg",
+							"VisuallyComplete": 96
+						},
+						{
+							"time": 15500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0155.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 16500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0165.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 16600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0166.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 17000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0170.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 32100,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0321.jpg",
+							"VisuallyComplete": 100
+						},
+						{
+							"time": 32700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0327.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 39500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0395.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 40000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0400.jpg",
+							"VisuallyComplete": 96
+						},
+						{
+							"time": 40600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0406.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 448,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25984,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 398,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 450,
+							"requests": 1,
+							"connections": 1
+						},
+						"onesignal.com": {
+							"bytes": 777,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"cdn.onesignal.com": {
+							"bytes": 63658,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1841,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37290,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5387,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 62483,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 660,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 22722,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 343774,
+							"requests": 15,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 2766425,
+							"requests": 97,
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"media.reformal.ru": {
+							"bytes": 5161,
+							"requests": 1,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 3293,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 999,
+							"requests": 2,
+							"connections": 1
+						},
+						"reklama.ngs.ru": {
+							"bytes": 3859,
+							"requests": 1,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7896,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1012,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 606,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 35906,
+							"requests": 6,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 53263,
+							"bytesUncompressed": 255853,
+							"requests": 9
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 842832,
+							"bytesUncompressed": 3579266,
+							"requests": 25
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 99613,
+							"bytesUncompressed": 799504,
+							"requests": 4
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 2293065,
+							"bytesUncompressed": 2293775,
+							"requests": 105
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120564,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 9704,
+							"bytesUncompressed": 15252,
+							"requests": 11
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 4,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 10264,
+					"TTFB": 2276,
+					"bytesOut": 47721,
+					"bytesOutDoc": 38678,
+					"bytesIn": 542579,
+					"bytesInDoc": 540643,
+					"connections": 20,
+					"requests": 70,
+					"requestsFull": 70,
+					"requestsDoc": 66,
+					"responses_200": 39,
+					"responses_404": 0,
+					"responses_other": 2,
+					"result": 0,
+					"render": 3132,
+					"fullyLoaded": 11497,
+					"cached": 1,
+					"docTime": 10264,
+					"domTime": 0,
+					"score_cache": 82,
+					"score_cdn": 6,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 73,
+					"score_etags": -1,
+					"gzip_total": 114246,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 269857,
+					"image_savings": 70164,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1237,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2479,
+					"loadEventStart": 9912,
+					"loadEventEnd": 9968,
+					"domContentLoadedEventStart": 7738,
+					"domContentLoadedEventEnd": 7738,
+					"lastVisualChange": 9398,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 277,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 59,
+					"firstPaint": 2873,
+					"docCPUms": 9640.625,
+					"fullyLoadedCPUms": 10515.625,
+					"docCPUpct": 48,
+					"fullyLoadedCPUpct": 40,
+					"isResponsive": -1,
+					"browser_process_count": 5,
+					"browser_main_memory_kb": 75616,
+					"browser_other_private_memory_kb": 76620,
+					"browser_working_set_kb": 152236,
+					"domInteractive": 2862,
+					"domLoading": 2207,
+					"base_page_ttfb": 2276,
+					"visualComplete": 9400,
+					"SpeedIndex": 3381,
+					"certificate_bytes": 64386,
+					"date": 1510541233,
+					"userTime.page content ready": 8902,
+					"userTimes": {
+						"page content ready": 8902,
+						"content component MainPage is ready": 8902,
+						"main searchbar is ready": 8902
+					},
+					"userTime.content component MainPage is ready": 8902,
+					"userTime.main searchbar is ready": 8902,
+					"userTime": 8902,
+					"testTiming": {
+						"ExtensionStart": 460,
+						"ExtensionBlank": 189,
+						"WaitForIdle": 2209,
+						"LaunchBrowser": 2930,
+						"MeasureStep": 13638,
+						"ProcessRequests": 86,
+						"RunOptimizationChecks": 108,
+						"ProcessVideo": 1111,
+						"SaveResult": 1279,
+						"RunTest": 18884,
+						"UploadImages": 1982,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 3500,
+					"visualComplete90": 3500,
+					"visualComplete95": 3500,
+					"visualComplete99": 5500,
+					"step": 1,
+					"effectiveBps": 58841,
+					"effectiveBpsDoc": 67681,
+					"smallImageCount": 2,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=4&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=4&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=4&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=4&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=4&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/4_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/4_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/4_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=4_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=4_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 3100,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0031.jpg",
+							"VisuallyComplete": 57
+						},
+						{
+							"time": 3500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0035.jpg",
+							"VisuallyComplete": 97
+						},
+						{
+							"time": 4300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0043.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 5500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0055.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 8600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0086.jpg",
+							"VisuallyComplete": 92
+						},
+						{
+							"time": 8800,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0088.jpg",
+							"VisuallyComplete": 97
+						},
+						{
+							"time": 9000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0090.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 9400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0094.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 403,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 362,
+							"requests": 1,
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 353,
+							"requests": 3,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67340,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 102463,
+							"requests": 10,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 220809,
+							"requests": 32,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2951,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 434,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1013,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 326,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3444,
+							"requests": 4,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 49028,
+							"bytesUncompressed": 252302,
+							"requests": 4
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 67806,
+							"bytesUncompressed": 192121,
+							"requests": 2
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 276050,
+							"bytesUncompressed": 269906,
+							"requests": 27
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 3431,
+							"bytesUncompressed": 917,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				}
+			},
+			"5": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 5,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 43102,
+					"TTFB": 2181,
+					"bytesOut": 63251,
+					"bytesOutDoc": 62014,
+					"bytesIn": 3630450,
+					"bytesInDoc": 3624784,
+					"connections": 28,
+					"requests": 160,
+					"requestsFull": 160,
+					"requestsDoc": 154,
+					"responses_200": 151,
+					"responses_404": 0,
+					"responses_other": 2,
+					"result": 0,
+					"render": 2585,
+					"fullyLoaded": 44707,
+					"cached": 0,
+					"docTime": 43102,
+					"domTime": 0,
+					"score_cache": 86,
+					"score_cdn": 8,
+					"score_gzip": 96,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 89,
+					"score_etags": -1,
+					"gzip_total": 1027897,
+					"gzip_savings": 32027,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 2240988,
+					"image_savings": 231475,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1237,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2476,
+					"loadEventStart": 41190,
+					"loadEventEnd": 41250,
+					"domContentLoadedEventStart": 28873,
+					"domContentLoadedEventEnd": 28873,
+					"lastVisualChange": 40267,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 282,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 74,
+					"firstPaint": 2368,
+					"docCPUms": 21343.75,
+					"fullyLoadedCPUms": 22281.25,
+					"docCPUpct": 26,
+					"fullyLoadedCPUpct": 25,
+					"isResponsive": -1,
+					"browser_process_count": 5,
+					"browser_main_memory_kb": 81088,
+					"browser_other_private_memory_kb": 70532,
+					"browser_working_set_kb": 151620,
+					"domInteractive": 2541,
+					"domLoading": 2105,
+					"base_page_ttfb": 2181,
+					"visualComplete": 31300,
+					"SpeedIndex": 8489,
+					"certificate_bytes": 80101,
+					"date": 1510541254,
+					"userTime.page content ready": 29482,
+					"userTimes": {
+						"page content ready": 29482,
+						"content component MainPage is ready": 29482,
+						"main searchbar is ready": 29482
+					},
+					"userTime.content component MainPage is ready": 29482,
+					"userTime.main searchbar is ready": 29482,
+					"userTime": 29482,
+					"testTiming": {
+						"ExtensionStart": 775,
+						"ExtensionBlank": 271,
+						"WaitForIdle": 1364,
+						"MeasureStep": 46826,
+						"ProcessRequests": 233,
+						"RunOptimizationChecks": 816,
+						"ProcessVideo": 1755,
+						"SaveResult": 2826,
+						"RunTest": 53433,
+						"UploadImages": 1689,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 15500,
+					"visualComplete90": 15500,
+					"visualComplete95": 15500,
+					"visualComplete99": 17400,
+					"step": 1,
+					"effectiveBps": 85370,
+					"effectiveBpsDoc": 88580,
+					"smallImageCount": 25,
+					"bigImageCount": 5,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=5",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=5",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=5",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=5",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=5"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/5_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/5_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/5_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/5_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/5_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/5_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=5_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=5_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/5_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/5_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/5_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/5_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 2600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0026.jpg",
+							"VisuallyComplete": 19
+						},
+						{
+							"time": 2700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0027.jpg",
+							"VisuallyComplete": 57
+						},
+						{
+							"time": 4600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0046.jpg",
+							"VisuallyComplete": 58
+						},
+						{
+							"time": 6000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0060.jpg",
+							"VisuallyComplete": 59
+						},
+						{
+							"time": 7200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0072.jpg",
+							"VisuallyComplete": 59
+						},
+						{
+							"time": 8600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0086.jpg",
+							"VisuallyComplete": 59
+						},
+						{
+							"time": 14200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0142.jpg",
+							"VisuallyComplete": 62
+						},
+						{
+							"time": 15500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0155.jpg",
+							"VisuallyComplete": 95
+						},
+						{
+							"time": 16400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0164.jpg",
+							"VisuallyComplete": 95
+						},
+						{
+							"time": 16500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0165.jpg",
+							"VisuallyComplete": 95
+						},
+						{
+							"time": 16900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0169.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 17400,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0174.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 31300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0313.jpg",
+							"VisuallyComplete": 100
+						},
+						{
+							"time": 34900,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0349.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 38600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0386.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 39200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0392.jpg",
+							"VisuallyComplete": 97
+						},
+						{
+							"time": 39700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0397.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 40300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5&file=frame_0403.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 448,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25984,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 399,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 450,
+							"requests": 1,
+							"connections": 1
+						},
+						"onesignal.com": {
+							"bytes": 778,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"cdn.onesignal.com": {
+							"bytes": 63657,
+							"requests": 1,
+							"cdn_provider": "Cloudflare",
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1841,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37706,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5384,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67627,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 296,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 23156,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 344620,
+							"requests": 16,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 2771365,
+							"requests": 96,
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"media.reformal.ru": {
+							"bytes": 5161,
+							"requests": 1,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 3293,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 999,
+							"requests": 2,
+							"connections": 1
+						},
+						"reklama.ngs.ru": {
+							"bytes": 3859,
+							"requests": 1,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7896,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1013,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 607,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 35906,
+							"requests": 6,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 53748,
+							"bytesUncompressed": 255762,
+							"requests": 9
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 848406,
+							"bytesUncompressed": 3585345,
+							"requests": 25
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 99613,
+							"bytesUncompressed": 799504,
+							"requests": 4
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 2298420,
+							"bytesUncompressed": 2299014,
+							"requests": 105
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120564,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 9706,
+							"bytesUncompressed": 15253,
+							"requests": 11
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 5,
+					"tester": "N1-ARH01-192.168.27.20",
+					"URL": "https://arhangelsk.n1.ru",
+					"loadTime": 10455,
+					"TTFB": 2106,
+					"bytesOut": 46320,
+					"bytesOutDoc": 37170,
+					"bytesIn": 563015,
+					"bytesInDoc": 561311,
+					"connections": 19,
+					"requests": 59,
+					"requestsFull": 59,
+					"requestsDoc": 54,
+					"responses_200": 34,
+					"responses_404": 0,
+					"responses_other": 4,
+					"result": 0,
+					"render": 2539,
+					"fullyLoaded": 11769,
+					"cached": 1,
+					"docTime": 10455,
+					"domTime": 0,
+					"score_cache": 80,
+					"score_cdn": 0,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 80,
+					"score_etags": -1,
+					"gzip_total": 47233,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 355479,
+					"image_savings": 70164,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 1238,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+					"titleTime": 2402,
+					"loadEventStart": 10019,
+					"loadEventEnd": 10070,
+					"domContentLoadedEventStart": 7883,
+					"domContentLoadedEventEnd": 7883,
+					"lastVisualChange": 9768,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.62",
+					"server_count": 1,
+					"server_rtt": 283,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 44,
+					"firstPaint": 2217,
+					"docCPUms": 8687.5,
+					"fullyLoadedCPUms": 9437.5,
+					"docCPUpct": 43,
+					"fullyLoadedCPUpct": 36,
+					"isResponsive": -1,
+					"browser_process_count": 5,
+					"browser_main_memory_kb": 78336,
+					"browser_other_private_memory_kb": 77332,
+					"browser_working_set_kb": 155668,
+					"domInteractive": 2502,
+					"domLoading": 1996,
+					"base_page_ttfb": 2106,
+					"visualComplete": 9800,
+					"SpeedIndex": 3294,
+					"certificate_bytes": 60699,
+					"date": 1510541314,
+					"userTime.main searchbar is ready": 9127,
+					"userTimes": {
+						"main searchbar is ready": 9127,
+						"page content ready": 9129,
+						"content component MainPage is ready": 9129
+					},
+					"userTime.page content ready": 9129,
+					"userTime.content component MainPage is ready": 9129,
+					"userTime": 9129,
+					"testTiming": {
+						"ExtensionStart": 430,
+						"ExtensionBlank": 216,
+						"WaitForIdle": 6516,
+						"LaunchBrowser": 7233,
+						"MeasureStep": 13886,
+						"ProcessRequests": 74,
+						"RunOptimizationChecks": 64,
+						"ProcessVideo": 1227,
+						"SaveResult": 1335,
+						"RunTest": 23415,
+						"UploadImages": 1456,
+						"AllRunsDuration": 426000
+					},
+					"visualComplete85": 3300,
+					"visualComplete90": 3300,
+					"visualComplete95": 4200,
+					"visualComplete99": 4700,
+					"step": 1,
+					"effectiveBps": 58265,
+					"effectiveBpsDoc": 67230,
+					"smallImageCount": 2,
+					"bigImageCount": 1,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=5&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=5&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=5&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=5&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=5&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171113_2M_S/5_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171113_2M_S/5_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171113_2M_S/5_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/5_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/5_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/5_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=5_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=5_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/13/2M/S/5_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/5_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/5_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/5_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 2500,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0025.jpg",
+							"VisuallyComplete": 20
+						},
+						{
+							"time": 3300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0033.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 4200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0042.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 4300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0043.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 4700,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0047.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 8800,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0088.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 9000,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0090.jpg",
+							"VisuallyComplete": 93
+						},
+						{
+							"time": 9200,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0092.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 9300,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0093.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 9600,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0096.jpg",
+							"VisuallyComplete": 98
+						},
+						{
+							"time": 9800,
+							"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_5_cached&file=frame_0098.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 362,
+							"requests": 1,
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 202,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"usage.trackjs.com": {
+							"bytes": 229,
+							"requests": 1,
+							"connections": 1
+						},
+						"capture.trackjs.com": {
+							"bytes": 297,
+							"requests": 1,
+							"connections": 1
+						},
+						"api.n1.ru": {
+							"bytes": 857,
+							"requests": 2,
+							"connections": 1
+						},
+						"arhangelsk.n1.ru": {
+							"bytes": 102528,
+							"requests": 10,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 305001,
+							"requests": 23,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2953,
+							"requests": 5,
+							"connections": 3
+						},
+						"www.tns-counter.ru": {
+							"bytes": 434,
+							"requests": 1,
+							"connections": 1
+						},
+						"passport.ngs.ru": {
+							"bytes": 1014,
+							"requests": 2,
+							"connections": 2
+						},
+						"realty.ngs.ru": {
+							"bytes": 327,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3443,
+							"requests": 4,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 49093,
+							"bytesUncompressed": 252118,
+							"requests": 4
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 466,
+							"bytesUncompressed": 108,
+							"requests": 1
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 361208,
+							"bytesUncompressed": 355528,
+							"requests": 24
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 3432,
+							"bytesUncompressed": 918,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "info",
+							"line": 15,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MainPage",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						},
+						{
+							"column": 96,
+							"level": "warning",
+							"line": 15,
+							"source": "console-api",
+							"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+							"url": "https://arhangelsk.n1.ru/tracker.js"
+						}
+					]
+				}
+			}
+		},
+		"fvonly": false,
+		"successfulFVRuns": 5,
+		"successfulRVRuns": 5,
+		"median": {
+			"firstView": {
+				"numSteps": 1,
+				"run": 4,
+				"tester": "N1-ARH01-192.168.27.20",
+				"URL": "https://arhangelsk.n1.ru",
+				"loadTime": 42755,
+				"TTFB": 2087,
+				"bytesOut": 63100,
+				"bytesOutDoc": 61862,
+				"bytesIn": 3618858,
+				"bytesInDoc": 3613192,
+				"connections": 28,
+				"requests": 160,
+				"requestsFull": 160,
+				"requestsDoc": 154,
+				"responses_200": 151,
+				"responses_404": 0,
+				"responses_other": 2,
+				"result": 0,
+				"render": 2491,
+				"fullyLoaded": 44336,
+				"cached": 0,
+				"docTime": 42755,
+				"domTime": 0,
+				"score_cache": 86,
+				"score_cdn": 8,
+				"score_gzip": 96,
+				"score_cookies": -1,
+				"score_keep-alive": 100,
+				"score_minify": -1,
+				"score_combine": 100,
+				"score_compress": 89,
+				"score_etags": -1,
+				"gzip_total": 1022323,
+				"gzip_savings": 32027,
+				"minify_total": 0,
+				"minify_savings": 0,
+				"image_total": 2235749,
+				"image_savings": 231475,
+				"base_page_redirects": 0,
+				"optimization_checked": 1,
+				"aft": 0,
+				"domElements": 1238,
+				"pageSpeedVersion": "1.9",
+				"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+				"titleTime": 2488,
+				"loadEventStart": 40763,
+				"loadEventEnd": 40792,
+				"domContentLoadedEventStart": 29541,
+				"domContentLoadedEventEnd": 29541,
+				"lastVisualChange": 40563,
+				"browser_name": "Google Chrome",
+				"browser_version": "62.0.3202.62",
+				"server_count": 1,
+				"server_rtt": 279,
+				"base_page_cdn": "",
+				"adult_site": 0,
+				"eventName": "Step 1",
+				"fixed_viewport": 1,
+				"score_progressive_jpeg": 74,
+				"firstPaint": 2232,
+				"docCPUms": 17859.375,
+				"fullyLoadedCPUms": 18640.625,
+				"docCPUpct": 22,
+				"fullyLoadedCPUpct": 21,
+				"isResponsive": -1,
+				"browser_process_count": 5,
+				"browser_main_memory_kb": 81520,
+				"browser_other_private_memory_kb": 69856,
+				"browser_working_set_kb": 151376,
+				"domInteractive": 2384,
+				"domLoading": 2007,
+				"base_page_ttfb": 2087,
+				"visualComplete": 32100,
+				"SpeedIndex": 7984,
+				"certificate_bytes": 80101,
+				"date": 1510541177,
+				"userTime.main searchbar is ready": 30286,
+				"userTimes": {
+					"main searchbar is ready": 30286,
+					"page content ready": 30287,
+					"content component MainPage is ready": 30287
+				},
+				"userTime.page content ready": 30287,
+				"userTime.content component MainPage is ready": 30287,
+				"userTime": 30287,
+				"testTiming": {
+					"ExtensionStart": 1016,
+					"ExtensionBlank": 234,
+					"WaitForIdle": 1373,
+					"LaunchBrowser": 2679,
+					"MeasureStep": 46454,
+					"ProcessRequests": 227,
+					"RunOptimizationChecks": 805,
+					"ProcessVideo": 1779,
+					"SaveResult": 2825,
+					"RunTest": 53030,
+					"UploadImages": 2316,
+					"AllRunsDuration": 426000
+				},
+				"visualComplete85": 14300,
+				"visualComplete90": 14300,
+				"visualComplete95": 14300,
+				"visualComplete99": 16600,
+				"step": 1,
+				"effectiveBps": 85655,
+				"effectiveBpsDoc": 88846,
+				"smallImageCount": 25,
+				"bigImageCount": 5,
+				"maybeCaptcha": 0,
+				"pages": {
+					"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=4",
+					"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=4",
+					"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=4",
+					"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=4",
+					"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=4"
+				},
+				"thumbnails": {
+					"waterfall": "http://wpt.n1.s/result/171113_2M_S/4_waterfall_thumb.png",
+					"checklist": "http://wpt.n1.s/result/171113_2M_S/4_optimization_thumb.png",
+					"screenShot": "http://wpt.n1.s/result/171113_2M_S/4_screen_thumb.png"
+				},
+				"images": {
+					"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/4_waterfall.png",
+					"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/4_connection.png",
+					"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/4_optimization.png",
+					"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=4_screen.jpg",
+					"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=4_screen.png"
+				},
+				"rawData": {
+					"headers": "http://wpt.n1.s/results/17/11/13/2M/S/4_report.txt",
+					"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/4_IEWPG.txt",
+					"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/4_IEWTR.txt",
+					"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/4_progress.csv"
+				},
+				"videoFrames": [
+					{
+						"time": 0,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0000.jpg",
+						"VisuallyComplete": 0
+					},
+					{
+						"time": 2500,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0025.jpg",
+						"VisuallyComplete": 19
+					},
+					{
+						"time": 2600,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0026.jpg",
+						"VisuallyComplete": 57
+					},
+					{
+						"time": 2900,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0029.jpg",
+						"VisuallyComplete": 58
+					},
+					{
+						"time": 4400,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0044.jpg",
+						"VisuallyComplete": 58
+					},
+					{
+						"time": 5100,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0051.jpg",
+						"VisuallyComplete": 59
+					},
+					{
+						"time": 5600,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0056.jpg",
+						"VisuallyComplete": 60
+					},
+					{
+						"time": 6000,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0060.jpg",
+						"VisuallyComplete": 62
+					},
+					{
+						"time": 7200,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0072.jpg",
+						"VisuallyComplete": 61
+					},
+					{
+						"time": 8400,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0084.jpg",
+						"VisuallyComplete": 61
+					},
+					{
+						"time": 14300,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0143.jpg",
+						"VisuallyComplete": 96
+					},
+					{
+						"time": 15500,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0155.jpg",
+						"VisuallyComplete": 98
+					},
+					{
+						"time": 16500,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0165.jpg",
+						"VisuallyComplete": 98
+					},
+					{
+						"time": 16600,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0166.jpg",
+						"VisuallyComplete": 99
+					},
+					{
+						"time": 17000,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0170.jpg",
+						"VisuallyComplete": 99
+					},
+					{
+						"time": 32100,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0321.jpg",
+						"VisuallyComplete": 100
+					},
+					{
+						"time": 32700,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0327.jpg",
+						"VisuallyComplete": 93
+					},
+					{
+						"time": 39500,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0395.jpg",
+						"VisuallyComplete": 93
+					},
+					{
+						"time": 40000,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0400.jpg",
+						"VisuallyComplete": 96
+					},
+					{
+						"time": 40600,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4&file=frame_0406.jpg",
+						"VisuallyComplete": 100
+					}
+				],
+				"domains": {
+					"adservice.google.com": {
+						"bytes": 466,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"www.google.com": {
+						"bytes": 448,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"cdn.scarabresearch.com": {
+						"bytes": 25984,
+						"requests": 1,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"www.facebook.com": {
+						"bytes": 398,
+						"requests": 2,
+						"cdn_provider": "Facebook",
+						"connections": 1
+					},
+					"vk.com": {
+						"bytes": 450,
+						"requests": 1,
+						"connections": 1
+					},
+					"onesignal.com": {
+						"bytes": 777,
+						"requests": 1,
+						"cdn_provider": "Cloudflare",
+						"connections": 1
+					},
+					"cdn.onesignal.com": {
+						"bytes": 63658,
+						"requests": 1,
+						"cdn_provider": "Cloudflare",
+						"connections": 1
+					},
+					"tpc.googlesyndication.com": {
+						"bytes": 1841,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"www.googletagmanager.com": {
+						"bytes": 22673,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"www.google-analytics.com": {
+						"bytes": 37290,
+						"requests": 4,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"www.googletagservices.com": {
+						"bytes": 5387,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"usage.trackjs.com": {
+						"bytes": 229,
+						"requests": 1,
+						"connections": 1
+					},
+					"capture.trackjs.com": {
+						"bytes": 297,
+						"requests": 1,
+						"connections": 1
+					},
+					"securepubads.g.doubleclick.net": {
+						"bytes": 62483,
+						"requests": 2,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"stats.g.doubleclick.net": {
+						"bytes": 660,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"connect.facebook.net": {
+						"bytes": 22722,
+						"requests": 2,
+						"cdn_provider": "Facebook",
+						"connections": 1
+					},
+					"api.n1.ru": {
+						"bytes": 857,
+						"requests": 2,
+						"connections": 1
+					},
+					"arhangelsk.n1.ru": {
+						"bytes": 343774,
+						"requests": 15,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"cdn.n1.ru": {
+						"bytes": 2766425,
+						"requests": 97,
+						"connections": 1
+					},
+					"www.google.ru": {
+						"bytes": 349,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"media.reformal.ru": {
+						"bytes": 5161,
+						"requests": 1,
+						"connections": 1
+					},
+					"top-fwz1.mail.ru": {
+						"bytes": 5781,
+						"requests": 3,
+						"connections": 1
+					},
+					"counter.yadro.ru": {
+						"bytes": 3293,
+						"requests": 5,
+						"connections": 3
+					},
+					"www.tns-counter.ru": {
+						"bytes": 999,
+						"requests": 2,
+						"connections": 1
+					},
+					"reklama.ngs.ru": {
+						"bytes": 3859,
+						"requests": 1,
+						"connections": 1
+					},
+					"s.ngs.ru": {
+						"bytes": 7896,
+						"requests": 1,
+						"connections": 1
+					},
+					"passport.ngs.ru": {
+						"bytes": 1012,
+						"requests": 2,
+						"connections": 2
+					},
+					"realty.ngs.ru": {
+						"bytes": 606,
+						"requests": 1,
+						"connections": 1
+					},
+					"mc.yandex.ru": {
+						"bytes": 35906,
+						"requests": 6,
+						"connections": 2
+					}
+				},
+				"breakdown": {
+					"html": {
+						"color": [
+							130,
+							181,
+							252
+						],
+						"bytes": 53263,
+						"bytesUncompressed": 255853,
+						"requests": 9
+					},
+					"js": {
+						"color": [
+							254,
+							197,
+							132
+						],
+						"bytes": 842832,
+						"bytesUncompressed": 3579266,
+						"requests": 25
+					},
+					"css": {
+						"color": [
+							178,
+							234,
+							148
+						],
+						"bytes": 99613,
+						"bytesUncompressed": 799504,
+						"requests": 4
+					},
+					"image": {
+						"color": [
+							196,
+							154,
+							232
+						],
+						"bytes": 2293065,
+						"bytesUncompressed": 2293775,
+						"requests": 105
+					},
+					"flash": {
+						"color": [
+							45,
+							183,
+							193
+						],
+						"bytes": 0,
+						"bytesUncompressed": 0,
+						"requests": 0
+					},
+					"font": {
+						"color": [
+							255,
+							82,
+							62
+						],
+						"bytes": 120564,
+						"bytesUncompressed": 119960,
+						"requests": 2
+					},
+					"other": {
+						"color": [
+							196,
+							196,
+							196
+						],
+						"bytes": 9704,
+						"bytesUncompressed": 15252,
+						"requests": 11
+					}
+				},
+				"consoleLog": [
+					{
+						"column": 96,
+						"level": "info",
+						"line": 15,
+						"source": "console-api",
+						"text": "[Application]: start",
+						"url": "https://arhangelsk.n1.ru/tracker.js"
+					},
+					{
+						"column": 96,
+						"level": "info",
+						"line": 15,
+						"source": "console-api",
+						"text": "[Dispatcher]: call %s, %s ()",
+						"url": "https://arhangelsk.n1.ru/tracker.js"
+					},
+					{
+						"column": 96,
+						"level": "info",
+						"line": 15,
+						"source": "console-api",
+						"text": "[ControllerDefault]: set pageContent component MainPage",
+						"url": "https://arhangelsk.n1.ru/tracker.js"
+					},
+					{
+						"column": 96,
+						"level": "warning",
+						"line": 15,
+						"source": "console-api",
+						"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+						"url": "https://arhangelsk.n1.ru/tracker.js"
+					}
+				]
+			},
+			"repeatView": {
+				"numSteps": 1,
+				"run": 4,
+				"tester": "N1-ARH01-192.168.27.20",
+				"URL": "https://arhangelsk.n1.ru",
+				"loadTime": 10264,
+				"TTFB": 2276,
+				"bytesOut": 47721,
+				"bytesOutDoc": 38678,
+				"bytesIn": 542579,
+				"bytesInDoc": 540643,
+				"connections": 20,
+				"requests": 70,
+				"requestsFull": 70,
+				"requestsDoc": 66,
+				"responses_200": 39,
+				"responses_404": 0,
+				"responses_other": 2,
+				"result": 0,
+				"render": 3132,
+				"fullyLoaded": 11497,
+				"cached": 1,
+				"docTime": 10264,
+				"domTime": 0,
+				"score_cache": 82,
+				"score_cdn": 6,
+				"score_gzip": 100,
+				"score_cookies": -1,
+				"score_keep-alive": 100,
+				"score_minify": -1,
+				"score_combine": 100,
+				"score_compress": 73,
+				"score_etags": -1,
+				"gzip_total": 114246,
+				"gzip_savings": 0,
+				"minify_total": 0,
+				"minify_savings": 0,
+				"image_total": 269857,
+				"image_savings": 70164,
+				"base_page_redirects": 0,
+				"optimization_checked": 1,
+				"aft": 0,
+				"domElements": 1237,
+				"pageSpeedVersion": "1.9",
+				"title": "Недвижимость в Архангельске, объявления о продаже недвижимости без посредников и агентств - N1.RU Архангельск (ранее dom.29.ru)",
+				"titleTime": 2479,
+				"loadEventStart": 9912,
+				"loadEventEnd": 9968,
+				"domContentLoadedEventStart": 7738,
+				"domContentLoadedEventEnd": 7738,
+				"lastVisualChange": 9398,
+				"browser_name": "Google Chrome",
+				"browser_version": "62.0.3202.62",
+				"server_count": 1,
+				"server_rtt": 277,
+				"base_page_cdn": "",
+				"adult_site": 0,
+				"eventName": "Step 1",
+				"fixed_viewport": 1,
+				"score_progressive_jpeg": 59,
+				"firstPaint": 2873,
+				"docCPUms": 9640.625,
+				"fullyLoadedCPUms": 10515.625,
+				"docCPUpct": 48,
+				"fullyLoadedCPUpct": 40,
+				"isResponsive": -1,
+				"browser_process_count": 5,
+				"browser_main_memory_kb": 75616,
+				"browser_other_private_memory_kb": 76620,
+				"browser_working_set_kb": 152236,
+				"domInteractive": 2862,
+				"domLoading": 2207,
+				"base_page_ttfb": 2276,
+				"visualComplete": 9400,
+				"SpeedIndex": 3381,
+				"certificate_bytes": 64386,
+				"date": 1510541233,
+				"userTime.page content ready": 8902,
+				"userTimes": {
+					"page content ready": 8902,
+					"content component MainPage is ready": 8902,
+					"main searchbar is ready": 8902
+				},
+				"userTime.content component MainPage is ready": 8902,
+				"userTime.main searchbar is ready": 8902,
+				"userTime": 8902,
+				"testTiming": {
+					"ExtensionStart": 460,
+					"ExtensionBlank": 189,
+					"WaitForIdle": 2209,
+					"LaunchBrowser": 2930,
+					"MeasureStep": 13638,
+					"ProcessRequests": 86,
+					"RunOptimizationChecks": 108,
+					"ProcessVideo": 1111,
+					"SaveResult": 1279,
+					"RunTest": 18884,
+					"UploadImages": 1982,
+					"AllRunsDuration": 426000
+				},
+				"visualComplete85": 3500,
+				"visualComplete90": 3500,
+				"visualComplete95": 3500,
+				"visualComplete99": 5500,
+				"step": 1,
+				"effectiveBps": 58841,
+				"effectiveBpsDoc": 67681,
+				"smallImageCount": 2,
+				"bigImageCount": 0,
+				"maybeCaptcha": 0,
+				"pages": {
+					"details": "http://wpt.n1.s/details.php?test=171113_2M_S&run=4&cached=1",
+					"checklist": "http://wpt.n1.s/performance_optimization.php?test=171113_2M_S&run=4&cached=1",
+					"breakdown": "http://wpt.n1.s/breakdown.php?test=171113_2M_S&run=4&cached=1",
+					"domains": "http://wpt.n1.s/domains.php?test=171113_2M_S&run=4&cached=1",
+					"screenShot": "http://wpt.n1.s/screen_shot.php?test=171113_2M_S&run=4&cached=1"
+				},
+				"thumbnails": {
+					"waterfall": "http://wpt.n1.s/result/171113_2M_S/4_Cached_waterfall_thumb.png",
+					"checklist": "http://wpt.n1.s/result/171113_2M_S/4_Cached_optimization_thumb.png",
+					"screenShot": "http://wpt.n1.s/result/171113_2M_S/4_Cached_screen_thumb.png"
+				},
+				"images": {
+					"waterfall": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_waterfall.png",
+					"connectionView": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_connection.png",
+					"checklist": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_optimization.png",
+					"screenShot": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=4_Cached_screen.jpg",
+					"screenShotPng": "http://wpt.n1.s/getfile.php?test=171113_2M_S&file=4_Cached_screen.png"
+				},
+				"rawData": {
+					"headers": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_report.txt",
+					"pageData": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_IEWPG.txt",
+					"requestsData": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_IEWTR.txt",
+					"utilization": "http://wpt.n1.s/results/17/11/13/2M/S/4_Cached_progress.csv"
+				},
+				"videoFrames": [
+					{
+						"time": 0,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0000.jpg",
+						"VisuallyComplete": 0
+					},
+					{
+						"time": 3100,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0031.jpg",
+						"VisuallyComplete": 57
+					},
+					{
+						"time": 3500,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0035.jpg",
+						"VisuallyComplete": 97
+					},
+					{
+						"time": 4300,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0043.jpg",
+						"VisuallyComplete": 98
+					},
+					{
+						"time": 5500,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0055.jpg",
+						"VisuallyComplete": 99
+					},
+					{
+						"time": 8600,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0086.jpg",
+						"VisuallyComplete": 92
+					},
+					{
+						"time": 8800,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0088.jpg",
+						"VisuallyComplete": 97
+					},
+					{
+						"time": 9000,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0090.jpg",
+						"VisuallyComplete": 98
+					},
+					{
+						"time": 9400,
+						"image": "http://wpt.n1.s/getfile.php?test=171113_2M_S&video=video_4_cached&file=frame_0094.jpg",
+						"VisuallyComplete": 100
+					}
+				],
+				"domains": {
+					"adservice.google.com": {
+						"bytes": 466,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"cdn.scarabresearch.com": {
+						"bytes": 403,
+						"requests": 1,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"www.facebook.com": {
+						"bytes": 298,
+						"requests": 2,
+						"cdn_provider": "Facebook",
+						"connections": 1
+					},
+					"vk.com": {
+						"bytes": 362,
+						"requests": 1,
+						"connections": 1
+					},
+					"www.google-analytics.com": {
+						"bytes": 353,
+						"requests": 3,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"usage.trackjs.com": {
+						"bytes": 229,
+						"requests": 1,
+						"connections": 1
+					},
+					"capture.trackjs.com": {
+						"bytes": 297,
+						"requests": 1,
+						"connections": 1
+					},
+					"securepubads.g.doubleclick.net": {
+						"bytes": 67340,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"api.n1.ru": {
+						"bytes": 857,
+						"requests": 2,
+						"connections": 1
+					},
+					"arhangelsk.n1.ru": {
+						"bytes": 102463,
+						"requests": 10,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"cdn.n1.ru": {
+						"bytes": 220809,
+						"requests": 32,
+						"connections": 1
+					},
+					"top-fwz1.mail.ru": {
+						"bytes": 990,
+						"requests": 2,
+						"connections": 1
+					},
+					"counter.yadro.ru": {
+						"bytes": 2951,
+						"requests": 5,
+						"connections": 3
+					},
+					"www.tns-counter.ru": {
+						"bytes": 434,
+						"requests": 1,
+						"connections": 1
+					},
+					"passport.ngs.ru": {
+						"bytes": 1013,
+						"requests": 2,
+						"connections": 2
+					},
+					"realty.ngs.ru": {
+						"bytes": 326,
+						"requests": 1,
+						"connections": 1
+					},
+					"mc.yandex.ru": {
+						"bytes": 3444,
+						"requests": 4,
+						"connections": 2
+					}
+				},
+				"breakdown": {
+					"html": {
+						"color": [
+							130,
+							181,
+							252
+						],
+						"bytes": 49028,
+						"bytesUncompressed": 252302,
+						"requests": 4
+					},
+					"js": {
+						"color": [
+							254,
+							197,
+							132
+						],
+						"bytes": 67806,
+						"bytesUncompressed": 192121,
+						"requests": 2
+					},
+					"css": {
+						"color": [
+							178,
+							234,
+							148
+						],
+						"bytes": 0,
+						"bytesUncompressed": 0,
+						"requests": 0
+					},
+					"image": {
+						"color": [
+							196,
+							154,
+							232
+						],
+						"bytes": 276050,
+						"bytesUncompressed": 269906,
+						"requests": 27
+					},
+					"flash": {
+						"color": [
+							45,
+							183,
+							193
+						],
+						"bytes": 0,
+						"bytesUncompressed": 0,
+						"requests": 0
+					},
+					"font": {
+						"color": [
+							255,
+							82,
+							62
+						],
+						"bytes": 0,
+						"bytesUncompressed": 0,
+						"requests": 0
+					},
+					"other": {
+						"color": [
+							196,
+							196,
+							196
+						],
+						"bytes": 3431,
+						"bytesUncompressed": 917,
+						"requests": 8
+					}
+				},
+				"consoleLog": [
+					{
+						"column": 96,
+						"level": "info",
+						"line": 15,
+						"source": "console-api",
+						"text": "[Application]: start",
+						"url": "https://arhangelsk.n1.ru/tracker.js"
+					},
+					{
+						"column": 96,
+						"level": "info",
+						"line": 15,
+						"source": "console-api",
+						"text": "[Dispatcher]: call %s, %s ()",
+						"url": "https://arhangelsk.n1.ru/tracker.js"
+					},
+					{
+						"column": 96,
+						"level": "info",
+						"line": 15,
+						"source": "console-api",
+						"text": "[ControllerDefault]: set pageContent component MainPage",
+						"url": "https://arhangelsk.n1.ru/tracker.js"
+					},
+					{
+						"column": 96,
+						"level": "warning",
+						"line": 15,
+						"source": "console-api",
+						"text": "%cUnhandled rejection TypeError: Cannot read property 'permission' of undefined\n    at Function.<anonymous> (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:115484)\n    at i (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:2358)\n    at Object.next (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1693)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1627\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._resolveFromResolver (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5429)\n    at new r (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:29939)\n    at Object.u [as __awaiter] (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:1404)\n    at Function.e.internalInit (https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:114899)\n    at https://cdn.onesignal.com/sdks/OneSignalSDK.js:1:137444\n    at n (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:3:818)\n    at r._settlePromiseFromHandler (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:5768)\n    at r._settlePromiseAt (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:2:7042)\n    at n._drainQueue (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2885)\n    at n._drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:2963)\n    at drainQueues (eval at P+fo.t.exports (https://cdn.n1.ru/static/public/js/vendors.879e25454b53093e8b47.bundle.min.js:7:904), <anonymous>:1:1175)\n    at E (https://arhangelsk.n1.ru/tracker.js:5:415)",
+						"url": "https://arhangelsk.n1.ru/tracker.js"
+					}
+				]
+			}
+		}
+	},
+	"statusCode": 200,
+	"statusText": "Test Complete",
+	"webPagetestVersion": "17.08"
+}

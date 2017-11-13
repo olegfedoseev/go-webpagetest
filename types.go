@@ -1,6 +1,7 @@
 package webpagetest
 
 import (
+	"encoding/json"
 	"fmt"
 )
 
@@ -15,7 +16,8 @@ type Connectivity struct {
 	// First-hop Round Trip Time in ms
 	Latency int `json:"latency"`
 	// Packet loss rate - percent of packets to drop
-	PacketLossRate int `json:"plr,string"`
+	RawPacketLossRate *json.RawMessage `json:"plr"`
+	PacketLossRate    int
 }
 
 // String gives human readable string for connectivity profile

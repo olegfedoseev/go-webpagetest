@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"net/url"
 	"sort"
+	"strconv"
 )
 
 // https://sites.google.com/a/webpagetest.org/docs/advanced-features/raw-test-results
@@ -470,13 +471,24 @@ func (w *WebPageTest) GetTestResult(testID string) (*ResultData, error) {
 	if err != nil {
 		return nil, err
 	}
+	var resultData *ResultData
+	resultData, err = parseResultResponse(body)
+	if err != nil {
+		return nil, err
+	}
 
+	return resultData, nil
+}
+
+func parseResultResponse(rawResponse []byte) (*ResultData, error) {
+	var err error
 	var responose struct {
 		StatusCode int             `json:"statusCode"`
 		StatusText string          `json:"statusText"`
 		Data       json.RawMessage `json:"data"`
 	}
-	if err = json.Unmarshal(body, &responose); err != nil {
+
+	if err = json.Unmarshal(rawResponse, &responose); err != nil {
 		return nil, err
 	}
 	if responose.StatusCode != 200 {
@@ -488,5 +500,13 @@ func (w *WebPageTest) GetTestResult(testID string) (*ResultData, error) {
 	if err = json.Unmarshal(responose.Data, &resultData); err != nil {
 		return nil, err
 	}
+
+	// Unset value is "0"
+	if string(*resultData.Connectivity.RawPacketLossRate) == "\"0\"" {
+		resultData.Connectivity.PacketLossRate = 0
+	} else {
+		resultData.Connectivity.PacketLossRate, _ = strconv.Atoi(string(*resultData.Connectivity.RawPacketLossRate))
+	}
+
 	return &resultData, nil
 }

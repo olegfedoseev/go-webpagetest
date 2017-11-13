@@ -1,0 +1,4735 @@
+{
+	"data": {
+		"id": "171112_7B_NQ",
+		"url": "https://novosibirsk.n1.ru",
+		"summary": "http://wpt.n1.s/results.php?test=171112_7B_NQ",
+		"testUrl": "https://novosibirsk.n1.ru",
+		"location": "NSK_lenina12:Chrome",
+		"from": "Новосибирск, Ленина 12 - <b>Chrome</b> - <b>Emulated Motorola G (gen 4)</b> - <b>Cable</b>",
+		"connectivity": "Cable",
+		"bwDown": 5000,
+		"bwUp": 1000,
+		"latency": 28,
+		"plr": "0",
+		"mobile": 1,
+		"label": "n1ru_mobile___main",
+		"completed": 1510527790,
+		"tester": "USER-WPT-192.168.8.37",
+		"testerDNS": "192.168.80.1,192.168.20.2",
+		"runs": {
+			"1": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 1,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 2703,
+					"TTFB": 321,
+					"bytesOut": 152364,
+					"bytesOutDoc": 44290,
+					"bytesIn": 1071190,
+					"bytesInDoc": 1041574,
+					"connections": 25,
+					"requests": 86,
+					"requestsFull": 86,
+					"requestsDoc": 76,
+					"responses_200": 79,
+					"responses_404": 0,
+					"responses_other": 0,
+					"result": 0,
+					"render": 510,
+					"fullyLoaded": 3926,
+					"cached": 0,
+					"docTime": 2703,
+					"domTime": 0,
+					"score_cache": 79,
+					"score_cdn": 20,
+					"score_gzip": 98,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 93,
+					"score_etags": -1,
+					"gzip_total": 580196,
+					"gzip_savings": 11337,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 188410,
+					"image_savings": 12092,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 352,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 576,
+					"loadEventStart": 2699,
+					"loadEventEnd": 2707,
+					"domContentLoadedEventStart": 1714,
+					"domContentLoadedEventEnd": 1714,
+					"lastVisualChange": 2198,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 100,
+					"firstPaint": 421,
+					"docCPUms": 2168.414,
+					"fullyLoadedCPUms": 2496.016,
+					"docCPUpct": 20,
+					"fullyLoadedCPUpct": 10,
+					"isResponsive": -1,
+					"browser_process_count": 10,
+					"browser_main_memory_kb": 75856,
+					"browser_other_private_memory_kb": 164768,
+					"browser_working_set_kb": 240624,
+					"domInteractive": 370,
+					"domLoading": 325,
+					"base_page_ttfb": 321,
+					"visualComplete": 2200,
+					"SpeedIndex": 1072,
+					"certificate_bytes": 86899,
+					"date": 1510527537,
+					"userTime.main searchbar is ready": 1860,
+					"userTimes": {
+						"main searchbar is ready": 1860,
+						"page content ready": 1860,
+						"content component MobileMainPage is ready": 1860
+					},
+					"userTime.page content ready": 1860,
+					"userTime.content component MobileMainPage is ready": 1860,
+					"userTime": 1860,
+					"testTiming": {
+						"ExtensionStart": 186,
+						"ExtensionBlank": 206,
+						"WaitForIdle": 699,
+						"LaunchBrowser": 1134,
+						"MeasureStep": 6082,
+						"ProcessRequests": 45,
+						"RunOptimizationChecks": 68,
+						"ProcessVideo": 98,
+						"SaveResult": 212,
+						"RunTest": 8096,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"visualComplete85": 1500,
+					"visualComplete90": 2000,
+					"visualComplete95": 2100,
+					"visualComplete99": 2100,
+					"step": 1,
+					"effectiveBps": 297140,
+					"effectiveBpsDoc": 437268,
+					"smallImageCount": 20,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/1_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/1_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/1_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=1_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=1_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1&file=frame_0005.jpg",
+							"VisuallyComplete": 49
+						},
+						{
+							"time": 1000,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1&file=frame_0010.jpg",
+							"VisuallyComplete": 49
+						},
+						{
+							"time": 1500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1&file=frame_0015.jpg",
+							"VisuallyComplete": 89
+						},
+						{
+							"time": 1800,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1&file=frame_0018.jpg",
+							"VisuallyComplete": 89
+						},
+						{
+							"time": 2000,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1&file=frame_0020.jpg",
+							"VisuallyComplete": 94
+						},
+						{
+							"time": 2100,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1&file=frame_0021.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 2200,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1&file=frame_0022.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 695,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 448,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25985,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 400,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 450,
+							"requests": 1,
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1841,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37084,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5384,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 1745,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 19380,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67627,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 662,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 23134,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 279368,
+							"requests": 18,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 366525,
+							"requests": 23,
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2860,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13728,
+							"requests": 4,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7896,
+							"requests": 1,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 606,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 36418,
+							"requests": 7,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 51618,
+							"bytesUncompressed": 157536,
+							"requests": 10
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 495343,
+							"bytesUncompressed": 1764040,
+							"requests": 24
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 13041,
+							"bytesUncompressed": 68002,
+							"requests": 3
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 221273,
+							"bytesUncompressed": 213891,
+							"requests": 36
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120562,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 17613,
+							"bytesUncompressed": 111695,
+							"requests": 9
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 1,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 1670,
+					"TTFB": 280,
+					"bytesOut": 143952,
+					"bytesOutDoc": 33259,
+					"bytesIn": 197594,
+					"bytesInDoc": 166464,
+					"connections": 16,
+					"requests": 47,
+					"requestsFull": 47,
+					"requestsDoc": 40,
+					"responses_200": 25,
+					"responses_404": 0,
+					"responses_other": 0,
+					"result": 0,
+					"render": 494,
+					"fullyLoaded": 3002,
+					"cached": 1,
+					"docTime": 1670,
+					"domTime": 0,
+					"score_cache": 83,
+					"score_cdn": 100,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 100,
+					"score_etags": -1,
+					"gzip_total": 57063,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 459,
+					"image_savings": 0,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 352,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 560,
+					"loadEventStart": 1666,
+					"loadEventEnd": 1673,
+					"domContentLoadedEventStart": 730,
+					"domContentLoadedEventEnd": 730,
+					"lastVisualChange": 1179,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": -1,
+					"firstPaint": 388,
+					"docCPUms": 1981.213,
+					"fullyLoadedCPUms": 2246.414,
+					"docCPUpct": 28,
+					"fullyLoadedCPUpct": 11,
+					"isResponsive": -1,
+					"browser_process_count": 7,
+					"browser_main_memory_kb": 69944,
+					"browser_other_private_memory_kb": 121856,
+					"browser_working_set_kb": 191800,
+					"domInteractive": 335,
+					"domLoading": 283,
+					"base_page_ttfb": 280,
+					"visualComplete": 1200,
+					"SpeedIndex": 725,
+					"certificate_bytes": 60210,
+					"date": 1510527545,
+					"userTime.main searchbar is ready": 940,
+					"userTimes": {
+						"main searchbar is ready": 940,
+						"page content ready": 940,
+						"content component MobileMainPage is ready": 940
+					},
+					"userTime.page content ready": 940,
+					"userTime.content component MobileMainPage is ready": 940,
+					"userTime": 940,
+					"testTiming": {
+						"ExtensionStart": 126,
+						"ExtensionBlank": 211,
+						"WaitForIdle": 799,
+						"LaunchBrowser": 1185,
+						"MeasureStep": 5098,
+						"ProcessRequests": 20,
+						"RunOptimizationChecks": 2,
+						"ProcessVideo": 76,
+						"SaveResult": 97,
+						"RunTest": 7056,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"visualComplete85": 900,
+					"visualComplete90": 1100,
+					"visualComplete95": 1100,
+					"visualComplete99": 1200,
+					"step": 1,
+					"effectiveBps": 72591,
+					"effectiveBpsDoc": 119758,
+					"smallImageCount": 0,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=1&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=1&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=1&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=1&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=1&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/1_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/1_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/1_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=1_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=1_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/1_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1_cached&file=frame_0005.jpg",
+							"VisuallyComplete": 51
+						},
+						{
+							"time": 900,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1_cached&file=frame_0009.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1000,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1_cached&file=frame_0010.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1100,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1_cached&file=frame_0011.jpg",
+							"VisuallyComplete": 95
+						},
+						{
+							"time": 1200,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_1_cached&file=frame_0012.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 518,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 404,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 362,
+							"requests": 1,
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 1749,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 445,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 45901,
+							"requests": 4,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 2261,
+							"requests": 15,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2520,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13725,
+							"requests": 4,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 326,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3955,
+							"requests": 5,
+							"connections": 1
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 47457,
+							"bytesUncompressed": 153836,
+							"requests": 5
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 1905,
+							"bytesUncompressed": 1477,
+							"requests": 3
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 4099,
+							"bytesUncompressed": 508,
+							"requests": 12
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 15651,
+							"bytesUncompressed": 105750,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				}
+			},
+			"2": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 2,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 2633,
+					"TTFB": 310,
+					"bytesOut": 158166,
+					"bytesOutDoc": 46018,
+					"bytesIn": 1090692,
+					"bytesInDoc": 1036461,
+					"connections": 28,
+					"requests": 91,
+					"requestsFull": 91,
+					"requestsDoc": 77,
+					"responses_200": 81,
+					"responses_404": 0,
+					"responses_other": 3,
+					"result": 0,
+					"render": 494,
+					"fullyLoaded": 4024,
+					"cached": 0,
+					"docTime": 2633,
+					"domTime": 0,
+					"score_cache": 78,
+					"score_cdn": 21,
+					"score_gzip": 98,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 93,
+					"score_etags": -1,
+					"gzip_total": 594642,
+					"gzip_savings": 11337,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 188453,
+					"image_savings": 12092,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 353,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 560,
+					"loadEventStart": 2628,
+					"loadEventEnd": 2638,
+					"domContentLoadedEventStart": 1685,
+					"domContentLoadedEventEnd": 1685,
+					"lastVisualChange": 2165,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 100,
+					"firstPaint": 404,
+					"docCPUms": 2386.815,
+					"fullyLoadedCPUms": 2823.618,
+					"docCPUpct": 22,
+					"fullyLoadedCPUpct": 11,
+					"isResponsive": -1,
+					"browser_process_count": 11,
+					"browser_main_memory_kb": 76492,
+					"browser_other_private_memory_kb": 168380,
+					"browser_working_set_kb": 244872,
+					"domInteractive": 396,
+					"domLoading": 313,
+					"base_page_ttfb": 310,
+					"visualComplete": 2200,
+					"SpeedIndex": 1037,
+					"certificate_bytes": 93959,
+					"date": 1510527552,
+					"userTime.main searchbar is ready": 1823,
+					"userTimes": {
+						"main searchbar is ready": 1823,
+						"page content ready": 1823,
+						"content component MobileMainPage is ready": 1823
+					},
+					"userTime.page content ready": 1823,
+					"userTime.content component MobileMainPage is ready": 1823,
+					"userTime": 1823,
+					"testTiming": {
+						"ExtensionStart": 169,
+						"ExtensionBlank": 208,
+						"WaitForIdle": 697,
+						"LaunchBrowser": 1124,
+						"MeasureStep": 6180,
+						"ProcessRequests": 49,
+						"RunOptimizationChecks": 68,
+						"ProcessVideo": 99,
+						"SaveResult": 217,
+						"RunTest": 8081,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"CSI": [
+						"v",
+						"s",
+						"action",
+						"puid",
+						"c",
+						"e",
+						"ctx",
+						"met_7",
+						"met_9",
+						"met_1",
+						"met_2"
+					],
+					"CSI.v": 2,
+					"CSI.s": "pagead",
+					"CSI.action": "csi_pagead",
+					"CSI.puid": "1~j9xd3tnf",
+					"CSI.c": 6552732139866704,
+					"CSI.e": "108809144,108809103,21060168,21060362,21061149",
+					"CSI.ctx": 1,
+					"CSI.met_7": "CBsQByC7Ajgu~CBsQByC7Ajhd~CBsQByC7AjinAw~CBsQByC7AjjbBw~CBsQByC8AjjkBA~CBsQCiC8AjjkBA~CBsQBiC8Ajg6~CBsQBiC8AjhT~CBsQBiC9AjhT~CBsQBiC9AjhZ~CBsQBiC9AjhZ~CBsQBiC9Ajha~CBsQCiC9AjjkBA~CA0QChgBIL0CKL0CML0FOIADUOkCWLwEYLoDaL8EcKQFeKMqgAHRJ4gBtF4~CBsQCiC9AjiSCA~CBsQCiC9AjjhAQ~CBsQCiC9AjiTCA~CBsQCiC9AjiYCA~CBsQByDdAjiICA~CBsQByDdAjifCQ~CBsQAiDeAjjBBA~CBsQAiDhAji_BA~CBsQAiDiAjjdBw~CBsQAiDjAji9BA~CBsQAiDtAjjeBw~CBsQAiDtAjiVBQ~CBsQCiCKAzjEAw~CBsQBiDIBDiDBg~CBsQCiCkBziIAg~CC8QBxgBIKkHKKkHMJMKOOoCQKsHSM0HUM0HWKsJYKkIaKwJcI4KeO0DgAFriAFs~CA4QChgBIKkHKKkHMLMKOIoDaKwHcJYIeNSOBIABhowEiAGN3As~CBsQAiCvBzi8BA~CBAQBxgBINMKKNMKMKUNONICQNUKSPUKUPUKWMIMYNALaMMMcKENeMMOgAGoDIgBpxg~CCgQBxgBINUKKNUKMLcLOGJo1gpwtgt4sQKAAbABiAHfAQ~CBsQChgBINcKKNcKMLUMON4B~CBsQCiDgCjjnAQ~CBsQCiDhCji7AQ~CBsQCiChDDjRAg~CBsQAiC0DTiNAQ~CBsQAiC0DTiXAQ~CBsQAiC1DTjzAg~CBsQAiC1DTiAAw~CBsQAiC2DTiAAw~CBsQAiC2DTiAAw~CBsQAiC3DTj_Ag~CBsQCiDdDTjJAQ~CBsQBiCUDjifAQ~CBsQCiCaDjiFAw~CBsQCiCaDjj_AQ~CBsQBiCbDjh5~CBsQBiCCDziGAg~CBsQBiDBDzhw~CBsQAiDDDzh1~CBsQBiDcDzhg~CBsQCiCkEDiSAQ~CBsQBiCjEThY~CBsQBiC-ETh3~CBsQBiDTEzhw~CBsQBhgBIMkUKMkUMLoVOHE~CBkQChgBIMoUKMoUMPEXOKgDQMoUSO0UUO0UWK8WYMYVaK8WcJsXeJh0gAHrcIgB0q0C~CBsQBiDOFDhV~CBsg0RQ4Jw~CBsg-RQ4IQ~CBsgmhU4Sg~CBsghxY4Kg~CBsgshY4Ig~CBsQBhgBILYWKLYWMK0XOHg~CBsQCDjOFA",
+					"CSI.met_9": "1.pz~2.11r",
+					"CSI.met_1": "1.j9xd3ra6~6.19~7.1a~8.1a~9.1a~10.46~11.1q~12.46~13.8n~14.90~15.8p~16.b0~17.1at~18.1at~19.210~20.210~21.21a~22.ba~23.ba",
+					"CSI.met_2": "15.27~16.8cas",
+					"visualComplete85": 1500,
+					"visualComplete90": 1900,
+					"visualComplete95": 2100,
+					"visualComplete99": 2100,
+					"step": 1,
+					"effectiveBps": 293670,
+					"effectiveBpsDoc": 446173,
+					"smallImageCount": 20,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=2",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=2",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=2",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=2",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=2"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/2_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/2_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/2_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=2_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=2_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0005.jpg",
+							"VisuallyComplete": 49
+						},
+						{
+							"time": 1000,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0010.jpg",
+							"VisuallyComplete": 49
+						},
+						{
+							"time": 1400,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0014.jpg",
+							"VisuallyComplete": 79
+						},
+						{
+							"time": 1500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0015.jpg",
+							"VisuallyComplete": 89
+						},
+						{
+							"time": 1900,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0019.jpg",
+							"VisuallyComplete": 94
+						},
+						{
+							"time": 2100,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0021.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 2200,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0022.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 687,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"csi.gstatic.com": {
+							"bytes": 182,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 560,
+							"requests": 3,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25985,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 398,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 290,
+							"requests": 1,
+							"connections": 1
+						},
+						"pagead2.googlesyndication.com": {
+							"bytes": 14854,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1841,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37109,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5384,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 1747,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 19380,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67627,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 664,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 23134,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 279387,
+							"requests": 18,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 366525,
+							"requests": 23,
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2862,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13728,
+							"requests": 4,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7896,
+							"requests": 1,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 604,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 36955,
+							"requests": 8,
+							"connections": 3
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 51649,
+							"bytesUncompressed": 157537,
+							"requests": 10
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 510191,
+							"bytesUncompressed": 1802650,
+							"requests": 25
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 13042,
+							"bytesUncompressed": 68002,
+							"requests": 3
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 221949,
+							"bytesUncompressed": 213934,
+							"requests": 40
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120564,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 17616,
+							"bytesUncompressed": 111695,
+							"requests": 9
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 2,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 1542,
+					"TTFB": 271,
+					"bytesOut": 144208,
+					"bytesOutDoc": 33514,
+					"bytesIn": 301396,
+					"bytesInDoc": 270268,
+					"connections": 16,
+					"requests": 47,
+					"requestsFull": 47,
+					"requestsDoc": 40,
+					"responses_200": 31,
+					"responses_404": 0,
+					"responses_other": 0,
+					"result": 0,
+					"render": 478,
+					"fullyLoaded": 2848,
+					"cached": 1,
+					"docTime": 1542,
+					"domTime": 0,
+					"score_cache": 83,
+					"score_cdn": 25,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 100,
+					"score_etags": -1,
+					"gzip_total": 154328,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 459,
+					"image_savings": 0,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 352,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 560,
+					"loadEventStart": 1538,
+					"loadEventEnd": 1546,
+					"domContentLoadedEventStart": 1034,
+					"domContentLoadedEventEnd": 1034,
+					"lastVisualChange": 1380,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": -1,
+					"firstPaint": 364,
+					"docCPUms": 1981.213,
+					"fullyLoadedCPUms": 2262.015,
+					"docCPUpct": 31,
+					"fullyLoadedCPUpct": 11,
+					"isResponsive": -1,
+					"browser_process_count": 7,
+					"browser_main_memory_kb": 70696,
+					"browser_other_private_memory_kb": 122480,
+					"browser_working_set_kb": 193176,
+					"domInteractive": 362,
+					"domLoading": 274,
+					"base_page_ttfb": 271,
+					"visualComplete": 1400,
+					"SpeedIndex": 713,
+					"certificate_bytes": 60210,
+					"date": 1510527561,
+					"userTime.main searchbar is ready": 1191,
+					"userTimes": {
+						"main searchbar is ready": 1191,
+						"page content ready": 1191,
+						"content component MobileMainPage is ready": 1191
+					},
+					"userTime.page content ready": 1191,
+					"userTime.content component MobileMainPage is ready": 1191,
+					"userTime": 1191,
+					"testTiming": {
+						"ExtensionStart": 122,
+						"ExtensionBlank": 209,
+						"WaitForIdle": 799,
+						"LaunchBrowser": 1179,
+						"MeasureStep": 4997,
+						"ProcessRequests": 23,
+						"RunOptimizationChecks": 2,
+						"ProcessVideo": 77,
+						"SaveResult": 98,
+						"RunTest": 6544,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"visualComplete85": 800,
+					"visualComplete90": 1300,
+					"visualComplete95": 1400,
+					"visualComplete99": 1400,
+					"step": 1,
+					"effectiveBps": 116956,
+					"effectiveBpsDoc": 212642,
+					"smallImageCount": 0,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=2&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=2&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=2&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=2&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=2&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/2_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/2_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/2_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=2_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=2_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0005.jpg",
+							"VisuallyComplete": 51
+						},
+						{
+							"time": 800,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0008.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1200,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0012.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1300,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0013.jpg",
+							"VisuallyComplete": 94
+						},
+						{
+							"time": 1400,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0014.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 518,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 404,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 225,
+							"requests": 1,
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 1748,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 445,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 45898,
+							"requests": 4,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 99767,
+							"requests": 15,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2520,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13729,
+							"requests": 4,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 326,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3958,
+							"requests": 5,
+							"connections": 1
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 47455,
+							"bytesUncompressed": 153836,
+							"requests": 5
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 100324,
+							"bytesUncompressed": 356101,
+							"requests": 9
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 3962,
+							"bytesUncompressed": 508,
+							"requests": 12
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 15655,
+							"bytesUncompressed": 105750,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				}
+			},
+			"3": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 3,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 2499,
+					"TTFB": 289,
+					"bytesOut": 153056,
+					"bytesOutDoc": 45018,
+					"bytesIn": 1071977,
+					"bytesInDoc": 1042362,
+					"connections": 26,
+					"requests": 87,
+					"requestsFull": 87,
+					"requestsDoc": 77,
+					"responses_200": 80,
+					"responses_404": 0,
+					"responses_other": 0,
+					"result": 0,
+					"render": 578,
+					"fullyLoaded": 3732,
+					"cached": 0,
+					"docTime": 2499,
+					"domTime": 0,
+					"score_cache": 79,
+					"score_cdn": 20,
+					"score_gzip": 98,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 93,
+					"score_etags": -1,
+					"gzip_total": 580892,
+					"gzip_savings": 11337,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 188410,
+					"image_savings": 12092,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 354,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 560,
+					"loadEventStart": 2494,
+					"loadEventEnd": 2502,
+					"domContentLoadedEventStart": 1548,
+					"domContentLoadedEventEnd": 1548,
+					"lastVisualChange": 2081,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 100,
+					"firstPaint": 376,
+					"docCPUms": 2464.816,
+					"fullyLoadedCPUms": 2839.218,
+					"docCPUpct": 24,
+					"fullyLoadedCPUpct": 12,
+					"isResponsive": -1,
+					"browser_process_count": 11,
+					"browser_main_memory_kb": 76364,
+					"browser_other_private_memory_kb": 169872,
+					"browser_working_set_kb": 246236,
+					"domInteractive": 334,
+					"domLoading": 292,
+					"base_page_ttfb": 289,
+					"visualComplete": 2100,
+					"SpeedIndex": 954,
+					"certificate_bytes": 90068,
+					"date": 1510527568,
+					"userTime.main searchbar is ready": 1743,
+					"userTimes": {
+						"main searchbar is ready": 1743,
+						"page content ready": 1743,
+						"content component MobileMainPage is ready": 1743
+					},
+					"userTime.page content ready": 1743,
+					"userTime.content component MobileMainPage is ready": 1743,
+					"userTime": 1743,
+					"testTiming": {
+						"ExtensionStart": 203,
+						"ExtensionBlank": 221,
+						"WaitForIdle": 698,
+						"LaunchBrowser": 1171,
+						"MeasureStep": 5871,
+						"ProcessRequests": 46,
+						"RunOptimizationChecks": 68,
+						"ProcessVideo": 85,
+						"SaveResult": 200,
+						"RunTest": 7650,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"visualComplete85": 1100,
+					"visualComplete90": 2000,
+					"visualComplete95": 2000,
+					"visualComplete99": 2000,
+					"step": 1,
+					"effectiveBps": 311349,
+					"effectiveBpsDoc": 471657,
+					"smallImageCount": 20,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=3",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=3",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=3",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=3",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=3"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/3_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/3_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/3_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=3_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=3_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 600,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3&file=frame_0006.jpg",
+							"VisuallyComplete": 51
+						},
+						{
+							"time": 1100,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3&file=frame_0011.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1700,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3&file=frame_0017.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1800,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3&file=frame_0018.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 2000,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3&file=frame_0020.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 2100,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3&file=frame_0021.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 687,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 447,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25985,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 400,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 450,
+							"requests": 1,
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1841,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37083,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5483,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 1745,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 19380,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67627,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 295,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 23133,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 279432,
+							"requests": 18,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 367361,
+							"requests": 23,
+							"connections": 1
+						},
+						"adservice.google.ru": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2860,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13729,
+							"requests": 4,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7896,
+							"requests": 1,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 606,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 36419,
+							"requests": 7,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 51249,
+							"bytesUncompressed": 157170,
+							"requests": 10
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 496733,
+							"bytesUncompressed": 1764179,
+							"requests": 25
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 13102,
+							"bytesUncompressed": 68002,
+							"requests": 3
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 221276,
+							"bytesUncompressed": 213891,
+							"requests": 36
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120563,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 17615,
+							"bytesUncompressed": 111695,
+							"requests": 9
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 3,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 1386,
+					"TTFB": 344,
+					"bytesOut": 145177,
+					"bytesOutDoc": 34508,
+					"bytesIn": 212253,
+					"bytesInDoc": 181168,
+					"connections": 17,
+					"requests": 48,
+					"requestsFull": 48,
+					"requestsDoc": 41,
+					"responses_200": 29,
+					"responses_404": 0,
+					"responses_other": 0,
+					"result": 0,
+					"render": 511,
+					"fullyLoaded": 2723,
+					"cached": 1,
+					"docTime": 1386,
+					"domTime": 0,
+					"score_cache": 83,
+					"score_cdn": 40,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 100,
+					"score_etags": -1,
+					"gzip_total": 60536,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 459,
+					"image_savings": 0,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 354,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 578,
+					"loadEventStart": 1383,
+					"loadEventEnd": 1390,
+					"domContentLoadedEventStart": 864,
+					"domContentLoadedEventEnd": 864,
+					"lastVisualChange": 1397,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": -1,
+					"firstPaint": 450,
+					"docCPUms": 1700.411,
+					"fullyLoadedCPUms": 2012.413,
+					"docCPUpct": 30,
+					"fullyLoadedCPUpct": 10,
+					"isResponsive": -1,
+					"browser_process_count": 6,
+					"browser_main_memory_kb": 70144,
+					"browser_other_private_memory_kb": 121328,
+					"browser_working_set_kb": 191472,
+					"domInteractive": 399,
+					"domLoading": 347,
+					"base_page_ttfb": 344,
+					"visualComplete": 1400,
+					"SpeedIndex": 625,
+					"certificate_bytes": 63379,
+					"date": 1510527576,
+					"userTime.main searchbar is ready": 1066,
+					"userTimes": {
+						"main searchbar is ready": 1066,
+						"page content ready": 1066,
+						"content component MobileMainPage is ready": 1066
+					},
+					"userTime.page content ready": 1066,
+					"userTime.content component MobileMainPage is ready": 1066,
+					"userTime": 1066,
+					"testTiming": {
+						"ExtensionStart": 131,
+						"ExtensionBlank": 149,
+						"WaitForIdle": 898,
+						"MeasureStep": 4865,
+						"ProcessRequests": 22,
+						"RunOptimizationChecks": 2,
+						"ProcessVideo": 82,
+						"SaveResult": 103,
+						"RunTest": 6569,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"visualComplete85": 600,
+					"visualComplete90": 1200,
+					"visualComplete95": 1200,
+					"visualComplete99": 1400,
+					"step": 1,
+					"effectiveBps": 89219,
+					"effectiveBpsDoc": 173865,
+					"smallImageCount": 0,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=3&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=3&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=3&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=3&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=3&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/3_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/3_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/3_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=3_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=3_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/3_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3_cached&file=frame_0005.jpg",
+							"VisuallyComplete": 49
+						},
+						{
+							"time": 600,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3_cached&file=frame_0006.jpg",
+							"VisuallyComplete": 89
+						},
+						{
+							"time": 1000,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3_cached&file=frame_0010.jpg",
+							"VisuallyComplete": 89
+						},
+						{
+							"time": 1200,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3_cached&file=frame_0012.jpg",
+							"VisuallyComplete": 96
+						},
+						{
+							"time": 1400,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_3_cached&file=frame_0014.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 518,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 404,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 362,
+							"requests": 1,
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 1744,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 445,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 45897,
+							"requests": 4,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 5747,
+							"requests": 15,
+							"connections": 1
+						},
+						"adservice.google.ru": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2519,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13729,
+							"requests": 4,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 326,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3957,
+							"requests": 5,
+							"connections": 1
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 47452,
+							"bytesUncompressed": 153836,
+							"requests": 5
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 6311,
+							"bytesUncompressed": 17920,
+							"requests": 7
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 4099,
+							"bytesUncompressed": 508,
+							"requests": 12
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 15653,
+							"bytesUncompressed": 105750,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				}
+			},
+			"4": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 4,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 2626,
+					"TTFB": 332,
+					"bytesOut": 152087,
+					"bytesOutDoc": 44048,
+					"bytesIn": 1066054,
+					"bytesInDoc": 1036431,
+					"connections": 25,
+					"requests": 86,
+					"requestsFull": 86,
+					"requestsDoc": 76,
+					"responses_200": 79,
+					"responses_404": 0,
+					"responses_other": 0,
+					"result": 0,
+					"render": 594,
+					"fullyLoaded": 3933,
+					"cached": 0,
+					"docTime": 2626,
+					"domTime": 0,
+					"score_cache": 79,
+					"score_cdn": 20,
+					"score_gzip": 98,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 93,
+					"score_etags": -1,
+					"gzip_total": 580181,
+					"gzip_savings": 11337,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 188410,
+					"image_savings": 12092,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 352,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 560,
+					"loadEventStart": 2621,
+					"loadEventEnd": 2629,
+					"domContentLoadedEventStart": 1688,
+					"domContentLoadedEventEnd": 1688,
+					"lastVisualChange": 2281,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 100,
+					"firstPaint": 424,
+					"docCPUms": 2090.413,
+					"fullyLoadedCPUms": 2262.015,
+					"docCPUpct": 19,
+					"fullyLoadedCPUpct": 9,
+					"isResponsive": -1,
+					"browser_process_count": 10,
+					"browser_main_memory_kb": 76052,
+					"browser_other_private_memory_kb": 166548,
+					"browser_working_set_kb": 242600,
+					"domInteractive": 378,
+					"domLoading": 336,
+					"base_page_ttfb": 332,
+					"visualComplete": 2300,
+					"SpeedIndex": 1004,
+					"certificate_bytes": 86899,
+					"date": 1510527583,
+					"userTime.main searchbar is ready": 1879,
+					"userTimes": {
+						"main searchbar is ready": 1879,
+						"page content ready": 1879,
+						"content component MobileMainPage is ready": 1879
+					},
+					"userTime.page content ready": 1879,
+					"userTime.content component MobileMainPage is ready": 1879,
+					"userTime": 1879,
+					"testTiming": {
+						"ExtensionStart": 200,
+						"ExtensionBlank": 217,
+						"WaitForIdle": 1398,
+						"LaunchBrowser": 1858,
+						"MeasureStep": 6086,
+						"ProcessRequests": 46,
+						"RunOptimizationChecks": 68,
+						"ProcessVideo": 77,
+						"SaveResult": 191,
+						"RunTest": 8833,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"visualComplete85": 1200,
+					"visualComplete90": 2100,
+					"visualComplete95": 2100,
+					"visualComplete99": 2100,
+					"step": 1,
+					"effectiveBps": 296043,
+					"effectiveBpsDoc": 451800,
+					"smallImageCount": 20,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=4",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=4",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=4",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=4",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=4"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/4_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/4_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/4_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=4_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=4_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 600,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4&file=frame_0006.jpg",
+							"VisuallyComplete": 51
+						},
+						{
+							"time": 1200,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4&file=frame_0012.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1900,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4&file=frame_0019.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 2100,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4&file=frame_0021.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 2300,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4&file=frame_0023.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 688,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 447,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25985,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 400,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 450,
+							"requests": 1,
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1841,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37509,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5384,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 1750,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 19380,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67627,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 660,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 23157,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 279384,
+							"requests": 18,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 366525,
+							"requests": 23,
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2861,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13725,
+							"requests": 4,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7895,
+							"requests": 1,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 607,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 36420,
+							"requests": 7,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 52058,
+							"bytesUncompressed": 157953,
+							"requests": 10
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 495346,
+							"bytesUncompressed": 1764031,
+							"requests": 24
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 13042,
+							"bytesUncompressed": 68002,
+							"requests": 3
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 221284,
+							"bytesUncompressed": 213891,
+							"requests": 36
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120564,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 17613,
+							"bytesUncompressed": 111695,
+							"requests": 9
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 4,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 1596,
+					"TTFB": 349,
+					"bytesOut": 146068,
+					"bytesOutDoc": 34189,
+					"bytesIn": 321236,
+					"bytesInDoc": 283935,
+					"connections": 18,
+					"requests": 49,
+					"requestsFull": 49,
+					"requestsDoc": 41,
+					"responses_200": 32,
+					"responses_404": 0,
+					"responses_other": 1,
+					"result": 0,
+					"render": 595,
+					"fullyLoaded": 3637,
+					"cached": 1,
+					"docTime": 1596,
+					"domTime": 0,
+					"score_cache": 78,
+					"score_cdn": 33,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 100,
+					"score_etags": -1,
+					"gzip_total": 168564,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 459,
+					"image_savings": 0,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 353,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 560,
+					"loadEventStart": 1592,
+					"loadEventEnd": 1600,
+					"domContentLoadedEventStart": 1117,
+					"domContentLoadedEventEnd": 1117,
+					"lastVisualChange": 1480,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": -1,
+					"firstPaint": 443,
+					"docCPUms": 2059.213,
+					"fullyLoadedCPUms": 2464.816,
+					"docCPUpct": 31,
+					"fullyLoadedCPUpct": 11,
+					"isResponsive": -1,
+					"browser_process_count": 6,
+					"browser_main_memory_kb": 70692,
+					"browser_other_private_memory_kb": 119988,
+					"browser_working_set_kb": 190680,
+					"domInteractive": 442,
+					"domLoading": 353,
+					"base_page_ttfb": 349,
+					"visualComplete": 1500,
+					"SpeedIndex": 819,
+					"certificate_bytes": 67270,
+					"date": 1510527592,
+					"userTime.main searchbar is ready": 1269,
+					"userTimes": {
+						"main searchbar is ready": 1269,
+						"page content ready": 1269,
+						"content component MobileMainPage is ready": 1269
+					},
+					"userTime.page content ready": 1269,
+					"userTime.content component MobileMainPage is ready": 1269,
+					"userTime": 1269,
+					"testTiming": {
+						"ExtensionStart": 122,
+						"ExtensionBlank": 200,
+						"WaitForIdle": 599,
+						"LaunchBrowser": 963,
+						"MeasureStep": 5751,
+						"ProcessRequests": 24,
+						"RunOptimizationChecks": 2,
+						"ProcessVideo": 70,
+						"SaveResult": 91,
+						"RunTest": 7342,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"CSI": [
+						"v",
+						"s",
+						"action",
+						"puid",
+						"c",
+						"e",
+						"ctx",
+						"met_9",
+						"met_3",
+						"met_1"
+					],
+					"CSI.v": 2,
+					"CSI.s": "pagead",
+					"CSI.action": "csi_pagead",
+					"CSI.puid": "1~j9xd4nj1",
+					"CSI.c": 8294744690197310,
+					"CSI.e": "108809107,21060609,21060362,21060697,21061149",
+					"CSI.ctx": 1,
+					"CSI.met_9": "1.k6~2.ma",
+					"CSI.met_3": "112.zu_2~113.18i_1",
+					"CSI.met_1": "1.j9xd4lg3~6.1b~7.1b~8.1b~9.1b~10.3d~11.1b~12.3e~13.9r~14.a7~15.9t~16.ca~17.v1~18.v1~19.188~20.188~21.18g~22.cb~23.cb",
+					"visualComplete85": 900,
+					"visualComplete90": 1500,
+					"visualComplete95": 1500,
+					"visualComplete99": 1500,
+					"step": 1,
+					"effectiveBps": 97699,
+					"effectiveBpsDoc": 227694,
+					"smallImageCount": 0,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=4&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=4&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=4&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=4&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=4&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/4_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/4_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/4_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=4_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=4_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/4_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 600,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4_cached&file=frame_0006.jpg",
+							"VisuallyComplete": 51
+						},
+						{
+							"time": 900,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4_cached&file=frame_0009.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1300,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4_cached&file=frame_0013.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_4_cached&file=frame_0015.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 517,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"csi.gstatic.com": {
+							"bytes": 182,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 404,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 362,
+							"requests": 1,
+							"connections": 1
+						},
+						"pagead2.googlesyndication.com": {
+							"bytes": 14854,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 2360,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 445,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 45903,
+							"requests": 4,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 100603,
+							"requests": 15,
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2520,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13730,
+							"requests": 4,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 326,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3957,
+							"requests": 5,
+							"connections": 1
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 47457,
+							"bytesUncompressed": 153836,
+							"requests": 5
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 116626,
+							"bytesUncompressed": 394711,
+							"requests": 10
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 4281,
+							"bytesUncompressed": 508,
+							"requests": 13
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 15657,
+							"bytesUncompressed": 105750,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				}
+			},
+			"5": {
+				"firstView": {
+					"numSteps": 1,
+					"run": 5,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 2655,
+					"TTFB": 293,
+					"bytesOut": 153297,
+					"bytesOutDoc": 45229,
+					"bytesIn": 1076700,
+					"bytesInDoc": 1047077,
+					"connections": 26,
+					"requests": 87,
+					"requestsFull": 87,
+					"requestsDoc": 77,
+					"responses_200": 80,
+					"responses_404": 0,
+					"responses_other": 0,
+					"result": 0,
+					"render": 478,
+					"fullyLoaded": 3870,
+					"cached": 0,
+					"docTime": 2655,
+					"domTime": 0,
+					"score_cache": 79,
+					"score_cdn": 20,
+					"score_gzip": 98,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 93,
+					"score_etags": -1,
+					"gzip_total": 580390,
+					"gzip_savings": 11337,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 188410,
+					"image_savings": 12092,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 354,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 560,
+					"loadEventStart": 2651,
+					"loadEventEnd": 2658,
+					"domContentLoadedEventStart": 1697,
+					"domContentLoadedEventEnd": 1697,
+					"lastVisualChange": 2265,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": 100,
+					"firstPaint": 388,
+					"docCPUms": 2340.015,
+					"fullyLoadedCPUms": 2574.017,
+					"docCPUpct": 22,
+					"fullyLoadedCPUpct": 11,
+					"isResponsive": -1,
+					"browser_process_count": 10,
+					"browser_main_memory_kb": 80288,
+					"browser_other_private_memory_kb": 167092,
+					"browser_working_set_kb": 247380,
+					"domInteractive": 339,
+					"domLoading": 297,
+					"base_page_ttfb": 293,
+					"visualComplete": 2300,
+					"SpeedIndex": 868,
+					"certificate_bytes": 90068,
+					"date": 1510527599,
+					"userTime.main searchbar is ready": 1837,
+					"userTimes": {
+						"main searchbar is ready": 1837,
+						"page content ready": 1837,
+						"content component MobileMainPage is ready": 1837
+					},
+					"userTime.page content ready": 1837,
+					"userTime.content component MobileMainPage is ready": 1837,
+					"userTime": 1837,
+					"testTiming": {
+						"ExtensionStart": 154,
+						"ExtensionBlank": 219,
+						"WaitForIdle": 698,
+						"LaunchBrowser": 1114,
+						"MeasureStep": 5977,
+						"ProcessRequests": 47,
+						"RunOptimizationChecks": 68,
+						"ProcessVideo": 89,
+						"SaveResult": 204,
+						"RunTest": 7586,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"visualComplete85": 1000,
+					"visualComplete90": 1900,
+					"visualComplete95": 2100,
+					"visualComplete99": 2100,
+					"step": 1,
+					"effectiveBps": 301006,
+					"effectiveBpsDoc": 443301,
+					"smallImageCount": 20,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=5",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=5",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=5",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=5",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=5"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/5_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/5_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/5_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=5_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=5_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5&file=frame_0005.jpg",
+							"VisuallyComplete": 49
+						},
+						{
+							"time": 1000,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5&file=frame_0010.jpg",
+							"VisuallyComplete": 89
+						},
+						{
+							"time": 1800,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5&file=frame_0018.jpg",
+							"VisuallyComplete": 89
+						},
+						{
+							"time": 1900,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5&file=frame_0019.jpg",
+							"VisuallyComplete": 94
+						},
+						{
+							"time": 2100,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5&file=frame_0021.jpg",
+							"VisuallyComplete": 99
+						},
+						{
+							"time": 2300,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5&file=frame_0023.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 685,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.com": {
+							"bytes": 449,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 25985,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 400,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 450,
+							"requests": 1,
+							"connections": 1
+						},
+						"tpc.googlesyndication.com": {
+							"bytes": 1841,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagmanager.com": {
+							"bytes": 22673,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 37092,
+							"requests": 4,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.googletagservices.com": {
+							"bytes": 5483,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 1749,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 19380,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"securepubads.g.doubleclick.net": {
+							"bytes": 67627,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"stats.g.doubleclick.net": {
+							"bytes": 662,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"connect.facebook.net": {
+							"bytes": 23157,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 279387,
+							"requests": 18,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 366525,
+							"requests": 23,
+							"connections": 1
+						},
+						"adservice.google.ru": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"www.google.ru": {
+							"bytes": 349,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 5781,
+							"requests": 3,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2861,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13729,
+							"requests": 4,
+							"connections": 1
+						},
+						"s.ngs.ru": {
+							"bytes": 7896,
+							"requests": 1,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 607,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 36418,
+							"requests": 7,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 51648,
+							"bytesUncompressed": 157536,
+							"requests": 10
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 495908,
+							"bytesUncompressed": 1764171,
+							"requests": 25
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 13042,
+							"bytesUncompressed": 68002,
+							"requests": 3
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 221284,
+							"bytesUncompressed": 213891,
+							"requests": 36
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 120564,
+							"bytesUncompressed": 119960,
+							"requests": 2
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 17617,
+							"bytesUncompressed": 111695,
+							"requests": 9
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				},
+				"repeatView": {
+					"numSteps": 1,
+					"run": 5,
+					"tester": "USER-WPT-192.168.8.37",
+					"URL": "https://novosibirsk.n1.ru",
+					"loadTime": 1325,
+					"TTFB": 292,
+					"bytesOut": 145719,
+					"bytesOutDoc": 35051,
+					"bytesIn": 208843,
+					"bytesInDoc": 177713,
+					"connections": 18,
+					"requests": 48,
+					"requestsFull": 48,
+					"requestsDoc": 41,
+					"responses_200": 26,
+					"responses_404": 0,
+					"responses_other": 0,
+					"result": 0,
+					"render": 494,
+					"fullyLoaded": 2745,
+					"cached": 1,
+					"docTime": 1325,
+					"domTime": 0,
+					"score_cache": 83,
+					"score_cdn": 100,
+					"score_gzip": 100,
+					"score_cookies": -1,
+					"score_keep-alive": 100,
+					"score_minify": -1,
+					"score_combine": 100,
+					"score_compress": 100,
+					"score_etags": -1,
+					"gzip_total": 57173,
+					"gzip_savings": 0,
+					"minify_total": 0,
+					"minify_savings": 0,
+					"image_total": 459,
+					"image_savings": 0,
+					"base_page_redirects": 0,
+					"optimization_checked": 1,
+					"aft": 0,
+					"domElements": 352,
+					"pageSpeedVersion": "1.9",
+					"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+					"titleTime": 560,
+					"loadEventStart": 1321,
+					"loadEventEnd": 1328,
+					"domContentLoadedEventStart": 877,
+					"domContentLoadedEventEnd": 877,
+					"lastVisualChange": 1380,
+					"browser_name": "Google Chrome",
+					"browser_version": "62.0.3202.89",
+					"server_count": 1,
+					"server_rtt": 29,
+					"base_page_cdn": "",
+					"adult_site": 0,
+					"eventName": "Step 1",
+					"fixed_viewport": 1,
+					"score_progressive_jpeg": -1,
+					"firstPaint": 392,
+					"docCPUms": 1918.812,
+					"fullyLoadedCPUms": 2355.615,
+					"docCPUpct": 35,
+					"fullyLoadedCPUpct": 12,
+					"isResponsive": -1,
+					"browser_process_count": 7,
+					"browser_main_memory_kb": 71092,
+					"browser_other_private_memory_kb": 121552,
+					"browser_working_set_kb": 192644,
+					"domInteractive": 384,
+					"domLoading": 296,
+					"base_page_ttfb": 292,
+					"visualComplete": 1400,
+					"SpeedIndex": 625,
+					"certificate_bytes": 63379,
+					"date": 1510527607,
+					"userTime.main searchbar is ready": 996,
+					"userTimes": {
+						"main searchbar is ready": 996,
+						"page content ready": 996,
+						"content component MobileMainPage is ready": 996
+					},
+					"userTime.page content ready": 996,
+					"userTime.content component MobileMainPage is ready": 996,
+					"userTime": 996,
+					"testTiming": {
+						"ExtensionStart": 125,
+						"ExtensionBlank": 208,
+						"WaitForIdle": 698,
+						"LaunchBrowser": 1081,
+						"MeasureStep": 4883,
+						"ProcessRequests": 20,
+						"RunOptimizationChecks": 2,
+						"ProcessVideo": 85,
+						"SaveResult": 105,
+						"RunTest": 6458,
+						"UploadImages": 0,
+						"AllRunsDuration": 77000
+					},
+					"visualComplete85": 600,
+					"visualComplete90": 1100,
+					"visualComplete95": 1200,
+					"visualComplete99": 1400,
+					"step": 1,
+					"effectiveBps": 85137,
+					"effectiveBpsDoc": 172035,
+					"smallImageCount": 0,
+					"bigImageCount": 0,
+					"maybeCaptcha": 0,
+					"pages": {
+						"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=5&cached=1",
+						"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=5&cached=1",
+						"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=5&cached=1",
+						"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=5&cached=1",
+						"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=5&cached=1"
+					},
+					"thumbnails": {
+						"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/5_Cached_waterfall_thumb.png",
+						"checklist": "http://wpt.n1.s/result/171112_7B_NQ/5_Cached_optimization_thumb.png",
+						"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/5_Cached_screen_thumb.png"
+					},
+					"images": {
+						"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_Cached_waterfall.png",
+						"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_Cached_connection.png",
+						"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_Cached_optimization.png",
+						"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=5_Cached_screen.jpg",
+						"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=5_Cached_screen.png"
+					},
+					"rawData": {
+						"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_Cached_report.txt",
+						"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_Cached_IEWPG.txt",
+						"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_Cached_IEWTR.txt",
+						"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/5_Cached_progress.csv"
+					},
+					"videoFrames": [
+						{
+							"time": 0,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5_cached&file=frame_0000.jpg",
+							"VisuallyComplete": 0
+						},
+						{
+							"time": 500,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5_cached&file=frame_0005.jpg",
+							"VisuallyComplete": 51
+						},
+						{
+							"time": 600,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5_cached&file=frame_0006.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1000,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5_cached&file=frame_0010.jpg",
+							"VisuallyComplete": 88
+						},
+						{
+							"time": 1100,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5_cached&file=frame_0011.jpg",
+							"VisuallyComplete": 94
+						},
+						{
+							"time": 1200,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5_cached&file=frame_0012.jpg",
+							"VisuallyComplete": 95
+						},
+						{
+							"time": 1400,
+							"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_5_cached&file=frame_0014.jpg",
+							"VisuallyComplete": 100
+						}
+					],
+					"domains": {
+						"app.link": {
+							"bytes": 518,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"adservice.google.com": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"cdn.scarabresearch.com": {
+							"bytes": 404,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"www.facebook.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Facebook",
+							"connections": 1
+						},
+						"vk.com": {
+							"bytes": 362,
+							"requests": 1,
+							"connections": 1
+						},
+						"www.google-analytics.com": {
+							"bytes": 298,
+							"requests": 2,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"api.branch.io": {
+							"bytes": 1749,
+							"requests": 3,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 2
+						},
+						"cdn.branch.io": {
+							"bytes": 445,
+							"requests": 1,
+							"cdn_provider": "Amazon CloudFront",
+							"connections": 1
+						},
+						"novosibirsk.n1.ru": {
+							"bytes": 45904,
+							"requests": 4,
+							"connections": 1
+						},
+						"cdn.n1.ru": {
+							"bytes": 2261,
+							"requests": 15,
+							"connections": 1
+						},
+						"adservice.google.ru": {
+							"bytes": 466,
+							"requests": 1,
+							"cdn_provider": "Google",
+							"connections": 1
+						},
+						"top-fwz1.mail.ru": {
+							"bytes": 990,
+							"requests": 2,
+							"connections": 1
+						},
+						"counter.yadro.ru": {
+							"bytes": 2519,
+							"requests": 4,
+							"connections": 2
+						},
+						"geo.ngs.ru": {
+							"bytes": 13730,
+							"requests": 4,
+							"connections": 1
+						},
+						"realty.ngs.ru": {
+							"bytes": 325,
+							"requests": 1,
+							"connections": 1
+						},
+						"mc.yandex.ru": {
+							"bytes": 3951,
+							"requests": 5,
+							"connections": 2
+						}
+					},
+					"breakdown": {
+						"html": {
+							"color": [
+								130,
+								181,
+								252
+							],
+							"bytes": 47455,
+							"bytesUncompressed": 153836,
+							"requests": 5
+						},
+						"js": {
+							"color": [
+								254,
+								197,
+								132
+							],
+							"bytes": 2370,
+							"bytesUncompressed": 1585,
+							"requests": 4
+						},
+						"css": {
+							"color": [
+								178,
+								234,
+								148
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"image": {
+							"color": [
+								196,
+								154,
+								232
+							],
+							"bytes": 4099,
+							"bytesUncompressed": 508,
+							"requests": 12
+						},
+						"flash": {
+							"color": [
+								45,
+								183,
+								193
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"font": {
+							"color": [
+								255,
+								82,
+								62
+							],
+							"bytes": 0,
+							"bytesUncompressed": 0,
+							"requests": 0
+						},
+						"other": {
+							"color": [
+								196,
+								196,
+								196
+							],
+							"bytes": 15660,
+							"bytesUncompressed": 105750,
+							"requests": 8
+						}
+					},
+					"consoleLog": [
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Application]: start",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 133,
+							"level": "warning",
+							"line": 70,
+							"source": "console-api",
+							"text": "Empty hit url",
+							"url": "https://mc.yandex.ru/metrika/watch.js"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[Dispatcher]: call %s, %s ()",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						},
+						{
+							"column": 10780,
+							"level": "info",
+							"line": 21,
+							"source": "console-api",
+							"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+							"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+						}
+					]
+				}
+			}
+		},
+		"fvonly": false,
+		"successfulFVRuns": 5,
+		"successfulRVRuns": 5,
+		"median": {
+			"firstView": {
+				"numSteps": 1,
+				"run": 2,
+				"tester": "USER-WPT-192.168.8.37",
+				"URL": "https://novosibirsk.n1.ru",
+				"loadTime": 2633,
+				"TTFB": 310,
+				"bytesOut": 158166,
+				"bytesOutDoc": 46018,
+				"bytesIn": 1090692,
+				"bytesInDoc": 1036461,
+				"connections": 28,
+				"requests": 91,
+				"requestsFull": 91,
+				"requestsDoc": 77,
+				"responses_200": 81,
+				"responses_404": 0,
+				"responses_other": 3,
+				"result": 0,
+				"render": 494,
+				"fullyLoaded": 4024,
+				"cached": 0,
+				"docTime": 2633,
+				"domTime": 0,
+				"score_cache": 78,
+				"score_cdn": 21,
+				"score_gzip": 98,
+				"score_cookies": -1,
+				"score_keep-alive": 100,
+				"score_minify": -1,
+				"score_combine": 100,
+				"score_compress": 93,
+				"score_etags": -1,
+				"gzip_total": 594642,
+				"gzip_savings": 11337,
+				"minify_total": 0,
+				"minify_savings": 0,
+				"image_total": 188453,
+				"image_savings": 12092,
+				"base_page_redirects": 0,
+				"optimization_checked": 1,
+				"aft": 0,
+				"domElements": 353,
+				"pageSpeedVersion": "1.9",
+				"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+				"titleTime": 560,
+				"loadEventStart": 2628,
+				"loadEventEnd": 2638,
+				"domContentLoadedEventStart": 1685,
+				"domContentLoadedEventEnd": 1685,
+				"lastVisualChange": 2165,
+				"browser_name": "Google Chrome",
+				"browser_version": "62.0.3202.89",
+				"server_count": 1,
+				"server_rtt": 29,
+				"base_page_cdn": "",
+				"adult_site": 0,
+				"eventName": "Step 1",
+				"fixed_viewport": 1,
+				"score_progressive_jpeg": 100,
+				"firstPaint": 404,
+				"docCPUms": 2386.815,
+				"fullyLoadedCPUms": 2823.618,
+				"docCPUpct": 22,
+				"fullyLoadedCPUpct": 11,
+				"isResponsive": -1,
+				"browser_process_count": 11,
+				"browser_main_memory_kb": 76492,
+				"browser_other_private_memory_kb": 168380,
+				"browser_working_set_kb": 244872,
+				"domInteractive": 396,
+				"domLoading": 313,
+				"base_page_ttfb": 310,
+				"visualComplete": 2200,
+				"SpeedIndex": 1037,
+				"certificate_bytes": 93959,
+				"date": 1510527552,
+				"userTime.main searchbar is ready": 1823,
+				"userTimes": {
+					"main searchbar is ready": 1823,
+					"page content ready": 1823,
+					"content component MobileMainPage is ready": 1823
+				},
+				"userTime.page content ready": 1823,
+				"userTime.content component MobileMainPage is ready": 1823,
+				"userTime": 1823,
+				"testTiming": {
+					"ExtensionStart": 169,
+					"ExtensionBlank": 208,
+					"WaitForIdle": 697,
+					"LaunchBrowser": 1124,
+					"MeasureStep": 6180,
+					"ProcessRequests": 49,
+					"RunOptimizationChecks": 68,
+					"ProcessVideo": 99,
+					"SaveResult": 217,
+					"RunTest": 8081,
+					"UploadImages": 0,
+					"AllRunsDuration": 77000
+				},
+				"CSI": [
+					"v",
+					"s",
+					"action",
+					"puid",
+					"c",
+					"e",
+					"ctx",
+					"met_7",
+					"met_9",
+					"met_1",
+					"met_2"
+				],
+				"CSI.v": 2,
+				"CSI.s": "pagead",
+				"CSI.action": "csi_pagead",
+				"CSI.puid": "1~j9xd3tnf",
+				"CSI.c": 6552732139866704,
+				"CSI.e": "108809144,108809103,21060168,21060362,21061149",
+				"CSI.ctx": 1,
+				"CSI.met_7": "CBsQByC7Ajgu~CBsQByC7Ajhd~CBsQByC7AjinAw~CBsQByC7AjjbBw~CBsQByC8AjjkBA~CBsQCiC8AjjkBA~CBsQBiC8Ajg6~CBsQBiC8AjhT~CBsQBiC9AjhT~CBsQBiC9AjhZ~CBsQBiC9AjhZ~CBsQBiC9Ajha~CBsQCiC9AjjkBA~CA0QChgBIL0CKL0CML0FOIADUOkCWLwEYLoDaL8EcKQFeKMqgAHRJ4gBtF4~CBsQCiC9AjiSCA~CBsQCiC9AjjhAQ~CBsQCiC9AjiTCA~CBsQCiC9AjiYCA~CBsQByDdAjiICA~CBsQByDdAjifCQ~CBsQAiDeAjjBBA~CBsQAiDhAji_BA~CBsQAiDiAjjdBw~CBsQAiDjAji9BA~CBsQAiDtAjjeBw~CBsQAiDtAjiVBQ~CBsQCiCKAzjEAw~CBsQBiDIBDiDBg~CBsQCiCkBziIAg~CC8QBxgBIKkHKKkHMJMKOOoCQKsHSM0HUM0HWKsJYKkIaKwJcI4KeO0DgAFriAFs~CA4QChgBIKkHKKkHMLMKOIoDaKwHcJYIeNSOBIABhowEiAGN3As~CBsQAiCvBzi8BA~CBAQBxgBINMKKNMKMKUNONICQNUKSPUKUPUKWMIMYNALaMMMcKENeMMOgAGoDIgBpxg~CCgQBxgBINUKKNUKMLcLOGJo1gpwtgt4sQKAAbABiAHfAQ~CBsQChgBINcKKNcKMLUMON4B~CBsQCiDgCjjnAQ~CBsQCiDhCji7AQ~CBsQCiChDDjRAg~CBsQAiC0DTiNAQ~CBsQAiC0DTiXAQ~CBsQAiC1DTjzAg~CBsQAiC1DTiAAw~CBsQAiC2DTiAAw~CBsQAiC2DTiAAw~CBsQAiC3DTj_Ag~CBsQCiDdDTjJAQ~CBsQBiCUDjifAQ~CBsQCiCaDjiFAw~CBsQCiCaDjj_AQ~CBsQBiCbDjh5~CBsQBiCCDziGAg~CBsQBiDBDzhw~CBsQAiDDDzh1~CBsQBiDcDzhg~CBsQCiCkEDiSAQ~CBsQBiCjEThY~CBsQBiC-ETh3~CBsQBiDTEzhw~CBsQBhgBIMkUKMkUMLoVOHE~CBkQChgBIMoUKMoUMPEXOKgDQMoUSO0UUO0UWK8WYMYVaK8WcJsXeJh0gAHrcIgB0q0C~CBsQBiDOFDhV~CBsg0RQ4Jw~CBsg-RQ4IQ~CBsgmhU4Sg~CBsghxY4Kg~CBsgshY4Ig~CBsQBhgBILYWKLYWMK0XOHg~CBsQCDjOFA",
+				"CSI.met_9": "1.pz~2.11r",
+				"CSI.met_1": "1.j9xd3ra6~6.19~7.1a~8.1a~9.1a~10.46~11.1q~12.46~13.8n~14.90~15.8p~16.b0~17.1at~18.1at~19.210~20.210~21.21a~22.ba~23.ba",
+				"CSI.met_2": "15.27~16.8cas",
+				"visualComplete85": 1500,
+				"visualComplete90": 1900,
+				"visualComplete95": 2100,
+				"visualComplete99": 2100,
+				"step": 1,
+				"effectiveBps": 293670,
+				"effectiveBpsDoc": 446173,
+				"smallImageCount": 20,
+				"bigImageCount": 0,
+				"maybeCaptcha": 0,
+				"pages": {
+					"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=2",
+					"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=2",
+					"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=2",
+					"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=2",
+					"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=2"
+				},
+				"thumbnails": {
+					"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/2_waterfall_thumb.png",
+					"checklist": "http://wpt.n1.s/result/171112_7B_NQ/2_optimization_thumb.png",
+					"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/2_screen_thumb.png"
+				},
+				"images": {
+					"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_waterfall.png",
+					"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_connection.png",
+					"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_optimization.png",
+					"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=2_screen.jpg",
+					"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=2_screen.png"
+				},
+				"rawData": {
+					"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_report.txt",
+					"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_IEWPG.txt",
+					"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_IEWTR.txt",
+					"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_progress.csv"
+				},
+				"videoFrames": [
+					{
+						"time": 0,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0000.jpg",
+						"VisuallyComplete": 0
+					},
+					{
+						"time": 500,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0005.jpg",
+						"VisuallyComplete": 49
+					},
+					{
+						"time": 1000,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0010.jpg",
+						"VisuallyComplete": 49
+					},
+					{
+						"time": 1400,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0014.jpg",
+						"VisuallyComplete": 79
+					},
+					{
+						"time": 1500,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0015.jpg",
+						"VisuallyComplete": 89
+					},
+					{
+						"time": 1900,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0019.jpg",
+						"VisuallyComplete": 94
+					},
+					{
+						"time": 2100,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0021.jpg",
+						"VisuallyComplete": 99
+					},
+					{
+						"time": 2200,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2&file=frame_0022.jpg",
+						"VisuallyComplete": 100
+					}
+				],
+				"domains": {
+					"app.link": {
+						"bytes": 687,
+						"requests": 1,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"csi.gstatic.com": {
+						"bytes": 182,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"adservice.google.com": {
+						"bytes": 466,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"www.google.com": {
+						"bytes": 560,
+						"requests": 3,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"cdn.scarabresearch.com": {
+						"bytes": 25985,
+						"requests": 1,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"www.facebook.com": {
+						"bytes": 398,
+						"requests": 2,
+						"cdn_provider": "Facebook",
+						"connections": 1
+					},
+					"vk.com": {
+						"bytes": 290,
+						"requests": 1,
+						"connections": 1
+					},
+					"pagead2.googlesyndication.com": {
+						"bytes": 14854,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"tpc.googlesyndication.com": {
+						"bytes": 1841,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"www.googletagmanager.com": {
+						"bytes": 22673,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"www.google-analytics.com": {
+						"bytes": 37109,
+						"requests": 4,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"www.googletagservices.com": {
+						"bytes": 5384,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"api.branch.io": {
+						"bytes": 1747,
+						"requests": 3,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 2
+					},
+					"cdn.branch.io": {
+						"bytes": 19380,
+						"requests": 1,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"securepubads.g.doubleclick.net": {
+						"bytes": 67627,
+						"requests": 2,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"stats.g.doubleclick.net": {
+						"bytes": 664,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"connect.facebook.net": {
+						"bytes": 23134,
+						"requests": 2,
+						"cdn_provider": "Facebook",
+						"connections": 1
+					},
+					"novosibirsk.n1.ru": {
+						"bytes": 279387,
+						"requests": 18,
+						"connections": 1
+					},
+					"cdn.n1.ru": {
+						"bytes": 366525,
+						"requests": 23,
+						"connections": 1
+					},
+					"www.google.ru": {
+						"bytes": 349,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"top-fwz1.mail.ru": {
+						"bytes": 5781,
+						"requests": 3,
+						"connections": 1
+					},
+					"counter.yadro.ru": {
+						"bytes": 2862,
+						"requests": 4,
+						"connections": 2
+					},
+					"geo.ngs.ru": {
+						"bytes": 13728,
+						"requests": 4,
+						"connections": 1
+					},
+					"s.ngs.ru": {
+						"bytes": 7896,
+						"requests": 1,
+						"connections": 1
+					},
+					"realty.ngs.ru": {
+						"bytes": 604,
+						"requests": 1,
+						"connections": 1
+					},
+					"mc.yandex.ru": {
+						"bytes": 36955,
+						"requests": 8,
+						"connections": 3
+					}
+				},
+				"breakdown": {
+					"html": {
+						"color": [
+							130,
+							181,
+							252
+						],
+						"bytes": 51649,
+						"bytesUncompressed": 157537,
+						"requests": 10
+					},
+					"js": {
+						"color": [
+							254,
+							197,
+							132
+						],
+						"bytes": 510191,
+						"bytesUncompressed": 1802650,
+						"requests": 25
+					},
+					"css": {
+						"color": [
+							178,
+							234,
+							148
+						],
+						"bytes": 13042,
+						"bytesUncompressed": 68002,
+						"requests": 3
+					},
+					"image": {
+						"color": [
+							196,
+							154,
+							232
+						],
+						"bytes": 221949,
+						"bytesUncompressed": 213934,
+						"requests": 40
+					},
+					"flash": {
+						"color": [
+							45,
+							183,
+							193
+						],
+						"bytes": 0,
+						"bytesUncompressed": 0,
+						"requests": 0
+					},
+					"font": {
+						"color": [
+							255,
+							82,
+							62
+						],
+						"bytes": 120564,
+						"bytesUncompressed": 119960,
+						"requests": 2
+					},
+					"other": {
+						"color": [
+							196,
+							196,
+							196
+						],
+						"bytes": 17616,
+						"bytesUncompressed": 111695,
+						"requests": 9
+					}
+				},
+				"consoleLog": [
+					{
+						"column": 10780,
+						"level": "info",
+						"line": 21,
+						"source": "console-api",
+						"text": "[Application]: start",
+						"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+					},
+					{
+						"column": 10780,
+						"level": "info",
+						"line": 21,
+						"source": "console-api",
+						"text": "[Dispatcher]: call %s, %s ()",
+						"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+					},
+					{
+						"column": 10780,
+						"level": "info",
+						"line": 21,
+						"source": "console-api",
+						"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+						"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+					}
+				]
+			},
+			"repeatView": {
+				"numSteps": 1,
+				"run": 2,
+				"tester": "USER-WPT-192.168.8.37",
+				"URL": "https://novosibirsk.n1.ru",
+				"loadTime": 1542,
+				"TTFB": 271,
+				"bytesOut": 144208,
+				"bytesOutDoc": 33514,
+				"bytesIn": 301396,
+				"bytesInDoc": 270268,
+				"connections": 16,
+				"requests": 47,
+				"requestsFull": 47,
+				"requestsDoc": 40,
+				"responses_200": 31,
+				"responses_404": 0,
+				"responses_other": 0,
+				"result": 0,
+				"render": 478,
+				"fullyLoaded": 2848,
+				"cached": 1,
+				"docTime": 1542,
+				"domTime": 0,
+				"score_cache": 83,
+				"score_cdn": 25,
+				"score_gzip": 100,
+				"score_cookies": -1,
+				"score_keep-alive": 100,
+				"score_minify": -1,
+				"score_combine": 100,
+				"score_compress": 100,
+				"score_etags": -1,
+				"gzip_total": 154328,
+				"gzip_savings": 0,
+				"minify_total": 0,
+				"minify_savings": 0,
+				"image_total": 459,
+				"image_savings": 0,
+				"base_page_redirects": 0,
+				"optimization_checked": 1,
+				"aft": 0,
+				"domElements": 352,
+				"pageSpeedVersion": "1.9",
+				"title": "Недвижимость в Новосибирске, объявления о продаже недвижимости без посредников и агентств, с фото - N1.RU Новосибирск",
+				"titleTime": 560,
+				"loadEventStart": 1538,
+				"loadEventEnd": 1546,
+				"domContentLoadedEventStart": 1034,
+				"domContentLoadedEventEnd": 1034,
+				"lastVisualChange": 1380,
+				"browser_name": "Google Chrome",
+				"browser_version": "62.0.3202.89",
+				"server_count": 1,
+				"server_rtt": 29,
+				"base_page_cdn": "",
+				"adult_site": 0,
+				"eventName": "Step 1",
+				"fixed_viewport": 1,
+				"score_progressive_jpeg": -1,
+				"firstPaint": 364,
+				"docCPUms": 1981.213,
+				"fullyLoadedCPUms": 2262.015,
+				"docCPUpct": 31,
+				"fullyLoadedCPUpct": 11,
+				"isResponsive": -1,
+				"browser_process_count": 7,
+				"browser_main_memory_kb": 70696,
+				"browser_other_private_memory_kb": 122480,
+				"browser_working_set_kb": 193176,
+				"domInteractive": 362,
+				"domLoading": 274,
+				"base_page_ttfb": 271,
+				"visualComplete": 1400,
+				"SpeedIndex": 713,
+				"certificate_bytes": 60210,
+				"date": 1510527561,
+				"userTime.main searchbar is ready": 1191,
+				"userTimes": {
+					"main searchbar is ready": 1191,
+					"page content ready": 1191,
+					"content component MobileMainPage is ready": 1191
+				},
+				"userTime.page content ready": 1191,
+				"userTime.content component MobileMainPage is ready": 1191,
+				"userTime": 1191,
+				"testTiming": {
+					"ExtensionStart": 122,
+					"ExtensionBlank": 209,
+					"WaitForIdle": 799,
+					"LaunchBrowser": 1179,
+					"MeasureStep": 4997,
+					"ProcessRequests": 23,
+					"RunOptimizationChecks": 2,
+					"ProcessVideo": 77,
+					"SaveResult": 98,
+					"RunTest": 6544,
+					"UploadImages": 0,
+					"AllRunsDuration": 77000
+				},
+				"visualComplete85": 800,
+				"visualComplete90": 1300,
+				"visualComplete95": 1400,
+				"visualComplete99": 1400,
+				"step": 1,
+				"effectiveBps": 116956,
+				"effectiveBpsDoc": 212642,
+				"smallImageCount": 0,
+				"bigImageCount": 0,
+				"maybeCaptcha": 0,
+				"pages": {
+					"details": "http://wpt.n1.s/details.php?test=171112_7B_NQ&run=2&cached=1",
+					"checklist": "http://wpt.n1.s/performance_optimization.php?test=171112_7B_NQ&run=2&cached=1",
+					"breakdown": "http://wpt.n1.s/breakdown.php?test=171112_7B_NQ&run=2&cached=1",
+					"domains": "http://wpt.n1.s/domains.php?test=171112_7B_NQ&run=2&cached=1",
+					"screenShot": "http://wpt.n1.s/screen_shot.php?test=171112_7B_NQ&run=2&cached=1"
+				},
+				"thumbnails": {
+					"waterfall": "http://wpt.n1.s/result/171112_7B_NQ/2_Cached_waterfall_thumb.png",
+					"checklist": "http://wpt.n1.s/result/171112_7B_NQ/2_Cached_optimization_thumb.png",
+					"screenShot": "http://wpt.n1.s/result/171112_7B_NQ/2_Cached_screen_thumb.png"
+				},
+				"images": {
+					"waterfall": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_waterfall.png",
+					"connectionView": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_connection.png",
+					"checklist": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_optimization.png",
+					"screenShot": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=2_Cached_screen.jpg",
+					"screenShotPng": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&file=2_Cached_screen.png"
+				},
+				"rawData": {
+					"headers": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_report.txt",
+					"pageData": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_IEWPG.txt",
+					"requestsData": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_IEWTR.txt",
+					"utilization": "http://wpt.n1.s/results/17/11/12/7B/NQ/2_Cached_progress.csv"
+				},
+				"videoFrames": [
+					{
+						"time": 0,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0000.jpg",
+						"VisuallyComplete": 0
+					},
+					{
+						"time": 500,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0005.jpg",
+						"VisuallyComplete": 51
+					},
+					{
+						"time": 800,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0008.jpg",
+						"VisuallyComplete": 88
+					},
+					{
+						"time": 1200,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0012.jpg",
+						"VisuallyComplete": 88
+					},
+					{
+						"time": 1300,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0013.jpg",
+						"VisuallyComplete": 94
+					},
+					{
+						"time": 1400,
+						"image": "http://wpt.n1.s/getfile.php?test=171112_7B_NQ&video=video_2_cached&file=frame_0014.jpg",
+						"VisuallyComplete": 100
+					}
+				],
+				"domains": {
+					"app.link": {
+						"bytes": 518,
+						"requests": 1,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"adservice.google.com": {
+						"bytes": 466,
+						"requests": 1,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"cdn.scarabresearch.com": {
+						"bytes": 404,
+						"requests": 1,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"www.facebook.com": {
+						"bytes": 298,
+						"requests": 2,
+						"cdn_provider": "Facebook",
+						"connections": 1
+					},
+					"vk.com": {
+						"bytes": 225,
+						"requests": 1,
+						"connections": 1
+					},
+					"www.google-analytics.com": {
+						"bytes": 298,
+						"requests": 2,
+						"cdn_provider": "Google",
+						"connections": 1
+					},
+					"api.branch.io": {
+						"bytes": 1748,
+						"requests": 3,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 2
+					},
+					"cdn.branch.io": {
+						"bytes": 445,
+						"requests": 1,
+						"cdn_provider": "Amazon CloudFront",
+						"connections": 1
+					},
+					"novosibirsk.n1.ru": {
+						"bytes": 45898,
+						"requests": 4,
+						"connections": 1
+					},
+					"cdn.n1.ru": {
+						"bytes": 99767,
+						"requests": 15,
+						"connections": 1
+					},
+					"top-fwz1.mail.ru": {
+						"bytes": 990,
+						"requests": 2,
+						"connections": 1
+					},
+					"counter.yadro.ru": {
+						"bytes": 2520,
+						"requests": 4,
+						"connections": 2
+					},
+					"geo.ngs.ru": {
+						"bytes": 13729,
+						"requests": 4,
+						"connections": 1
+					},
+					"realty.ngs.ru": {
+						"bytes": 326,
+						"requests": 1,
+						"connections": 1
+					},
+					"mc.yandex.ru": {
+						"bytes": 3958,
+						"requests": 5,
+						"connections": 1
+					}
+				},
+				"breakdown": {
+					"html": {
+						"color": [
+							130,
+							181,
+							252
+						],
+						"bytes": 47455,
+						"bytesUncompressed": 153836,
+						"requests": 5
+					},
+					"js": {
+						"color": [
+							254,
+							197,
+							132
+						],
+						"bytes": 100324,
+						"bytesUncompressed": 356101,
+						"requests": 9
+					},
+					"css": {
+						"color": [
+							178,
+							234,
+							148
+						],
+						"bytes": 0,
+						"bytesUncompressed": 0,
+						"requests": 0
+					},
+					"image": {
+						"color": [
+							196,
+							154,
+							232
+						],
+						"bytes": 3962,
+						"bytesUncompressed": 508,
+						"requests": 12
+					},
+					"flash": {
+						"color": [
+							45,
+							183,
+							193
+						],
+						"bytes": 0,
+						"bytesUncompressed": 0,
+						"requests": 0
+					},
+					"font": {
+						"color": [
+							255,
+							82,
+							62
+						],
+						"bytes": 0,
+						"bytesUncompressed": 0,
+						"requests": 0
+					},
+					"other": {
+						"color": [
+							196,
+							196,
+							196
+						],
+						"bytes": 15655,
+						"bytesUncompressed": 105750,
+						"requests": 8
+					}
+				},
+				"consoleLog": [
+					{
+						"column": 10780,
+						"level": "info",
+						"line": 21,
+						"source": "console-api",
+						"text": "[Application]: start",
+						"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+					},
+					{
+						"column": 10780,
+						"level": "info",
+						"line": 21,
+						"source": "console-api",
+						"text": "[Dispatcher]: call %s, %s ()",
+						"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+					},
+					{
+						"column": 10780,
+						"level": "info",
+						"line": 21,
+						"source": "console-api",
+						"text": "[ControllerDefault]: set pageContent component MobileMainPage",
+						"url": "https://cdn.n1.ru/static/mobile/js/app.7e028d2be9c222a0a4a6.bundle.min.js?9752"
+					}
+				]
+			}
+		}
+	},
+	"statusCode": 200,
+	"statusText": "Test Complete",
+	"webPagetestVersion": "17.08"
+}
