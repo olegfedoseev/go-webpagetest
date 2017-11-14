@@ -502,7 +502,7 @@ func parseResultResponse(rawResponse []byte) (*ResultData, error) {
 	}
 
 	// Unset value is "0"
-	if string(*resultData.Connectivity.RawPacketLossRate) == "\"0\"" {
+	if resultData.Connectivity.RawPacketLossRate == nil || string(*resultData.Connectivity.RawPacketLossRate) == "\"0\"" {
 		resultData.Connectivity.PacketLossRate = 0
 	} else {
 		resultData.Connectivity.PacketLossRate, _ = strconv.Atoi(string(*resultData.Connectivity.RawPacketLossRate))

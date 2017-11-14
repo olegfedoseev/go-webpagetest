@@ -199,7 +199,7 @@ func (w *WebPageTest) GetTestStatus(testID string) (*TestStatus, error) {
 	}
 
 	// Unset value is "0"
-	if string(*result.Data.TestInfo.RawPacketLossRate) == "\"0\"" {
+	if result.Data.TestInfo.RawPacketLossRate == nil || string(*result.Data.TestInfo.RawPacketLossRate) == "\"0\"" {
 		result.Data.TestInfo.PacketLossRate = 0
 	} else {
 		result.Data.TestInfo.PacketLossRate, _ = strconv.Atoi(string(*result.Data.TestInfo.RawPacketLossRate))
