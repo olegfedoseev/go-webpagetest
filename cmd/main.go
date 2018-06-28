@@ -13,7 +13,7 @@ import (
 
 // https://community.akamai.com/community/web-performance/blog/2016/08/25/using-navigation-timing-apis-to-understand-your-webpage
 var (
-	wpt *webpagetest.WebPageTest
+	wpt *webpagetest.Client
 )
 
 func main() {

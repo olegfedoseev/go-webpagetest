@@ -159,6 +159,7 @@ type jsonTesters struct {
 	Data map[string]jsonTester `json:"data"`
 }
 
+// Tester is an agent that will run tests
 type Tester struct {
 	ID           string
 	Name         string
@@ -193,11 +194,12 @@ type Tester struct {
 	CPU      int
 }
 
+// Testers is an array of Tester
 type Testers map[string][]Tester
 
 // GetTesters will retrieve all available agents and their status
-func (w *WebPageTest) GetTesters() (*Testers, error) {
-	body, err := w.query("/getTesters.php", url.Values{"f": []string{"json"}})
+func (c *Client) GetTesters() (*Testers, error) {
+	body, err := c.query("/getTesters.php", url.Values{"f": []string{"json"}})
 	if err != nil {
 		return nil, err
 	}

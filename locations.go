@@ -56,6 +56,7 @@ type jsonLocations struct {
 	Data map[string]jsonLocation `json:"data"`
 }
 
+// Location is where your agents are
 type Location struct {
 	Label      string
 	LabelShort string
@@ -76,8 +77,8 @@ type Locations map[string][]Location
 
 // GetLocations will retrieve all available locations from server
 // You can request a list of locations as well as the number of pending tests for each
-func (w *WebPageTest) GetLocations() (*Locations, error) {
-	body, err := w.query("/getLocations.php", url.Values{"f": []string{"json"}})
+func (c *Client) GetLocations() (*Locations, error) {
+	body, err := c.query("/getLocations.php", url.Values{"f": []string{"json"}})
 	if err != nil {
 		return nil, err
 	}

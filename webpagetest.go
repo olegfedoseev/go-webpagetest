@@ -10,26 +10,28 @@ import (
 	"time"
 )
 
-type WebPageTest struct {
+// Client is client of WebPageTest
+type Client struct {
 	Host string
 }
 
-func NewClient(host string) (*WebPageTest, error) {
+// NewClient returns new ready to use Client
+func NewClient(host string) (*Client, error) {
 	validURL, err := url.Parse(host)
 	if err != nil {
 		return nil, err
 	}
 
-	return &WebPageTest{
+	return &Client{
 		Host: validURL.String(),
 	}, nil
 }
 
 // CancelTest will try to cancel test by it's ID
 // With a test ID (and if required, API key) you can cancel a test if it has not started running.
-func (w *WebPageTest) CancelTest(testID string) error {
+func (c *Client) CancelTest(testID string) error {
 	// http://www.webpagetest.org/cancelTest.php?test=<testId>&k=<API key>
-	body, err := w.query("/cancelTest.php", url.Values{"test": []string{testID}})
+	body, err := c.query("/cancelTest.php", url.Values{"test": []string{testID}})
 	if err != nil {
 		return err
 	}
@@ -47,12 +49,12 @@ func (w *WebPageTest) CancelTest(testID string) error {
 	return fmt.Errorf("Unknown error: %s", string(body))
 }
 
-func (w *WebPageTest) query(api string, params url.Values) ([]byte, error) {
+func (c *Client) query(api string, params url.Values) ([]byte, error) {
 	// http://www.webpagetest.org/cancelTest.php?test=<testId>&k=<API key>
-	queryUrl := w.Host + api + "?" + params.Encode()
-	resp, err := http.Get(queryUrl)
+	queryURL := c.Host + api + "?" + params.Encode()
+	resp, err := http.Get(queryURL)
 	if err != nil {
-		return nil, fmt.Errorf("failed to GET \"%s\": %v", queryUrl, err)
+		return nil, fmt.Errorf("failed to GET \"%s\": %v", queryURL, err)
 	}
 	defer resp.Body.Close()
 
@@ -83,8 +85,9 @@ func (w *WebPageTest) query(api string, params url.Values) ([]byte, error) {
 }
 */
 
-func (w *WebPageTest) RunTest(settings TestSettings) (string, error) {
-	resp, err := http.PostForm(w.Host+"/runtest.php", settings.GetFormParams())
+// RunTest will submit given test to WPT server
+func (c *Client) RunTest(settings TestSettings) (string, error) {
+	resp, err := http.PostForm(c.Host+"/runtest.php", settings.GetFormParams())
 	if err != nil {
 		return "", err
 	}
@@ -124,14 +127,14 @@ type StatusCallback func(testID, status string, duration int)
 
 // RunTestAndWait will start new WebPageTest test run with given TestSettings and will wait for it
 // to complete. While it wait, it will poll status updates from server and will call StatusCallback with it
-func (w *WebPageTest) RunTestAndWait(settings TestSettings, callback StatusCallback) (*ResultData, error) {
-	testID, err := w.RunTest(settings)
+func (c *Client) RunTestAndWait(settings TestSettings, callback StatusCallback) (*ResultData, error) {
+	testID, err := c.RunTest(settings)
 	if err != nil {
 		return nil, err
 	}
 
 	for {
-		result, err := w.GetTestStatus(testID)
+		result, err := c.GetTestStatus(testID)
 		if err != nil {
 			return nil, err
 		}
@@ -147,7 +150,7 @@ func (w *WebPageTest) RunTestAndWait(settings TestSettings, callback StatusCallb
 		}
 	}
 
-	testResult, err := w.GetTestResult(testID)
+	testResult, err := c.GetTestResult(testID)
 	if err != nil {
 		return nil, err
 	}

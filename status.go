@@ -116,6 +116,7 @@ import (
 }
 */
 
+// TestInfo is info about test
 type TestInfo struct {
 	URL           string `json:"url"`
 	Runs          int    `json:"runs"`
@@ -151,6 +152,7 @@ type TestInfo struct {
 	Scripted     int `json:"scripted"`
 }
 
+// TestStatus is status of a test
 type TestStatus struct {
 	StatusCode int    `json:"statusCode"`
 	StatusText string `json:"statusText"`
@@ -187,8 +189,8 @@ type jsonTestStatus struct {
 // GetTestStatus will return status of test run by given testID
 // StatusCode 200 indicates test is completed. 1XX means the test is still
 // in progress. And 4XX indicates some error.
-func (w *WebPageTest) GetTestStatus(testID string) (*TestStatus, error) {
-	body, err := w.query("/testStatus.php", url.Values{"test": []string{testID}})
+func (c *Client) GetTestStatus(testID string) (*TestStatus, error) {
+	body, err := c.query("/testStatus.php", url.Values{"test": []string{testID}})
 	if err != nil {
 		return nil, err
 	}

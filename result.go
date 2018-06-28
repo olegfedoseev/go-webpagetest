@@ -9,6 +9,7 @@ import (
 )
 
 // https://sites.google.com/a/webpagetest.org/docs/advanced-features/raw-test-results
+
 // Pages is struct for links to various pages about test run
 type Pages struct {
 	Details    string `json:"details"`
@@ -365,24 +366,26 @@ type TestStep struct {
 	VideoFrames []VideoFrame         `json:"videoFrames"`
 	Breakdown   map[string]Breakdown `json:"breakdown"`
 
-	jsonDomains json.RawMessage   `json:"domains"`
-	Domains     map[string]Domain `json:"-"` // may be empty array
+	RawDomains json.RawMessage   `json:"domains"`
+	Domains    map[string]Domain `json:"-"` // may be empty array
 
 	TestTiming map[string]int `json:"testTiming"`
 }
 
+// TestRun is a test run info
 type TestRun struct {
 	FirstView  TestView `json:"firstView"`
 	RepeatView TestView `json:"repeatView"`
 }
 
+// ResultData holds all info about test
 type ResultData struct {
 	Connectivity
 
 	ID       string `json:"id"`
 	URL      string `json:"url"`
 	Summary  string `json:"summary"`
-	TestUrl  string `json:"testUrl"`
+	TestURL  string `json:"testUrl"`
 	Location string `json:"location"`
 	Label    string `json:"label"`
 	From     string `json:"from"`
@@ -453,21 +456,24 @@ func (rd *ResultData) GetMedianRun(step int, metric string) (*TestRun, error) {
 		if len(repeatViewValues)%2 == 0 {
 			idx++
 		}
-		repeatRunIdx = repeatViewValueMap[repeatViewValues[idx]]
+		if idx <= len(repeatViewValues) {
+			repeatRunIdx = repeatViewValueMap[repeatViewValues[idx]]
+		}
 	}
 	testRun.RepeatView = rd.Runs[repeatRunIdx].RepeatView
 
 	return &testRun, nil
 }
 
-func (w *WebPageTest) GetTestResult(testID string) (*ResultData, error) {
+// GetTestResult returns result of test with testID
+func (c *Client) GetTestResult(testID string) (*ResultData, error) {
 	query := url.Values{}
 	query.Add("test", testID)
 	query.Add("requests", "0")
 	query.Add("average", "0")
 	query.Add("standard", "0")
 
-	body, err := w.query("/jsonResult.php", query)
+	body, err := c.query("/jsonResult.php", query)
 	if err != nil {
 		return nil, err
 	}
